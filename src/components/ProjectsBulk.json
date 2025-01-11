@@ -1,0 +1,237 @@
+
+
+[
+  {
+    "id" : 0,
+    "type": 0,
+    "name" : "",
+    "company" : "",
+    "role" : "",
+    "date" : "",
+    "links": {
+      "demo": "",
+      "company": "",
+      "store": ""
+    },
+    "intro" : "",
+    "description": "",
+    "videos": "",
+    "images": ["", "", ""] 
+  },
+  {
+    "id" : 1,
+    "type": 1,
+    "name" : "Taitiko",
+    "company" : " - SuperBytes",
+    "role" : "Game Programmer",
+    "date" : "from Oct. 2023 to Sep. 2024",
+    "links":{
+      "demo": "https://www.taitiko.com/",
+      "company": "https://www.wearesuperbytes.com/",
+      "store": "https://elixir.games/browse/taitiko",
+      "code": false
+    },
+    "intro" : "Welcome to Taitiko, a new era of gaming where fun and games come to life. Play, troll, and compete against other players with our mischievous and wild characters. Do you have what it takes to be the fastest? Hone your skills, earn points, and collect the awesome new Taitikos to show off to other players!",
+    "description" : "Hired by the company Superbytes (Barcelona - Spain) in full-time remote work mode, I carried out general programming and video game development tasks related to the creation and implementation of NPC's and state machines (FSM) for Artificial Intelligence behaviors, Machine Learning, HTTP communication with web server and REST API, Networking and online multiplayer systems, cloud hosting services, Gameplay, User Interface, bugs fixing, creation of scenes, game modes, mechanics and prototypes, Implementation of prefabs and asset loading systems, creation of notification and version controller systems, QA and Testing, among others. To develop these tasks I used technologies such as Unity, C#, AI Navigation, Machine Learning Agents, Netcode for GameObjects, Unity Web Request, Unity Cloud Services, Addressables, ProBuilder, Cinemachine, Raycasting and Boxcasting, etc. complemented with development and management tools such as Blender, Postman, Sourcetree, Jira, Bitbucket, GitLab, Scrum, among others.",
+    "videos": "https://www.youtube.com/embed/qRfM_FgDWQ0?si=zf9544Cqdd7haSDA",
+    "images": ["ttkData1", "ttkData2", "ttkData3"] 
+  },
+  {
+    "id" : 2,
+    "type": 1,
+    "name" : "Apoceus",
+    "company" : " - Landell Games",
+    "role" : "Game Programmer",
+    "date" : "from Jul. 2023 to Nov. 2023",
+    "links":{
+      "demo": "https://apoceus.com/",
+      "company": "https://www.landellgames.com/",
+      "store": "https://store.steampowered.com/app/1841690/Apoceus_Winter_Wars/",
+      "code": false
+    },
+    "intro" : "A real-time strategy game that features big maps for large battles, offering depth and strategy. Come in and take the role of different generals, each with their own tactics and large armies. As a player, you're not just leading vast armies, you're in command of war machines and huge monsters.",
+    "description" : "Hired by Landell Games studio (Linköping - Sweden) on a remote part-time basis, I performed general video game programming tasks related to bug fixing, performance and optimization, gameplay, artificial intelligence, UI, prefabs implementation, documentation, QA and testing, among others. To carry out these tasks I used technologies such as Unity, C#, AI Navigation, TextMesh Pro, Cinemachine, Unity Terrain Tools, and ProBuilder, complemented with management and development tools such as Plastic SCM, Photon, Fmod, Linear, Figma, and Scrum methodology.",
+    "videos": "https://www.youtube.com/embed/rFADxjYHDF0?si=6eLovQgeZH3f0ad-",
+    "images": ["apoceusData1", "apoceusData2", "apoceusData3"] 
+  },
+  {
+    "id": 3,
+    "type": 1,
+    "name": "Zombie Shooter",
+    "company": " - Personal Project",
+    "role": "Game Developer",
+    "date": "Published in 2023",
+    "links":{
+      "demo": "https://tomasfv.itch.io/zombie-shooter",
+      "company": false,
+      "store": false,
+      "code": "https://github.com/tomasfv/Zombie-Shooter-Github"
+    },
+    "intro": "Find the key, open the door, escape, survive . . .  ",
+    "description": "Top-down shoot 'em up focused on finding the way out of a building while the player dodges and shoots the zombies trying to kill him. For this project developed in Unity, I made use of programming techniques such as Object Pooling, implementation of animations, UI, video effects, sound and music, health systems, objects spawning, gameplay, and artificial intelligence among other features. On the other hand, I carried out video game design tasks such as level design, mechanics, gameplay, game rules, progression curve, challenges, difficulty balance, metrics, scoring, etc. The images were generated with Craiyon AI, the music was selected from Pixabay and the graphic assets from OpenGameArt.",
+    "videos": "https://player.vimeo.com/video/1003637798?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "images": ["zombieData1", "zombieData2"]
+  },
+  {
+    "id" : 4,
+    "type": 1,
+    "name" : "Survival Nightmare",
+    "company" : " - Personal Project",
+    "role" : "Game Developer",
+    "date" : "Published in 2023",
+    "links":{
+      "demo": "https://tomasfv.itch.io/survival-shooter",
+      "company": false,
+      "store": false,
+      "code": "https://github.com/tomasfv/Survival-Shooter"
+    },
+    "intro" : "",
+    "description": "Action TPS developed in Unity and C# focused on surviving a nightmare in which the player must eliminate all the possessed toys that try to kill him. The Zombie Toys asset package offered by Unity was used to create this game. For programming I made use of resources such as Character Controller, AI Navigation, Raycast, and particles system, as well as UI programming, animations, health system, spawn system, SFX implementation and music. ",
+    "videos": "https://player.vimeo.com/video/1003691294?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "images": ["survivalData1"] 
+  },
+  {
+   "id" : 5,
+   "type": 1,
+    "name" : "Doozy's World",
+    "company" : " - Personal Project",
+    "role" : "Game Developer",
+    "date" : "Published in 2023",
+    "links":{
+      "demo": "https://tomasfv.itch.io/doozys-world",
+      "company": false,
+      "store": false,
+      "code": false
+    },
+    "intro" : "",
+    "description": "Third-person adventure video game prototype, in which I carried out programming and development tasks related to Unity Terrain Tools, waypoints, player controller, Animation Trees, Cinemachine, Wind Zones, performance, optimization, UI, and Inventory, among others. The assets were selected from Mixamo and Unity Assets Store.",
+    "videos": "https://player.vimeo.com/video/1003709266?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "images": ["doozyData1"]  
+  },
+  {
+    "id" : 6,
+    "type": 1,
+    "name" : "Balloon Journey",
+    "company" : " - Personal Project",
+    "role" : "Game Developer",
+    "date" : "Published in 2023",
+    "links":{
+      "demo": "https://tomasfv.itch.io/balloon-journey",
+      "company": false,
+      "store": false,
+      "code": false
+    },
+    "intro" : "Drive a great hot air balloon, eat pizza, avoid bombs, and relax.",
+    "description": "Balloon Journey is an arcade video game for Android mobile devices developed with Unity3D and C#. For this project, I carried out programming tasks related to User Interface, player movement, object spawn, scene management, VFX implementation, particle systems, SFX and music, among others. I also carried out video game design tasks such as challenge design, progression curve, difficulty balance, metrics, scoring, etc. ",
+    "videos": "https://player.vimeo.com/video/1003730598?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "images": ["balloonData1"] 
+  },
+  {
+    "id" : 7,
+    "type": 2,
+    "name" : "Getback",
+    "company" : "",
+    "role" : "Full Stack Web Developer",
+    "date" : "from Mar. 2023 to Nov. 2023",
+    "links":{
+      "demo": "https://www.linkedin.com/company/getbacknow/posts/?feedView=all",
+      "company": "https://www.instagram.com/getback.tech/",
+      "store": false,
+      "code": false
+    },
+    "intro" : "",
+    "description": "Hired by the company Getback (Santiago - Chile) in full-time remote work mode, I carried out general full stack web development tasks related to the creation and maintenance of web applications using Javascript, Typescript, React, Redux, Node.js, PostgreSQL, Sequelize, HTML, CSS, Express, Vtex, Bitbucket, Scrum, WordPress, and WooCommerce, among other technologies. Website testing and Quality Assurance assistance.",
+    "videos": "",
+    "images": ["getbackData1"] 
+  },
+  {
+    "id" : 8,
+    "type": 2,
+    "name" : "Points App",
+    "company" : " - Farmacia Alto Palermo",
+    "role" : "Full Stack Web Developer",
+    "date" : "Published in 2024",
+    "links":{
+      "demo": "https://puntosfap.netlify.app/",
+      "company": "https://www.instagram.com/farmacia.altopalermo",
+      "store": false,
+      "code": false
+    },
+    "intro" : "",
+    "description": "Hired by the company Farmacia Alto Palermo (Córdoba - Argentina) in freelance work mode, I carried out about the complete development of the app as a full stack web development delivering tasks related to the creation and maintenance of the software using Javascript, React, Redux, Node.js, PostgreSQL, Sequelize, HTML, CSS, Express, Github, and Reactstrap, among other technologies.",
+    "videos": "",
+    "images": ["farmaciaData1", "farmaciaData2", "farmaciaData3", "farmaciaData4"] 
+  },
+  {
+    "id" : 9,
+    "type": 1,
+    "name" : "Kustoms Sports",
+    "company" : " - Academic Team Project",
+    "role" : "Frontend Developer",
+    "date" : "from Sep. 2022 to Oct. 2022",
+    "links":{
+      "demo": false,
+      "company": false,
+      "store": false,
+      "code": "https://github.com/tomasfv/kustoms-sports"
+    },
+    "intro" : "",
+    "description": "Team Project for the Full Stack Web Development Botcamp at soyHenry academy. Creation of fictitious e-commerce with the following Tech Objectives: Deploy the app, User Authentication System, Payment Gateway and complete purchase process, Combined Filters, Implementation of Cloudinary for managing images, Notifications to users by e-mail, Logical Deletion of products and bans, Data Persistence, Reviews and Scoring System, Administrator Dashboard. We implement the use of React, Redux and Tailwind technologies for the Frontend; Node, Express for the Backend and PostgreSQL with Sequelize for the Database. In addition to libraries such as Stripe, Auth0, Sweetalert, Cloudinary, Nodemailer, among others. ",
+    "videos": "https://www.youtube.com/embed/bM7t9NczBkY?si=G68xHHTmT17uf10D",
+    "images": ["kustomsData1"] 
+  },
+  {
+    "id" : 10,
+    "type": 2,
+    "name" : "Travel Website",
+    "company" : " - Personal Project",
+    "role" : "Frontend Developer",
+    "date" : "Published in 2022",
+    "links":{
+      "demo": "https://travel-website-tomasfv.vercel.app/",
+      "company": false,
+      "store": false,
+      "code": "https://github.com/tomasfv/TravelWebsite"
+    },
+    "intro" : "",
+    "description": "Frontend personal project created using React, Javascript, HTML and CSS",
+    "videos": "",
+    "images": ["travelData1"] 
+  },
+  {
+    "id" : 11,
+    "type": 2,
+    "name" : "TypeScript StopWatch",
+    "company" : " - Personal Project",
+    "role" : "Frontend Developer",
+    "date" : "Published in 2023",
+    "links":{
+      "demo": "https://stopwatchts.netlify.app/",
+      "company": false,
+      "store": false,
+      "code": "https://github.com/tomasfv/Typescript-Stopwatch"
+    },
+    "intro" : "",
+    "description": "Frontend personal project created using TypeScript, HTML and CSS",
+    "videos": "",
+    "images": ["watchData1"] 
+  },
+  {
+    "id" : 12,
+    "type": 2,
+    "name" : "ToDo App Mobile",
+    "company" : " - Personal Project",
+    "role" : "Mobile Developer",
+    "date" : "Published in 2022",
+    "links":{
+      "demo": "https://www.linkedin.com/posts/tomasferval_reactnative-expo-android-activity-7008154269010784256-uurZ?utm_source=share&utm_medium=member_desktop",
+      "company": false,
+      "store": false,
+      "code": "https://github.com/tomasfv/ToDo-App-Mobile"
+    },
+    "intro" : "",
+    "description": "Design and creation of a Mobile App that allows users to generate to-do lists, add tasks and delete them. Use of React Native and Expo technologies.",
+    "videos": "",
+    "images": ["todoData1"] 
+  }
+]
