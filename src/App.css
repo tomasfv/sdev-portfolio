@@ -132,6 +132,25 @@ section.projects .card img {
   border-radius: 8px;
 }
 
+/*PROJECT DETAIL*/
+
+
+.responsive-video {
+  max-width: 800px;
+  margin: 0 auto; 
+}
+
+.responsive-img {
+  max-width: 600px;
+}
+
+@media (max-width: 768px) {
+  .responsive-video, .responsive-img {
+    max-width: 100%;
+  }
+}
+
+
 /* TESTIMONIALS */
 
 section.testimonials .carousel-control-prev,

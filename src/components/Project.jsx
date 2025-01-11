@@ -82,27 +82,24 @@ export default function Project(){
       <div className='grid text-center my-4'>
         <div className='my-4'>
           {project.type == 1 ?
+            <div className="ratio ratio-16x9 responsive-video" style={{ border: '2px solid #000000', borderRadius: '8px', boxShadow: '4px 4px #000000' }}>
             <iframe 
-              width="800" 
-              height="450" 
               src={project.videos} 
               title="YouTube video player" 
-              frameBorder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin" 
-              allowFullScreen
-              style={{ border: '2px solid #000000', borderRadius: '8px', boxShadow: '4px 4px #000000'}}>
-            </iframe> :
+              allowFullScreen>
+            </iframe>
+          </div>
+          :
             <div></div>}
         </div>
         
         <div>
           {project.images.map((img, index) => (
             <img key={index} src={imageMapping[img]} alt={`Project ${index}`} 
-            style={{ width: '600px', margin: '10px', border: '2px solid #000000',
-              borderRadius: '8px',
-            boxShadow: '4px 4px #000000'
-             }} />
+            className="me-3 my-3 responsive-img" 
+            style={{ border: '2px solid #000000', borderRadius: '8px', boxShadow: '4px 4px #000000' }} />          
           ))}
         </div>
       </div>
