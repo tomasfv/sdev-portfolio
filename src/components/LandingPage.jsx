@@ -21,6 +21,22 @@ import todoImg from '../assets/todo2.jpeg';
 
 export default function LandingPage(){
 
+var unityLogo = 'https://i.redd.it/tu3gt6ysfxq71.png';
+var cSharpLogo = 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_C_sharp.svg/1820px-Logo_C_sharp.svg.png';
+var javascriptLogo = 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/640px-JavaScript-logo.png';
+var typescriptLogo = 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png';
+var reactLogo = 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png';
+var reduxLogo = 'https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png';
+var nodeLogo = 'https://static-00.iconduck.com/assets.00/node-js-icon-1817x2048-g8tzf91e.png';
+var postgreLogo = 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png';
+var sequelizeLogo = 'https://cdn.icon-icons.com/icons2/2415/PNG/512/sequelize_original_logo_icon_146348.png';
+var htmlLogo = 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png';
+var cssLogo = 'https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg';
+var bootstrapLogo = 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png';
+var expressLogo = 'https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/359/full/expressjslogo.png';
+
+
+
 return (
 <>
     
@@ -106,9 +122,11 @@ return (
                 <div className="card">
                     <img src={taitikoImg} className="card-img-top" alt="..."/>
                     <div className="card-body">
+                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
                         <h5 className="card-title fw-bold">Taitiko - SuperBytes</h5>
-                        <p className="card-text">Game Programmer (Full-time Contract) - Online Multiplayer Party Game - Unity3D, C# 
-                            and Netcode for Game Objects among other technologies.</p>
+                        <p className="card-text">Online Multiplayer Party Game.</p>
+                        <p className="card-text">Game Programmer (Full-time Contract).</p>
                         <Link to='/project/1' className="btn btn-outline-dark">
                             More information
                         </Link>    
@@ -119,9 +137,12 @@ return (
                 <div className="card">
                     <img src={apoceusImg} className="card-img-top" alt="..."/>
                     <div className="card-body">
+                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={'https://cdn.startbase.com/images/company/photon-engine/6c0db653d1/'} alt="..." style={{height:'30px', width:'30px'}}/>
                         <h5 className="card-title fw-bold">Apoceus - Landell Games</h5>
-                        <p className="card-text">Game Programmer (Part-time Contract) - Online Multiplayer Real Time Strategy 
-                            Game - Unity3D, C# and Photon among other technologies.</p>
+                        <p className="card-text">Online Multiplayer RTS.</p>
+                        <p className="card-text">Game Programmer (Part-time Contract).</p>
                         <Link to='/project/2' className="btn btn-outline-dark">
                             Go somewhere
                         </Link>
@@ -132,8 +153,11 @@ return (
                 <div className="card">
                     <img src={zombieImg} className="card-img-top" alt="..." style={{height:'132px'}}/>
                     <div className="card-body">
+                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
                         <h5 className="card-title fw-bold">Zombie Shooter</h5>
-                        <p className="card-text">Personal Project - Top down shoot em up - Unity3D and C# - Game Developer - Game Designer.</p>
+                        <p className="card-text">Top down shoot em up.</p>
+                        <p className="card-text">Game Developer/Designer (Personal Project).</p>
                         <Link to='/project/3' className="btn btn-outline-dark">
                             Go somewhere
                         </Link>
@@ -144,8 +168,11 @@ return (
                 <div className="card">
                     <img src={survivalImg} className="card-img-top" alt="..." style={{height:'135px'}}/>
                     <div className="card-body">
+                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
                         <h5 className="card-title fw-bold">Survival Nightmare</h5>
-                        <p className="card-text">Personal Project - Action Third Person Shooter - Unity3D and C# - Game Developer.</p>
+                        <p className="card-text">Action Third Person Shooter.</p>
+                        <p className="card-text">Game Developer (Personal Project).</p>
                         <Link to='/project/4' className="btn btn-outline-dark">
                             Go somewhere
                         </Link>
@@ -156,8 +183,11 @@ return (
                 <div className="card">
                     <img src={doozyImg} className="card-img-top" alt="..."/>
                     <div className="card-body">
+                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
                         <h5 className="card-title fw-bold">Doozys World</h5>
-                        <p className="card-text">Personal Project - Adventure Game - Unity3D and C# - Game Developer.</p>
+                        <p className="card-text">Adventure Game.</p>
+                        <p className="card-text">Game Developer (Personal Project).</p>
                         <Link to='/project/5' className="btn btn-outline-dark">
                             Go somewhere
                         </Link>                       
@@ -168,8 +198,11 @@ return (
                 <div className="card">
                     <img src={balloonImg} className="card-img-top" alt="..."/>
                     <div className="card-body">
+                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
                         <h5 className="card-title fw-bold">Balloon Journey</h5>
-                        <p className="card-text">Personal Project - Arcade game for Android - Unity3D and C# - Game Developer.</p>
+                        <p className="card-text">Android Arcade Game.</p>
+                        <p className="card-text">Game Developer (Personal Project).</p>
                         <Link to='/project/6' className="btn btn-outline-dark">
                             Go somewhere
                         </Link> 
@@ -182,9 +215,19 @@ return (
                 <div className="card">
                     <img src={getbackImg} className="card-img-top" alt="..."/>
                     <div className="card-body">
+                        <img src={javascriptLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={typescriptLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={htmlLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={cssLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={reactLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={reduxLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={nodeLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={expressLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={postgreLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={sequelizeLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <h5 className="card-title fw-bold">Getback</h5>
-                        <p className="card-text">Full Stack Web Developer (Full-time Contract) - Logistics Software - Javascript, TypeScript, React, Redux, Node.js, 
-                            PostgreSQL, Sequelize, HTML, CSS, and Express among others.</p>
+                        <p className="card-text">Logistics Software.</p>
+                        <p className="card-text">Full Stack Web Developer (Full-time Contract).</p>
                         <Link to='/project/7' className="btn btn-outline-dark">
                             Go somewhere
                         </Link> 
@@ -195,9 +238,19 @@ return (
                 <div className="card">
                     <img src={farmaciaImg} className="card-img-top" alt="..." style={{height:'165px'}}/>
                     <div className="card-body">
+                        <img src={javascriptLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={htmlLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={cssLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={bootstrapLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={reactLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={reduxLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={nodeLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={expressLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={postgreLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={sequelizeLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <h5 className="card-title fw-bold">Farmacia Alto Palermo</h5>
-                        <p className="card-text">Full Stack Web Developer (Freelance Contract) - Pharmacy Admin App - Javascript, React, Redux, Node.js, 
-                        PostgreSQL, Sequelize, HTML, CSS, and Express among others.</p>
+                        <p className="card-text">Pharmacy Admin App.</p>
+                        <p className="card-text">Full Stack Web Developer (Freelance Contract).</p>
                         <Link to='/project/8' className="btn btn-outline-dark">
                             Go somewhere
                         </Link> 
@@ -208,10 +261,16 @@ return (
                 <div className="card">
                     <img src={sportsImg} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title fw-bold">Kustoms Sports</h5>
-                        <p className="card-text">Academic Team Project - Javascript, React, Redux, Node.js, 
-                        PostgreSQL, Sequelize, HTML, CSS, and Express among others - Frontend Developer.</p>
-                        <Link to='/project/9' className="btn btn-outline-dark">
+                        <img src={javascriptLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={htmlLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={cssLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={reactLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={reduxLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                    
+                        <h5 className="card-title fw-bold" style={{marginTop: '40px'}}>Kustoms Sports</h5>
+                        <p className="card-text">Academic Team Project.</p>
+                        <p className="card-text">Frontend Developer.</p>
+                        <Link to='/project/9' className="btn btn-outline-dark" style={{marginTop: '25px'}}>
                             Go somewhere
                         </Link> 
                     </div>
@@ -221,8 +280,14 @@ return (
                 <div className="card">
                     <img src={travelImg} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title fw-bold">Travel Website</h5>
-                        <p className="card-text">Personal Project - Javascript, React, Redux, HTML, and CSS - Frontend Developer.</p>
+                        <img src={javascriptLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={htmlLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={cssLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={reactLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={reduxLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <h5 className="card-title fw-bold" style={{marginTop: '40px'}}>Travel Website</h5>
+                        <p className="card-text">Personal Project.</p>
+                        <p className="card-text">Frontend Developer.</p>
                         <Link to='/project/10' className="btn btn-outline-dark">
                             Go somewhere
                         </Link> 
@@ -233,8 +298,12 @@ return (
                 <div className="card">
                     <img src={watchImg} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title fw-bold">Typescript StopWatch</h5>
-                        <p className="card-text">Personal Project - TypeScript, HTML, and CSS - Frontend Developer.</p>
+                        <img src={typescriptLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={htmlLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={cssLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <h5 className="card-title fw-bold" style={{marginTop: '40px'}}>TypeScript StopWatch</h5>
+                        <p className="card-text">Personal Project.</p>
+                        <p className="card-text">Frontend Developer.</p>
                         <Link to='/project/11' className="btn btn-outline-dark">
                             Go somewhere
                         </Link> 
@@ -245,8 +314,11 @@ return (
                 <div className="card">
                     <img src={todoImg} className="card-img-top" alt="..." style={{height:'190px', width:'95px'}}/>
                     <div className="card-body">
-                        <h5 className="card-title fw-bold">To Do App Mobile</h5>
-                        <p className="card-text">Personal Project - React Native and Expo - Mobile Developer.</p>
+                        <img src={'https://devtop.io/wp-content/uploads/2022/10/react-native-1.png'} alt="..." style={{height:'30px', width:'50px', marginRight: '4px'}}/>
+                        <img src={'https://media2.dev.to/dynamic/image/width=1080,height=1080,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F7s19o0dhp2pu41gmoyr9.png'} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <h5 className="card-title fw-bold" style={{marginTop: '20px'}}>To Do App Mobile</h5>
+                        <p className="card-text">Personal Project.</p>
+                        <p className="card-text">Mobile Developer.</p>
                         <Link to='/project/12' className="btn btn-outline-dark">
                             Go somewhere
                         </Link> 
@@ -265,55 +337,55 @@ return (
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <h5>Unity3D</h5>
-                    <img src={'https://i.redd.it/tu3gt6ysfxq71.png'} alt="..." style={{height:'200px', width:'200px'}}/>
+                    <img src={unityLogo} alt="..." style={{height:'200px', width:'200px'}}/>
                 </div>
                 <div className="carousel-item">
                     <h5>C#</h5>
-                    <img src={'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_C_sharp.svg/1820px-Logo_C_sharp.svg.png'} alt="..." style={{height:'200px', width:'180px'}}/>
+                    <img src={cSharpLogo} alt="..." style={{height:'200px', width:'180px'}}/>
                 </div>
                 <div className="carousel-item">
                     <h5>React</h5>
-                    <img src={'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png'} alt="..." style={{height:'200px', width:'200px'}}/>
+                    <img src={reactLogo} alt="..." style={{height:'200px', width:'200px'}}/>
                 </div>
                 <div className="carousel-item">
                     <h5>Redux</h5>
-                    <img src={'https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png'} alt="..." style={{height:'200px', width:'210px'}}/>
+                    <img src={reduxLogo} alt="..." style={{height:'200px', width:'210px'}}/>
                 </div>
                 <div className="carousel-item">
                     <h5>Javascript</h5>
-                    <img src={'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/640px-JavaScript-logo.png'} alt="..." style={{height:'200px', width:'200px', borderRadius: '25px'}}/>
+                    <img src={javascriptLogo} alt="..." style={{height:'200px', width:'200px', borderRadius: '25px'}}/>
                 </div>
                 <div className="carousel-item">
                     <h5>TypeScript</h5>
-                    <img src={'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png'} alt="..." style={{height:'200px', width:'200px', borderRadius: '25px'}}/>
+                    <img src={typescriptLogo} alt="..." style={{height:'200px', width:'200px', borderRadius: '25px'}}/>
                 </div>
                 <div className="carousel-item">
                     <h5>HTML</h5>
-                    <img src={'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png'} alt="..." style={{height:'200px', width:'200px'}}/>
+                    <img src={htmlLogo} alt="..." style={{height:'200px', width:'200px'}}/>
                 </div>
                 <div className="carousel-item">
                     <h5>CSS</h5>
-                    <img src={'https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg'} alt="..." style={{height:'200px', width:'200px'}}/>
+                    <img src={cssLogo} alt="..." style={{height:'200px', width:'200px'}}/>
                 </div>
                 <div className="carousel-item">
                     <h5>Bootstrap</h5>
-                    <img src={'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png'} alt="..." style={{height:'160px', width:'200px'}}/>
+                    <img src={bootstrapLogo} alt="..." style={{height:'160px', width:'200px'}}/>
                 </div>
                 <div className="carousel-item">
                     <h5>Node.js</h5>
-                    <img src={'https://static-00.iconduck.com/assets.00/node-js-icon-1817x2048-g8tzf91e.png'} alt="..." style={{height:'200px', width:'180px'}}/>
+                    <img src={nodeLogo} alt="..." style={{height:'200px', width:'180px'}}/>
                 </div>
                 <div className="carousel-item">
                     <h5>Express.js</h5>
-                    <img src={'https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/359/full/expressjslogo.png'} alt="..." style={{height:'200px', width:'200px'}}/>
+                    <img src={expressLogo} alt="..." style={{height:'200px', width:'200px'}}/>
                 </div>
                 <div className="carousel-item">
                     <h5>PostgreSQL</h5>
-                    <img src={'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png'} alt="..." style={{height:'200px', width:'200px'}}/>
+                    <img src={postgreLogo} alt="..." style={{height:'200px', width:'200px'}}/>
                 </div>
                 <div className="carousel-item">
                     <h5>Sequelize</h5>
-                    <img src={'https://cdn.icon-icons.com/icons2/2415/PNG/512/sequelize_original_logo_icon_146348.png'} alt="..." style={{height:'200px', width:'200px'}}/>
+                    <img src={sequelizeLogo} alt="..." style={{height:'200px', width:'200px'}}/>
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
