@@ -134,7 +134,7 @@
     "role" : "Full Stack Web Developer",
     "date" : "from Mar. 2023 to Nov. 2023",
     "links":{
-      "demo": "https://www.linkedin.com/company/getbacknow/posts/?feedView=all",
+      "demo": false,
       "company": "https://www.instagram.com/getback.tech/",
       "store": false,
       "code": false
@@ -219,19 +219,19 @@
   {
     "id" : 12,
     "type": 2,
-    "name" : "ToDo App Mobile",
+    "name" : "Microlab",
     "company" : " - Personal Project",
-    "role" : "Mobile Developer",
-    "date" : "Published in 2022",
+    "role" : "Frontend Developer",
+    "date" : "Published in 2025",
     "links":{
-      "demo": "https://www.linkedin.com/posts/tomasferval_reactnative-expo-android-activity-7008154269010784256-uurZ?utm_source=share&utm_medium=member_desktop",
+      "demo": "https://app-microlab.netlify.app/",
       "company": false,
       "store": false,
-      "code": "https://github.com/tomasfv/ToDo-App-Mobile"
+      "code": "https://github.com/tomasfv/microlab"
     },
     "intro" : "",
-    "description": "Design and creation of a Mobile App that allows users to generate to-do lists, add tasks and delete them. Use of React Native and Expo technologies.",
+    "description": "Frontend personal project created to showcase small/micro components created using Javascript, HTML and CSS.",
     "videos": "",
-    "images": ["todoData1"] 
+    "images": ["microlabData1"] 
   }
 ]

@@ -21,7 +21,7 @@ import farmacia4 from '../assets/farmacia4.jpg';
 import kustoms1 from '../assets/KustomsSports.jpg';
 import travel1 from '../assets/travel.jpg';
 import watch1 from '../assets/TSStopWatch.jpg';
-import todo1 from '../assets/todo2.jpeg';
+import microlab1 from '../assets/microlab.jpg'
 
 export default function Project(){
   const { id } = useParams(); // Obtiene el ID de la URL
@@ -55,7 +55,7 @@ export default function Project(){
     'kustomsData1': kustoms1,
     'travelData1': travel1,
     'watchData1': watch1,
-    'todoData1': todo1,
+    'microlabData1': microlab1,
     
   };
 

@@ -17,7 +17,7 @@ import farmaciaImg from '../assets/farmacia4.jpg';
 import sportsImg from '../assets/KustomsSports.jpg';
 import travelImg from '../assets/travel.jpg';
 import watchImg from '../assets/TSStopWatch.jpg';
-import todoImg from '../assets/todo2.jpeg';
+import microlabImg from '../assets/microlab2.jpg';
 
 
 
@@ -146,7 +146,7 @@ return (
                         <p className="card-text">Online Multiplayer RTS.</p>
                         <p className="card-text">Game Programmer (Part-time Contract).</p>
                         <Link to='/project/2' className="btn btn-outline-dark">
-                            Go somewhere
+                        More information
                         </Link>
                     </div>
                 </div>
@@ -161,7 +161,7 @@ return (
                         <p className="card-text">Top down shoot em up.</p>
                         <p className="card-text">Game Developer/Designer (Personal Project).</p>
                         <Link to='/project/3' className="btn btn-outline-dark">
-                            Go somewhere
+                        More information
                         </Link>
                     </div>
                 </div>
@@ -176,7 +176,7 @@ return (
                         <p className="card-text">Action Third Person Shooter.</p>
                         <p className="card-text">Game Developer (Personal Project).</p>
                         <Link to='/project/4' className="btn btn-outline-dark">
-                            Go somewhere
+                        More information
                         </Link>
                     </div>
                 </div>
@@ -191,7 +191,7 @@ return (
                         <p className="card-text">Adventure Game.</p>
                         <p className="card-text">Game Developer (Personal Project).</p>
                         <Link to='/project/5' className="btn btn-outline-dark">
-                            Go somewhere
+                        More information
                         </Link>                       
                     </div>
                 </div>
@@ -206,7 +206,7 @@ return (
                         <p className="card-text">Android Arcade Game.</p>
                         <p className="card-text">Game Developer (Personal Project).</p>
                         <Link to='/project/6' className="btn btn-outline-dark">
-                            Go somewhere
+                        More information
                         </Link> 
                     </div>
                 </div>
@@ -231,7 +231,7 @@ return (
                         <p className="card-text">Logistics Software.</p>
                         <p className="card-text">Full Stack Web Developer (Full-time Contract).</p>
                         <Link to='/project/7' className="btn btn-outline-dark">
-                            Go somewhere
+                        More information
                         </Link> 
                     </div>
                 </div>
@@ -254,26 +254,24 @@ return (
                         <p className="card-text">Pharmacy Admin App.</p>
                         <p className="card-text">Full Stack Web Developer (Freelance Contract).</p>
                         <Link to='/project/8' className="btn btn-outline-dark">
-                            Go somewhere
+                        More information
                         </Link> 
                     </div>
                 </div>
             </div>
             <div className="col-lg-4 col-sm-6 mt-4">
                 <div className="card">
-                    <img src={sportsImg} className="card-img-top" alt="..."/>
+                    <img src={microlabImg} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <img src={javascriptLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <img src={htmlLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <img src={cssLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <img src={reactLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={reduxLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                    
-                        <h5 className="card-title fw-bold" style={{marginTop: '40px'}}>Kustoms Sports</h5>
-                        <p className="card-text">Academic Team Project.</p>
+                        <h5 className="card-title fw-bold" style={{marginTop: '50px', marginBottom: '20px'}}>Microlab</h5>
+                        <p className="card-text">Personal Project.</p>
                         <p className="card-text">Frontend Developer.</p>
-                        <Link to='/project/9' className="btn btn-outline-dark" style={{marginTop: '25px'}}>
-                            Go somewhere
+                        <Link to='/project/12' className="btn btn-outline-dark">
+                        More information
                         </Link> 
                     </div>
                 </div>
@@ -291,7 +289,7 @@ return (
                         <p className="card-text">Personal Project.</p>
                         <p className="card-text">Frontend Developer.</p>
                         <Link to='/project/10' className="btn btn-outline-dark">
-                            Go somewhere
+                        More information
                         </Link> 
                     </div>
                 </div>
@@ -307,22 +305,26 @@ return (
                         <p className="card-text">Personal Project.</p>
                         <p className="card-text">Frontend Developer.</p>
                         <Link to='/project/11' className="btn btn-outline-dark">
-                            Go somewhere
+                        More information
                         </Link> 
                     </div>
                 </div>
             </div>
             <div className="col-lg-4 col-sm-6 mt-4">
                 <div className="card">
-                    <img src={todoImg} className="card-img-top" alt="..." style={{height:'190px', width:'95px'}}/>
+                    <img src={sportsImg} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <img src={'https://devtop.io/wp-content/uploads/2022/10/react-native-1.png'} alt="..." style={{height:'30px', width:'50px', marginRight: '4px'}}/>
-                        <img src={'https://media2.dev.to/dynamic/image/width=1080,height=1080,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F7s19o0dhp2pu41gmoyr9.png'} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <h5 className="card-title fw-bold" style={{marginTop: '20px'}}>To Do App Mobile</h5>
-                        <p className="card-text">Personal Project.</p>
-                        <p className="card-text">Mobile Developer.</p>
-                        <Link to='/project/12' className="btn btn-outline-dark">
-                            Go somewhere
+                        <img src={javascriptLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={htmlLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={cssLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={reactLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={reduxLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                    
+                        <h5 className="card-title fw-bold" style={{marginTop: '40px'}}>Kustoms Sports</h5>
+                        <p className="card-text">Academic Team Project.</p>
+                        <p className="card-text">Frontend Developer.</p>
+                        <Link to='/project/9' className="btn btn-outline-dark">
+                        More information
                         </Link> 
                     </div>
                 </div>
