@@ -1,6 +1,8 @@
 import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import projectsData from './ProjectsBulk.json';
 import ttk1 from '../assets/ttk1.jpeg';
 import ttk2 from '../assets/ttk2.webp';
@@ -68,10 +70,10 @@ export default function Project(){
       <h4>Role: {project.role}</h4>
       <h4>Date: {project.date}</h4>
 
-      {project.links.demo && <h5><a href={project.links.demo} target='_blank'>Demo</a></h5>}
-      {project.links.company && <h5><a href={project.links.company} target='_blank'>Company</a></h5>}
-      {project.links.store && <h5><a href={project.links.store} target='_blank'>Store</a></h5>}
-      {project.links.code && <h5><a href={project.links.code} target='_blank'>Code</a></h5>}
+      {project.links.demo && <h5><a href={project.links.demo} target='_blank'>Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a></h5>}
+      {project.links.company && <h5><a href={project.links.company} target='_blank'>Company <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a></h5>}
+      {project.links.store && <h5><a href={project.links.store} target='_blank'>Store <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a></h5>}
+      {project.links.code && <h5><a href={project.links.code} target='_blank'>Code <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a></h5>}
 
       <div className='project-description'>
         <div className='p-2 m-2'>

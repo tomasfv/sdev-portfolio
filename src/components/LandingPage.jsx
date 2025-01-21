@@ -2,6 +2,7 @@
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import '../App.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptopCode, faGear, faGamepad, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
@@ -18,6 +19,7 @@ import sportsImg from '../assets/KustomsSports.jpg';
 import travelImg from '../assets/travel.jpg';
 import watchImg from '../assets/TSStopWatch.jpg';
 import microlabImg from '../assets/microlab2.jpg';
+
 
 
 
@@ -127,8 +129,9 @@ return (
                         <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
                         <h5 className="card-title fw-bold">Taitiko - SuperBytes</h5>
-                        <p className="card-text">Online Multiplayer Party Game.</p>
-                        <p className="card-text">Game Programmer (Full-time Contract).</p>
+                        <p className="card-text">Online Multiplayer Party Game</p>
+                        <p className="card-text">Game Programmer</p>
+                        <p className="card-text fw-bold" style={{color: '#53b14a'}}>Full-time Contract</p>
                         <Link to='/project/1' className="btn btn-outline-dark">
                             More information
                         </Link>    
@@ -143,8 +146,9 @@ return (
                         <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <img src={'https://cdn.startbase.com/images/company/photon-engine/6c0db653d1/'} alt="..." style={{height:'30px', width:'30px'}}/>
                         <h5 className="card-title fw-bold">Apoceus - Landell Games</h5>
-                        <p className="card-text">Online Multiplayer RTS.</p>
-                        <p className="card-text">Game Programmer (Part-time Contract).</p>
+                        <p className="card-text">Online Multiplayer RTS</p>
+                        <p className="card-text">Game Programmer</p>
+                        <p className="card-text fw-bold" style={{color: '#53b14a'}}>Part-time Contract</p>
                         <Link to='/project/2' className="btn btn-outline-dark">
                         More information
                         </Link>
@@ -158,8 +162,9 @@ return (
                         <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
                         <h5 className="card-title fw-bold">Zombie Shooter</h5>
-                        <p className="card-text">Top down shoot em up.</p>
-                        <p className="card-text">Game Developer/Designer (Personal Project).</p>
+                        <p className="card-text">Top down shoot em up</p>
+                        <p className="card-text">Game Developer/Designer</p>
+                        <p className="card-text fw-bold" style={{color: '#408BD6'}}>Personal Project</p>
                         <Link to='/project/3' className="btn btn-outline-dark">
                         More information
                         </Link>
@@ -173,8 +178,9 @@ return (
                         <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
                         <h5 className="card-title fw-bold">Survival Nightmare</h5>
-                        <p className="card-text">Action Third Person Shooter.</p>
-                        <p className="card-text">Game Developer (Personal Project).</p>
+                        <p className="card-text">Action Third Person Shooter</p>
+                        <p className="card-text">Game Developer</p>
+                        <p className="card-text fw-bold" style={{color: '#408BD6'}}>Personal Project</p>
                         <Link to='/project/4' className="btn btn-outline-dark">
                         More information
                         </Link>
@@ -188,8 +194,9 @@ return (
                         <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
                         <h5 className="card-title fw-bold">Doozys World</h5>
-                        <p className="card-text">Adventure Game.</p>
-                        <p className="card-text">Game Developer (Personal Project).</p>
+                        <p className="card-text">Adventure Game</p>
+                        <p className="card-text">Game Developer</p>
+                        <p className="card-text fw-bold" style={{color: '#408BD6'}}>Personal Project</p>
                         <Link to='/project/5' className="btn btn-outline-dark">
                         More information
                         </Link>                       
@@ -203,8 +210,9 @@ return (
                         <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
                         <h5 className="card-title fw-bold">Balloon Journey</h5>
-                        <p className="card-text">Android Arcade Game.</p>
-                        <p className="card-text">Game Developer (Personal Project).</p>
+                        <p className="card-text">Android Arcade Game</p>
+                        <p className="card-text">Game Developer</p>
+                        <p className="card-text fw-bold" style={{color: '#408BD6'}}>Personal Project</p>
                         <Link to='/project/6' className="btn btn-outline-dark">
                         More information
                         </Link> 
@@ -228,8 +236,9 @@ return (
                         <img src={postgreLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <img src={sequelizeLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <h5 className="card-title fw-bold">Getback</h5>
-                        <p className="card-text">Logistics Software.</p>
-                        <p className="card-text">Full Stack Web Developer (Full-time Contract).</p>
+                        <p className="card-text">Logistics Software</p>
+                        <p className="card-text">Full Stack Web Developer</p>
+                        <p className="card-text fw-bold" style={{color: '#53b14a'}}>Full-time Contract</p>
                         <Link to='/project/7' className="btn btn-outline-dark">
                         More information
                         </Link> 
@@ -251,8 +260,9 @@ return (
                         <img src={postgreLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <img src={sequelizeLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <h5 className="card-title fw-bold">Farmacia Alto Palermo</h5>
-                        <p className="card-text">Pharmacy Admin App.</p>
-                        <p className="card-text">Full Stack Web Developer (Freelance Contract).</p>
+                        <p className="card-text">Pharmacy Admin App</p>
+                        <p className="card-text">Full Stack Web Developer</p>
+                        <p className="card-text fw-bold" style={{color: '#53b14a'}}>Freelance Contract</p>
                         <Link to='/project/8' className="btn btn-outline-dark">
                         More information
                         </Link> 
@@ -267,9 +277,10 @@ return (
                         <img src={htmlLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <img src={cssLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <img src={reactLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <h5 className="card-title fw-bold" style={{marginTop: '50px', marginBottom: '20px'}}>Microlab</h5>
-                        <p className="card-text">Personal Project.</p>
-                        <p className="card-text">Frontend Developer.</p>
+                        <h5 className="card-title fw-bold" style={{marginTop: '40px'}}>Microlab</h5>
+                        <p className="card-text">Frontend showcase app</p>
+                        <p className="card-text">Frontend Developer</p>
+                        <p className="card-text fw-bold" style={{color: '#408BD6'}}>Personal Project</p>
                         <Link to='/project/12' className="btn btn-outline-dark">
                         More information
                         </Link> 
@@ -286,8 +297,9 @@ return (
                         <img src={reactLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <img src={reduxLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <h5 className="card-title fw-bold" style={{marginTop: '40px'}}>Travel Website</h5>
-                        <p className="card-text">Personal Project.</p>
-                        <p className="card-text">Frontend Developer.</p>
+                        <p className="card-text">Landing page</p>
+                        <p className="card-text">Frontend Developer</p>
+                        <p className="card-text fw-bold" style={{color: '#408BD6'}}>Personal Project</p>
                         <Link to='/project/10' className="btn btn-outline-dark">
                         More information
                         </Link> 
@@ -302,8 +314,9 @@ return (
                         <img src={htmlLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <img src={cssLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <h5 className="card-title fw-bold" style={{marginTop: '40px'}}>TypeScript StopWatch</h5>
-                        <p className="card-text">Personal Project.</p>
-                        <p className="card-text">Frontend Developer.</p>
+                        <p className="card-text">Tool</p>
+                        <p className="card-text">Frontend Developer</p>
+                        <p className="card-text fw-bold" style={{color: '#408BD6'}}>Personal Project</p>
                         <Link to='/project/11' className="btn btn-outline-dark">
                         More information
                         </Link> 
@@ -321,8 +334,9 @@ return (
                         <img src={reduxLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                     
                         <h5 className="card-title fw-bold" style={{marginTop: '40px'}}>Kustoms Sports</h5>
-                        <p className="card-text">Academic Team Project.</p>
-                        <p className="card-text">Frontend Developer.</p>
+                        <p className="card-text">Store</p>
+                        <p className="card-text">Frontend Developer</p>
+                        <p className="card-text fw-bold" style={{color: '#F79D4F'}}>Academic Team Project</p>
                         <Link to='/project/9' className="btn btn-outline-dark">
                         More information
                         </Link> 
