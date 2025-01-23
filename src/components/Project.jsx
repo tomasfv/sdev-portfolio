@@ -105,6 +105,7 @@ import ml6 from '../assets/microlab6.jpg'
 import ml7 from '../assets/microlab7.jpg'
 import ml8 from '../assets/microlab8.jpg'
 
+
 export default function Project(){
   const { id } = useParams(); // Obtiene el ID de la URL
   const project = projectsData.find((p) => p.id === parseInt(id)); // Busca el proyecto por ID
