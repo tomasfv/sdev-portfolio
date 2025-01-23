@@ -1,0 +1,54 @@
+.myCarousel-container {
+  position: relative;
+  width: 100%;
+  max-width: 810px; /* Ajusta según tu diseño */
+  height: 458.5px; /* Ajusta según tu diseño */
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 4px 4px black;
+  background-color: rgb(253, 255, 252); /* Fondo para evitar espacios vacíos */
+}
+
+.myCarousel-slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myCarousel-slide img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: scale-down;
+}
+
+.myCarousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+.myCarousel-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.myCarousel-btn.left {
+  left: 10px;
+}
+
+.myCarousel-btn.right {
+  right: 10px;
+}

@@ -34,7 +34,7 @@
     "intro" : "Welcome to Taitiko, a new era of gaming where fun and games come to life. Play, troll, and compete against other players with our mischievous and wild characters. Do you have what it takes to be the fastest? Hone your skills, earn points, and collect the awesome new Taitikos to show off to other players!",
     "description" : "Hired by the company Superbytes (Barcelona - Spain) in full-time remote work mode, I carried out general programming and video game development tasks related to the creation and implementation of NPC's and state machines (FSM) for Artificial Intelligence behaviors, Machine Learning, HTTP communication with web server and REST API, Networking and online multiplayer systems, cloud hosting services, Gameplay, User Interface, bugs fixing, creation of scenes, game modes, mechanics and prototypes, Implementation of prefabs and asset loading systems, creation of notification and version controller systems, QA and Testing, among others. To develop these tasks I used technologies such as Unity, C#, AI Navigation, Machine Learning Agents, Netcode for GameObjects, Unity Web Request, Unity Cloud Services, Addressables, ProBuilder, Cinemachine, Raycasting and Boxcasting, etc. complemented with development and management tools such as Blender, Postman, Sourcetree, Jira, Bitbucket, GitLab, Scrum, among others.",
     "videos": "https://www.youtube.com/embed/qRfM_FgDWQ0?si=zf9544Cqdd7haSDA",
-    "images": ["ttkData1", "ttkData2", "ttkData3"] 
+    "images": ["tk1", "tk2", "tk3", "tk4", "tk5", "tk6", "tk7", "tk8", "tk9", "tk10", "tk11", "tk12", "tk13"] 
   },
   {
     "id" : 2,
@@ -52,7 +52,7 @@
     "intro" : "A real-time strategy game that features big maps for large battles, offering depth and strategy. Come in and take the role of different generals, each with their own tactics and large armies. As a player, you're not just leading vast armies, you're in command of war machines and huge monsters.",
     "description" : "Hired by Landell Games studio (Linköping - Sweden) on a remote part-time basis, I performed general video game programming tasks related to bug fixing, performance and optimization, gameplay, artificial intelligence, UI, prefabs implementation, documentation, QA and testing, among others. To carry out these tasks I used technologies such as Unity, C#, AI Navigation, TextMesh Pro, Cinemachine, Unity Terrain Tools, and ProBuilder, complemented with management and development tools such as Plastic SCM, Photon, Fmod, Linear, Figma, and Scrum methodology.",
     "videos": "https://www.youtube.com/embed/rFADxjYHDF0?si=6eLovQgeZH3f0ad-",
-    "images": ["apoceusData1", "apoceusData2", "apoceusData3"] 
+    "images": ["ap1", "ap2", "ap3", "ap4", "ap5", "ap6", "ap7", "ap8", "ap9", "ap10", "ap11", "ap12", "ap13"] 
   },
   {
     "id": 3,
@@ -70,7 +70,7 @@
     "intro": "Find the key, open the door, escape, survive . . .  ",
     "description": "Top-down shoot 'em up focused on finding the way out of a building while the player dodges and shoots the zombies trying to kill him. For this project developed in Unity, I made use of programming techniques such as Object Pooling, implementation of animations, UI, video effects, sound and music, health systems, objects spawning, gameplay, and artificial intelligence among other features. On the other hand, I carried out video game design tasks such as level design, mechanics, gameplay, game rules, progression curve, challenges, difficulty balance, metrics, scoring, etc. The images were generated with Craiyon AI, the music was selected from Pixabay and the graphic assets from OpenGameArt.",
     "videos": "https://player.vimeo.com/video/1003637798?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "images": ["zombieData1", "zombieData2"]
+    "images": ["zs1", "zs2", "zs3", "zs4", "zs5", "zs6", "zs7", "zs8", "zs9", "zs10", "zs11", "zs12"]
   },
   {
     "id" : 4,
@@ -88,7 +88,7 @@
     "intro" : "",
     "description": "Action TPS developed in Unity and C# focused on surviving a nightmare in which the player must eliminate all the possessed toys that try to kill him. The Zombie Toys asset package offered by Unity was used to create this game. For programming I made use of resources such as Character Controller, AI Navigation, Raycast, and particles system, as well as UI programming, animations, health system, spawn system, SFX implementation and music. ",
     "videos": "https://player.vimeo.com/video/1003691294?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "images": ["survivalData1"] 
+    "images": ["sn1", "sn2", "sn3", "sn4", "sn5", "sn6", "sn7", "sn8", "sn9"] 
   },
   {
    "id" : 5,
@@ -106,7 +106,7 @@
     "intro" : "",
     "description": "Third-person adventure video game prototype, in which I carried out programming and development tasks related to Unity Terrain Tools, waypoints, player controller, Animation Trees, Cinemachine, Wind Zones, performance, optimization, UI, and Inventory, among others. The assets were selected from Mixamo and Unity Assets Store.",
     "videos": "https://player.vimeo.com/video/1003709266?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "images": ["doozyData1"]  
+    "images": ["dw1", "dw2", "dw3", "dw4", "dw5", "dw6", "dw7", "dw8"]  
   },
   {
     "id" : 6,
@@ -124,7 +124,7 @@
     "intro" : "Drive a great hot air balloon, eat pizza, avoid bombs, and relax.",
     "description": "Balloon Journey is an arcade video game for Android mobile devices developed with Unity3D and C#. For this project, I carried out programming tasks related to User Interface, player movement, object spawn, scene management, VFX implementation, particle systems, SFX and music, among others. I also carried out video game design tasks such as challenge design, progression curve, difficulty balance, metrics, scoring, etc. ",
     "videos": "https://player.vimeo.com/video/1003730598?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "images": ["balloonData1"] 
+    "images": ["bj1", "bj2", "bj3", "bj4", "bj5", "bj6", "bj7", "bj8", "bj9", "bj10"] 
   },
   {
     "id" : 7,
@@ -142,7 +142,7 @@
     "intro" : "",
     "description": "Hired by the company Getback (Santiago - Chile) in full-time remote work mode, I carried out general full stack web development tasks related to the creation and maintenance of web applications using Javascript, Typescript, React, Redux, Node.js, PostgreSQL, Sequelize, HTML, CSS, Express, Vtex, Bitbucket, Scrum, WordPress, and WooCommerce, among other technologies. Website testing and Quality Assurance assistance.",
     "videos": "",
-    "images": ["getbackData1"] 
+    "images": ["gb1", "gb2", "gb3", "gb4", "gb5", "gb6", "gb7", "gb8", "gb9", "gb10", "gb11", "gb12", "gb13" ] 
   },
   {
     "id" : 8,
@@ -160,7 +160,7 @@
     "intro" : "",
     "description": "Hired by the company Farmacia Alto Palermo (Córdoba - Argentina) in freelance work mode, I carried out about the complete development of the app as a full stack web development delivering tasks related to the creation and maintenance of the software using Javascript, React, Redux, Node.js, PostgreSQL, Sequelize, HTML, CSS, Express, Github, and Reactstrap, among other technologies.",
     "videos": "",
-    "images": ["farmaciaData1", "farmaciaData2", "farmaciaData3", "farmaciaData4"] 
+    "images": ["fap1", "fap2", "fap3", "fap4"] 
   },
   {
     "id" : 9,
@@ -178,7 +178,7 @@
     "intro" : "",
     "description": "Team Project for the Full Stack Web Development Botcamp at soyHenry academy. Creation of fictitious e-commerce with the following Tech Objectives: Deploy the app, User Authentication System, Payment Gateway and complete purchase process, Combined Filters, Implementation of Cloudinary for managing images, Notifications to users by e-mail, Logical Deletion of products and bans, Data Persistence, Reviews and Scoring System, Administrator Dashboard. We implement the use of React, Redux and Tailwind technologies for the Frontend; Node, Express for the Backend and PostgreSQL with Sequelize for the Database. In addition to libraries such as Stripe, Auth0, Sweetalert, Cloudinary, Nodemailer, among others. ",
     "videos": "https://www.youtube.com/embed/bM7t9NczBkY?si=G68xHHTmT17uf10D",
-    "images": ["kustomsData1"] 
+    "images": ["ks1", "ks2", "ks3", "ks4", "ks5", "ks6", "ks7", "ks8", "ks9", "ks10"] 
   },
   {
     "id" : 10,
@@ -196,7 +196,7 @@
     "intro" : "",
     "description": "Frontend personal project created using React, Javascript, HTML and CSS",
     "videos": "",
-    "images": ["travelData1"] 
+    "images": ["tw1", "tw2"] 
   },
   {
     "id" : 11,
@@ -214,7 +214,7 @@
     "intro" : "",
     "description": "Frontend personal project created using TypeScript, HTML and CSS",
     "videos": "",
-    "images": ["watchData1"] 
+    "images": ["ts1"] 
   },
   {
     "id" : 12,
@@ -232,6 +232,6 @@
     "intro" : "",
     "description": "Frontend personal project created to showcase small/micro components created using Javascript, HTML and CSS.",
     "videos": "",
-    "images": ["microlabData1"] 
+    "images": ["ml1", "ml2", "ml3", "ml4", "ml5", "ml6", "ml7", "ml8"] 
   }
 ]

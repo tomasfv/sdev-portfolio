@@ -12,7 +12,7 @@ import apoceusImg from '../assets/apoceus3.jpg';
 import zombieImg from '../assets/zombie1.jpg';
 import balloonImg from '../assets/balloon1.jpg';
 import doozyImg from '../assets/doozy1.jfif';
-import survivalImg from '../assets/survival1.jpg';
+import survivalImg from '../assets/survival5.jpg';
 import getbackImg from '../assets/getback.jfif';
 import farmaciaImg from '../assets/farmacia4.jpg';
 import sportsImg from '../assets/KustomsSports.jpg';
@@ -334,7 +334,7 @@ return (
                         <img src={reduxLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                     
                         <h5 className="card-title fw-bold" style={{marginTop: '40px'}}>Kustoms Sports</h5>
-                        <p className="card-text">Store</p>
+                        <p className="card-text">e-commerce</p>
                         <p className="card-text">Frontend Developer</p>
                         <p className="card-text fw-bold" style={{color: '#F79D4F'}}>Academic Team Project</p>
                         <Link to='/project/9' className="btn btn-outline-dark">
