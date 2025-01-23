@@ -12,7 +12,7 @@ import apoceusImg from '../assets/apoceus3.jpg';
 import zombieImg from '../assets/zombie1.jpg';
 import balloonImg from '../assets/balloon1.jpg';
 import doozyImg from '../assets/doozy1.jfif';
-import survivalImg from '../assets/survival5.jpg';
+import survivalImg from '../assets/Survival5.jpg';
 import getbackImg from '../assets/getback.jfif';
 import farmaciaImg from '../assets/farmacia4.jpg';
 import sportsImg from '../assets/KustomsSports.jpg';
