@@ -142,7 +142,8 @@
     "intro" : "",
     "description": "Hired by the company Getback (Santiago - Chile) in full-time remote work mode, I carried out general full stack web development tasks related to the creation and maintenance of web applications using Javascript, Typescript, React, Redux, Node.js, PostgreSQL, Sequelize, HTML, CSS, Express, Vtex, Bitbucket, Scrum, WordPress, and WooCommerce, among other technologies. Website testing and Quality Assurance assistance.",
     "videos": "",
-    "images": ["gb1", "gb2", "gb3", "gb4", "gb5", "gb6", "gb7", "gb8", "gb9", "gb10", "gb11", "gb12", "gb13", "gb14", "gb15", "gb16", "gb17", "gb18", "gb19", "gb20" ] 
+    "images": ["gb1", "gb2", "gb3", "gb4", "gb5", "gb6", "gb7", "gb8", "gb9", "gb10", "gb11", "gb12", "gb13", "gb14", "gb15", "gb16", "gb17", "gb18", "gb19", "gb20",
+               "gb21", "gb22", "gb23", "gb24", "gb25", "gb26", "gb27", "gb28", "gb29", "gb30", "gb31", "gb32", "gb33", "gb34", "gb35", "gb36", "gb37", "gb38", "gb39", "gb40" ] 
   },
   {
     "id" : 8,

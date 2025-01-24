@@ -87,6 +87,26 @@ import gb17 from '../assets/Getback17.png';
 import gb18 from '../assets/Getback18.png';
 import gb19 from '../assets/Getback19.png';
 import gb20 from '../assets/Getback20.png';
+import gb21 from '../assets/Getback21.png';
+import gb22 from '../assets/Getback22.png';
+import gb23 from '../assets/Getback23.png';
+import gb24 from '../assets/Getback24.png';
+import gb25 from '../assets/Getback25.png';
+import gb26 from '../assets/Getback26.png';
+import gb27 from '../assets/Getback27.png';
+import gb28 from '../assets/Getback28.png';
+import gb29 from '../assets/Getback29.png';
+import gb30 from '../assets/Getback30.png';
+import gb31 from '../assets/Getback31.png';
+import gb32 from '../assets/Getback32.png';
+import gb33 from '../assets/Getback33.png';
+import gb34 from '../assets/Getback34.png';
+import gb35 from '../assets/Getback35.png';
+import gb36 from '../assets/Getback36.png';
+import gb37 from '../assets/Getback37.png';
+import gb38 from '../assets/Getback38.png';
+import gb39 from '../assets/Getback39.png';
+import gb40 from '../assets/Getback40.png';
 import fap1 from '../assets/farmacia1.jpg';
 import fap2 from '../assets/farmacia2.jpeg';
 import fap3 from '../assets/farmacia3.jpeg';
@@ -132,7 +152,10 @@ export default function Project(){
     'sn1': sn1,'sn2': sn2,'sn3': sn3,'sn4': sn4,'sn5': sn5,'sn6': sn6,'sn7': sn7,'sn8': sn8,'sn9': sn9,
     'dw1': dw1,'dw2': dw2,'dw3': dw3,'dw4': dw4,'dw5': dw5,'dw6': dw6,'dw7': dw7,'dw8': dw8,
     'bj1': bj1,'bj2': bj2,'bj3': bj3,'bj4': bj4,'bj5': bj5,'bj6': bj6,'bj7': bj7,'bj8': bj8,'bj9': bj9,'bj10': bj10,
-    'gb1': gb1,'gb2': gb2,'gb3': gb3,'gb4': gb4,'gb5': gb5,'gb6': gb6,'gb7': gb7,'gb8': gb8,'gb9': gb9,'gb10': gb10,'gb11': gb11,'gb12': gb12,'gb13': gb13,'gb14': gb14,'gb15': gb15,'gb16': gb16,'gb17': gb17,'gb18': gb18,'gb19': gb19,'gb20': gb20,
+    'gb1': gb1,'gb2': gb2,'gb3': gb3,'gb4': gb4,'gb5': gb5,'gb6': gb6,'gb7': gb7,'gb8': gb8,'gb9': gb9,'gb10': gb10,
+    'gb11': gb11,'gb12': gb12,'gb13': gb13,'gb14': gb14,'gb15': gb15,'gb16': gb16,'gb17': gb17,'gb18': gb18,'gb19': gb19,'gb20': gb20,
+    'gb21': gb21,'gb22': gb22,'gb23': gb23,'gb24': gb24,'gb25': gb25,'gb26': gb26,'gb27': gb27,'gb28': gb28,'gb29': gb29,'gb30': gb30,
+    'gb31': gb31,'gb32': gb32,'gb33': gb33,'gb34': gb34,'gb35': gb35,'gb36': gb36,'gb37': gb37,'gb38': gb38,'gb39': gb39,'gb40': gb40,
     'fap1': fap1,'fap2': fap2,'fap3': fap3,'fap4': fap4,
     'ks1': ks1,'ks2': ks2,'ks3': ks3,'ks4': ks4,'ks5': ks5,'ks6': ks6,'ks7': ks7,'ks8': ks8,'ks9': ks9,'ks10': ks10,
     'tw1': tw1,'tw2': tw2,
