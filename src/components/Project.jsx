@@ -67,19 +67,26 @@ import bj7 from '../assets/balloon7.jpg';
 import bj8 from '../assets/balloon8.jpg';
 import bj9 from '../assets/balloon9.jpg';
 import bj10 from '../assets/balloon10.jpg';
-import gb1 from '../assets/Getback1.jpg';
-import gb2 from '../assets/Getback2.jpg';
-import gb3 from '../assets/Getback3.jpg';
-import gb4 from '../assets/Getback4.jpg';
-import gb5 from '../assets/Getback5.jpg';
-import gb6 from '../assets/Getback6.jpg';
-import gb7 from '../assets/Getback7.jpg';
-import gb8 from '../assets/Getback8.jpg';
-import gb9 from '../assets/Getback9.jpg';
-import gb10 from '../assets/Getback10.jpg';
-import gb11 from '../assets/Getback11.jpg';
-import gb12 from '../assets/getback.jfif';
-import gb13 from '../assets/getback2.jfif';
+import gb1 from '../assets/Getback1.png';
+import gb2 from '../assets/Getback2.png';
+import gb3 from '../assets/Getback3.png';
+import gb4 from '../assets/Getback4.png';
+import gb5 from '../assets/Getback5.png';
+import gb6 from '../assets/Getback6.png';
+import gb7 from '../assets/Getback7.png';
+import gb8 from '../assets/Getback8.png';
+import gb9 from '../assets/Getback9.png';
+import gb10 from '../assets/Getback10.png';
+import gb11 from '../assets/Getback11.png';
+import gb12 from '../assets/getback12.png';
+import gb13 from '../assets/getback13.png';
+import gb14 from '../assets/getback14.png';
+import gb15 from '../assets/getback15.png';
+import gb16 from '../assets/getback16.png';
+import gb17 from '../assets/getback17.png';
+import gb18 from '../assets/getback18.png';
+import gb19 from '../assets/getback19.png';
+import gb20 from '../assets/getback20.png';
 import fap1 from '../assets/farmacia1.jpg';
 import fap2 from '../assets/farmacia2.jpeg';
 import fap3 from '../assets/farmacia3.jpeg';
@@ -125,7 +132,7 @@ export default function Project(){
     'sn1': sn1,'sn2': sn2,'sn3': sn3,'sn4': sn4,'sn5': sn5,'sn6': sn6,'sn7': sn7,'sn8': sn8,'sn9': sn9,
     'dw1': dw1,'dw2': dw2,'dw3': dw3,'dw4': dw4,'dw5': dw5,'dw6': dw6,'dw7': dw7,'dw8': dw8,
     'bj1': bj1,'bj2': bj2,'bj3': bj3,'bj4': bj4,'bj5': bj5,'bj6': bj6,'bj7': bj7,'bj8': bj8,'bj9': bj9,'bj10': bj10,
-    'gb1': gb1,'gb2': gb2,'gb3': gb3,'gb4': gb4,'gb5': gb5,'gb6': gb6,'gb7': gb7,'gb8': gb8,'gb9': gb9,'gb10': gb10,'gb11': gb11,'gb12': gb12,'gb13': gb13,
+    'gb1': gb1,'gb2': gb2,'gb3': gb3,'gb4': gb4,'gb5': gb5,'gb6': gb6,'gb7': gb7,'gb8': gb8,'gb9': gb9,'gb10': gb10,'gb11': gb11,'gb12': gb12,'gb13': gb13,'gb14': gb14,'gb15': gb15,'gb16': gb16,'gb17': gb17,'gb18': gb18,'gb19': gb19,'gb20': gb20,
     'fap1': fap1,'fap2': fap2,'fap3': fap3,'fap4': fap4,
     'ks1': ks1,'ks2': ks2,'ks3': ks3,'ks4': ks4,'ks5': ks5,'ks6': ks6,'ks7': ks7,'ks8': ks8,'ks9': ks9,'ks10': ks10,
     'tw1': tw1,'tw2': tw2,
