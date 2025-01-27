@@ -140,7 +140,7 @@
       "code": false
     },
     "intro" : "",
-    "description": "Hired by the company Getback (Santiago - Chile) in full-time remote work mode, I carried out general full stack web development tasks related to the creation and maintenance of web applications using Javascript, Typescript, React, Redux, Node.js, PostgreSQL, Sequelize, HTML, CSS, Express, Vtex, Bitbucket, Scrum, WordPress, and WooCommerce, among other technologies. Website testing and Quality Assurance assistance.",
+    "description": "Hired by Getback (Santiago, Chile) in a full-time remote position, I worked on reverse logistics software that includes an embedded button directing users to a multi-step form for processing product returns or exchanges, as well as an admin panel for businesses to manage returns, exchanges, inventory, and customer interactions. In this role, I handled full-stack web development, focusing on the creation and maintenance of web applications using JavaScript, TypeScript, React, Redux, Node.js, PostgreSQL, Sequelize, HTML, CSS, Express, Vtex, Bitbucket, Scrum, WordPress, and WooCommerce, among other technologies. Additionally, I contributed to website testing and provided Quality Assurance support to ensure system reliability and efficiency.",
     "videos": "",
     "images": ["gb1", "gb2", "gb3", "gb4", "gb5", "gb6", "gb7", "gb8", "gb9", "gb10", "gb11", "gb12", "gb13", "gb14", "gb15", "gb16", "gb17", "gb18", "gb19", "gb20",
                "gb21", "gb22", "gb23", "gb24", "gb25", "gb26", "gb27", "gb28", "gb29", "gb30", "gb31", "gb32", "gb33", "gb34", "gb35", "gb36", "gb37", "gb38", "gb39", "gb40" ] 
@@ -159,7 +159,7 @@
       "code": false
     },
     "intro" : "",
-    "description": "Hired by the company Farmacia Alto Palermo (Córdoba - Argentina) in freelance work mode, I carried out about the complete development of the app as a full stack web development delivering tasks related to the creation and maintenance of the software using Javascript, React, Redux, Node.js, PostgreSQL, Sequelize, HTML, CSS, Express, Github, and Reactstrap, among other technologies.",
+    "description": "Hired by Farmacia Alto Palermo (Córdoba, Argentina) in a freelance position, I developed a full-stack web application consisting of an admin panel that enables the creation, storage, and editing of customers and healthcare plans. The platform also includes features for accumulating and redeeming points based on customer purchases, as well as a secure user login system. In this role, I handled the complete development and maintenance of the software using JavaScript, React, Redux, Node.js, PostgreSQL, Sequelize, HTML, CSS, Express, GitHub, and Reactstrap, among other technologies. Please feel free to visit the demo version of this web app and explore its functionalities.",
     "videos": "",
     "images": ["fap1", "fap2", "fap3", "fap4"] 
   },
@@ -195,7 +195,7 @@
       "code": "https://github.com/tomasfv/TravelWebsite"
     },
     "intro" : "",
-    "description": "Frontend personal project created using React, Javascript, HTML and CSS",
+    "description": "Personal frontend project featuring a travel agency landing page with a classic structure tailored for this type of business. Developed using React, JavaScript, HTML, and CSS, it showcases a clean and engaging design, highlighting essential components such as a navigation bar, destination cards, a video hero section, and additional information in the footer.",
     "videos": "",
     "images": ["tw1", "tw2"] 
   },
@@ -213,7 +213,7 @@
       "code": "https://github.com/tomasfv/Typescript-Stopwatch"
     },
     "intro" : "",
-    "description": "Frontend personal project created using TypeScript, HTML and CSS",
+    "description": "Personal frontend project built with TypeScript, HTML, and CSS—a simple yet functional stopwatch featuring start, stop, and reset controls.",
     "videos": "",
     "images": ["ts1"] 
   },
@@ -231,7 +231,7 @@
       "code": "https://github.com/tomasfv/microlab"
     },
     "intro" : "",
-    "description": "Frontend personal project created to showcase small/micro components created using Javascript, HTML and CSS.",
+    "description": "This project is a curated collection of small interactive frontend components, originally developed using HTML, CSS, and JavaScript, and later transformed into React components for seamless integration. Designed as a personal frontend showcase, it highlights micro-interactions and UI elements, demonstrating their functionality in an interactive and engaging manner.",
     "videos": "",
     "images": ["ml1", "ml2", "ml3", "ml4", "ml5", "ml6", "ml7", "ml8"] 
   }
