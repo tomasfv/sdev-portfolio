@@ -104,8 +104,8 @@ return (
         <h2 className="display-5 fw-bold mb-4">About Me</h2>
         <p>
             My name is Tomás Fernández Valdés. I am a Software Developer with C1-Advanced English level 
-            and experience in Web and Games Development, using technologies such as Unity 3D, C#, Javascript, 
-            React, Node.Js, and PostgreSQL among other fascinating technologies for software development. 
+            and experience in Web and Games Development, using technologies such as Javascript, 
+            React, Node.Js, PostgreSQL, Unity3D, and C# among other fascinating technologies for software development. 
             I also have experience working with agile methodologies such as Scrum.
         </p>
         <p> My strongest motivation is to be part of innovative projects that leave a pleasant user experience, 
@@ -121,104 +121,7 @@ return (
     <div className="container">
         <h2 className="display-5 fw-bold mb-4">My Work</h2>
         <div className="row">
-        <h1 className="fw-bold mb-4">Video Games</h1>
-            <div className="col-lg-4 col-sm-6 mt-4">
-                <div className="card">
-                    <img src={taitikoImg} className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
-                        <h5 className="card-title fw-bold">Taitiko - SuperBytes</h5>
-                        <p className="card-text">Online Multiplayer Party Game</p>
-                        <p className="card-text">Game Programmer</p>
-                        <p className="card-text fw-bold" style={{color: '#53b14a'}}>Full-time Contract</p>
-                        <Link to='/project/1' className="btn btn-outline-dark">
-                            More information
-                        </Link>    
-                    </div>
-                </div>
-            </div>
-            <div className="col-lg-4 col-sm-6 mt-4">
-                <div className="card">
-                    <img src={apoceusImg} className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={'https://cdn.startbase.com/images/company/photon-engine/6c0db653d1/'} alt="..." style={{height:'30px', width:'30px'}}/>
-                        <h5 className="card-title fw-bold">Apoceus - Landell Games</h5>
-                        <p className="card-text">Online Multiplayer RTS</p>
-                        <p className="card-text">Game Programmer</p>
-                        <p className="card-text fw-bold" style={{color: '#53b14a'}}>Part-time Contract</p>
-                        <Link to='/project/2' className="btn btn-outline-dark">
-                        More information
-                        </Link>
-                    </div>
-                </div>
-            </div>
-            <div className="col-lg-4 col-sm-6 mt-4">
-                <div className="card">
-                    <img src={zombieImg} className="card-img-top" alt="..." style={{height:'132px'}}/>
-                    <div className="card-body">
-                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
-                        <h5 className="card-title fw-bold">Zombie Shooter</h5>
-                        <p className="card-text">Top down shoot em up</p>
-                        <p className="card-text">Game Developer/Designer</p>
-                        <p className="card-text fw-bold" style={{color: '#408BD6'}}>Personal Project</p>
-                        <Link to='/project/3' className="btn btn-outline-dark">
-                        More information
-                        </Link>
-                    </div>
-                </div>
-            </div>
-            <div className="col-lg-4 col-sm-6 mt-4">
-                <div className="card">
-                    <img src={survivalImg} className="card-img-top" alt="..." style={{height:'135px'}}/>
-                    <div className="card-body">
-                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
-                        <h5 className="card-title fw-bold">Survival Nightmare</h5>
-                        <p className="card-text">Action Third Person Shooter</p>
-                        <p className="card-text">Game Developer</p>
-                        <p className="card-text fw-bold" style={{color: '#408BD6'}}>Personal Project</p>
-                        <Link to='/project/4' className="btn btn-outline-dark">
-                        More information
-                        </Link>
-                    </div>
-                </div>
-            </div>
-            <div className="col-lg-4 col-sm-6 mt-4">
-                <div className="card">
-                    <img src={doozyImg} className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
-                        <h5 className="card-title fw-bold">Doozys World</h5>
-                        <p className="card-text">Adventure Game</p>
-                        <p className="card-text">Game Developer</p>
-                        <p className="card-text fw-bold" style={{color: '#408BD6'}}>Personal Project</p>
-                        <Link to='/project/5' className="btn btn-outline-dark">
-                        More information
-                        </Link>                       
-                    </div>
-                </div>
-            </div>
-            <div className="col-lg-4 col-sm-6 mt-4">
-                <div className="card">
-                    <img src={balloonImg} className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
-                        <h5 className="card-title fw-bold">Balloon Journey</h5>
-                        <p className="card-text">Android Arcade Game</p>
-                        <p className="card-text">Game Developer</p>
-                        <p className="card-text fw-bold" style={{color: '#408BD6'}}>Personal Project</p>
-                        <Link to='/project/6' className="btn btn-outline-dark">
-                        More information
-                        </Link> 
-                    </div>
-                </div>
-            </div>
+        
         <div className="row mt-4">
         <h1 className="fw-bold mt-4">Web Development</h1>
             <div className="col-lg-4 col-sm-6 mt-4">
@@ -343,6 +246,105 @@ return (
                     </div>
                 </div>
             </div>
+
+            <h1 className="fw-bold my-4">Video Games</h1>
+            <div className="col-lg-4 col-sm-6 mt-4">
+                <div className="card">
+                    <img src={taitikoImg} className="card-img-top" alt="..."/>
+                    <div className="card-body">
+                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
+                        <h5 className="card-title fw-bold">Taitiko - SuperBytes</h5>
+                        <p className="card-text">Online Multiplayer Party Game</p>
+                        <p className="card-text">Game Programmer</p>
+                        <p className="card-text fw-bold" style={{color: '#53b14a'}}>Full-time Contract</p>
+                        <Link to='/project/1' className="btn btn-outline-dark">
+                            More information
+                        </Link>    
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-4 col-sm-6 mt-4">
+                <div className="card">
+                    <img src={apoceusImg} className="card-img-top" alt="..."/>
+                    <div className="card-body">
+                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={'https://cdn.startbase.com/images/company/photon-engine/6c0db653d1/'} alt="..." style={{height:'30px', width:'30px'}}/>
+                        <h5 className="card-title fw-bold">Apoceus - Landell Games</h5>
+                        <p className="card-text">Online Multiplayer RTS</p>
+                        <p className="card-text">Game Programmer</p>
+                        <p className="card-text fw-bold" style={{color: '#53b14a'}}>Part-time Contract</p>
+                        <Link to='/project/2' className="btn btn-outline-dark">
+                        More information
+                        </Link>
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-4 col-sm-6 mt-4">
+                <div className="card">
+                    <img src={zombieImg} className="card-img-top" alt="..." style={{height:'132px'}}/>
+                    <div className="card-body">
+                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
+                        <h5 className="card-title fw-bold">Zombie Shooter</h5>
+                        <p className="card-text">Top down shoot em up</p>
+                        <p className="card-text">Game Developer/Designer</p>
+                        <p className="card-text fw-bold" style={{color: '#408BD6'}}>Personal Project</p>
+                        <Link to='/project/3' className="btn btn-outline-dark">
+                        More information
+                        </Link>
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-4 col-sm-6 mt-4">
+                <div className="card">
+                    <img src={survivalImg} className="card-img-top" alt="..." style={{height:'135px'}}/>
+                    <div className="card-body">
+                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
+                        <h5 className="card-title fw-bold">Survival Nightmare</h5>
+                        <p className="card-text">Action Third Person Shooter</p>
+                        <p className="card-text">Game Developer</p>
+                        <p className="card-text fw-bold" style={{color: '#408BD6'}}>Personal Project</p>
+                        <Link to='/project/4' className="btn btn-outline-dark">
+                        More information
+                        </Link>
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-4 col-sm-6 mt-4">
+                <div className="card">
+                    <img src={doozyImg} className="card-img-top" alt="..."/>
+                    <div className="card-body">
+                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
+                        <h5 className="card-title fw-bold">Doozys World</h5>
+                        <p className="card-text">Adventure Game</p>
+                        <p className="card-text">Game Developer</p>
+                        <p className="card-text fw-bold" style={{color: '#408BD6'}}>Personal Project</p>
+                        <Link to='/project/5' className="btn btn-outline-dark">
+                        More information
+                        </Link>                       
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-4 col-sm-6 mt-4">
+                <div className="card">
+                    <img src={balloonImg} className="card-img-top" alt="..."/>
+                    <div className="card-body">
+                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
+                        <h5 className="card-title fw-bold">Balloon Journey</h5>
+                        <p className="card-text">Android Arcade Game</p>
+                        <p className="card-text">Game Developer</p>
+                        <p className="card-text fw-bold" style={{color: '#408BD6'}}>Personal Project</p>
+                        <Link to='/project/6' className="btn btn-outline-dark">
+                        More information
+                        </Link> 
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     </div>
@@ -354,14 +356,6 @@ return (
         <div id="carouselExample" className="carousel slide carousel-dark carousel-fade">
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <h5>Unity3D</h5>
-                    <img src={unityLogo} alt="..." style={{height:'200px', width:'200px'}}/>
-                </div>
-                <div className="carousel-item">
-                    <h5>C#</h5>
-                    <img src={cSharpLogo} alt="..." style={{height:'200px', width:'180px'}}/>
-                </div>
-                <div className="carousel-item">
                     <h5>React</h5>
                     <img src={reactLogo} alt="..." style={{height:'200px', width:'200px'}}/>
                 </div>
@@ -404,6 +398,14 @@ return (
                 <div className="carousel-item">
                     <h5>Sequelize</h5>
                     <img src={sequelizeLogo} alt="..." style={{height:'200px', width:'200px'}}/>
+                </div>
+                <div className="carousel-item">
+                    <h5>Unity3D</h5>
+                    <img src={unityLogo} alt="..." style={{height:'200px', width:'200px'}}/>
+                </div>
+                <div className="carousel-item">
+                    <h5>C#</h5>
+                    <img src={cSharpLogo} alt="..." style={{height:'200px', width:'180px'}}/>
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">

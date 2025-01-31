@@ -25,7 +25,7 @@ import ap4 from '../assets/apoceus4.webp';
 import ap5 from '../assets/apoceus5.png';
 import ap6 from '../assets/apoceus6.jfif';
 import ap7 from '../assets/apoceus7.jfif';
-import ap8 from '../assets/apoceus8.png';
+import ap8 from '../assets/apoceus8.webp';
 import ap9 from '../assets/apoceus9.jpg';
 import ap10 from '../assets/apoceus10.jpg';
 import ap11 from '../assets/apoceus11.jpg';
