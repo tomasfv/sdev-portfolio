@@ -46,11 +46,11 @@ export default function NavBar(){
               <span className="nav-link d-lg-none" onClick={() => handleNavigation('/', 'contact')} style={{ cursor: 'pointer' }}>Contact</span>
             </li>
             <li className="nav-item">
-              <a href="/TomásFernándezValdés_SoftwareDev_ENG2025.pdf" download="TomásFernándezValdés_SoftwareDev_ENG2025.pdf" className="nav-link d-lg-none">Download CV</a>
+              <a href="/public/TomásFernándezValdés_ SoftwareDev_ENG2025.pdf" download="TomásFernándezValdés_SoftwareDev_ENG2025.pdf" className="nav-link d-lg-none">Download CV</a>
             </li>
           </ul>
           <span className="btn btn-outline-dark d-none d-lg-block me-4" onClick={() => handleNavigation('/', 'contact')} style={{ cursor: 'pointer' }}>Lets Talk</span>
-          <a href="/TomásFernándezValdés_SoftwareDev_ENG2025.pdf" download="TomásFernándezValdés_SoftwareDev_ENG2025.pdf" className="btn btn-outline-dark d-none d-lg-block">Download CV</a>
+          <a href="/public/TomásFernándezValdés_ SoftwareDev_ENG2025.pdf" download="TomásFernándezValdés_SoftwareDev_ENG2025.pdf" className="btn btn-outline-dark d-none d-lg-block">Download CV</a>
         </div>
       </div>
     </nav>
