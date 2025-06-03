@@ -57,16 +57,7 @@ import dw5 from '../assets/Doozy5.jpg';
 import dw6 from '../assets/Doozy6.jpg';
 import dw7 from '../assets/Doozy7.jpg';
 import dw8 from '../assets/Doozy1.jpg';
-import bj1 from '../assets/balloon1.jpg';
-import bj2 from '../assets/balloon2.jpg';
-import bj3 from '../assets/balloon3.jpg';
-import bj4 from '../assets/balloon4.jpg';
-import bj5 from '../assets/balloon5.jpg';
-import bj6 from '../assets/balloon6.jpg';
-import bj7 from '../assets/balloon7.jpg';
-import bj8 from '../assets/balloon8.jpg';
-import bj9 from '../assets/balloon9.jpg';
-import bj10 from '../assets/balloon10.jpg';
+import rzc1 from '../assets/RiftZone2.jpg';
 import gb1 from '../assets/Getback1.png';
 import gb2 from '../assets/Getback2.png';
 import gb3 from '../assets/Getback3.png';
@@ -151,7 +142,7 @@ export default function Project(){
     'zs1': zs1,'zs2': zs2,'zs3': zs3,'zs4': zs4,'zs5': zs5,'zs6': zs6,'zs7': zs7,'zs8': zs8,'zs9': zs9,'zs10': zs10,
     'sn1': sn1,'sn2': sn2,'sn3': sn3,'sn4': sn4,'sn5': sn5,'sn6': sn6,'sn7': sn7,'sn8': sn8,'sn9': sn9,
     'dw1': dw1,'dw2': dw2,'dw3': dw3,'dw4': dw4,'dw5': dw5,'dw6': dw6,'dw7': dw7,'dw8': dw8,
-    'bj1': bj1,'bj2': bj2,'bj3': bj3,'bj4': bj4,'bj5': bj5,'bj6': bj6,'bj7': bj7,'bj8': bj8,'bj9': bj9,'bj10': bj10,
+    'rzc1': rzc1,
     'gb1': gb1,'gb2': gb2,'gb3': gb3,'gb4': gb4,'gb5': gb5,'gb6': gb6,'gb7': gb7,'gb8': gb8,'gb9': gb9,'gb10': gb10,
     'gb11': gb11,'gb12': gb12,'gb13': gb13,'gb14': gb14,'gb15': gb15,'gb16': gb16,'gb17': gb17,'gb18': gb18,'gb19': gb19,'gb20': gb20,
     'gb21': gb21,'gb22': gb22,'gb23': gb23,'gb24': gb24,'gb25': gb25,'gb26': gb26,'gb27': gb27,'gb28': gb28,'gb29': gb29,'gb30': gb30,

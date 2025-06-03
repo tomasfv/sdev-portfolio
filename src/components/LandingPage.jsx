@@ -10,7 +10,7 @@ import avatar from '../assets/avatar.svg';
 import taitikoImg from '../assets/ttk2.webp';
 import apoceusImg from '../assets/apoceus3.jpg';
 import zombieImg from '../assets/zombie1.jpg';
-import balloonImg from '../assets/balloon1.jpg';
+import riftZoneImg from '../assets/RiftZone2.jpg';
 import doozyImg from '../assets/doozy1.jfif';
 import survivalImg from '../assets/Survival5.jpg';
 import getbackImg from '../assets/getback.jfif';
@@ -250,6 +250,22 @@ return (
             <h1 className="fw-bold my-4">Video Games</h1>
             <div className="col-lg-4 col-sm-6 mt-4">
                 <div className="card">
+                    <img src={riftZoneImg} className="card-img-top" alt="..."/>
+                    <div className="card-body">
+                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
+                        <h5 className="card-title fw-bold">Rift Zone: Contact</h5>
+                        <p className="card-text">Miniature Wargame App</p>
+                        <p className="card-text">Game Programmer</p>
+                        <p className="card-text fw-bold" style={{color: '#53b14a'}}>Full-time Contract</p>
+                        <Link to='/project/6' className="btn btn-outline-dark">
+                        More information
+                        </Link> 
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-4 col-sm-6 mt-4">
+                <div className="card">
                     <img src={taitikoImg} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
@@ -329,22 +345,7 @@ return (
                     </div>
                 </div>
             </div>
-            <div className="col-lg-4 col-sm-6 mt-4">
-                <div className="card">
-                    <img src={balloonImg} className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
-                        <h5 className="card-title fw-bold">Balloon Journey</h5>
-                        <p className="card-text">Android Arcade Game</p>
-                        <p className="card-text">Game Developer</p>
-                        <p className="card-text fw-bold" style={{color: '#408BD6'}}>Personal Project</p>
-                        <Link to='/project/6' className="btn btn-outline-dark">
-                        More information
-                        </Link> 
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
     </div>

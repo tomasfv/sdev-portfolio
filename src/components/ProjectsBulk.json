@@ -111,20 +111,20 @@
   {
     "id" : 6,
     "type": 1,
-    "name" : "Balloon Journey",
-    "company" : " - Personal Project",
-    "role" : "Game Developer",
-    "date" : "Published in 2023",
+    "name" : "Rift Zone: Contact",
+    "company" : " - Boosted Reality",
+    "role" : "Game programmer",
+    "date" : "from Nov. 2024 to Jun. 2025",
     "links":{
-      "demo": "https://tomasfv.itch.io/balloon-journey",
-      "company": false,
-      "store": false,
+      "demo": "https://boostedreality.games/",
+      "company": "https://www.odaclick.com/",
+      "store": "https://boostedreality.games/products/rift-zone-contact",
       "code": false
     },
-    "intro" : "Drive a great hot air balloon, eat pizza, avoid bombs, and relax.",
-    "description": "Balloon Journey is an arcade video game for Android mobile devices developed with Unity3D and C#. For this project, I carried out programming tasks related to User Interface, player movement, object spawn, scene management, VFX implementation, particle systems, SFX and music, among others. I also carried out video game design tasks such as challenge design, progression curve, difficulty balance, metrics, scoring, etc. ",
-    "videos": "https://player.vimeo.com/video/1003730598?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "images": ["bj1", "bj2", "bj3", "bj4", "bj5", "bj6", "bj7", "bj8", "bj9", "bj10"] 
+    "intro" : "Tabletop battles like you have never seen before. Rift Zone: Contact captures the struggle between the Scry'Ox collective and the UEDF as they battle for control of the far off world of Proxima Centauri B.",
+    "description": "Hired by Odaclick Game Studio (Córdoba - Argentina) in full-time hybrid work mode, I carried out general programming and video game tasks related to development and implementation of core game systems, including login for Android and iOS, NFC security, localization, Audio system, game modes, HTTP communication with a web server and REST API, cloud hosting services, gameplay mechanics, user interface, and QA/testing, among others. To develop these tasks I used technologies such as Unity, C#, UnityWebRequest, Unity Cloud Services, Authentication, Unity Localization, and complemented development with tools like GitHub, Postman, and Scrum.",
+    "videos": "https://www.youtube.com/embed/3whSbV0Bbuc?si=l5pP_CxNAHBmbqhL",
+    "images": ["rzc1"] 
   },
   {
     "id" : 7,
