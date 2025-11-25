@@ -17,7 +17,7 @@ import getbackImg from '../assets/getback.jfif';
 import farmaciaImg from '../assets/farmacia4.jpg';
 import sportsImg from '../assets/KustomsSports.jpg';
 import travelImg from '../assets/travel.jpg';
-import watchImg from '../assets/TSStopWatch.jpg';
+import uj1 from '../assets/UJ1.jpg';
 import microlabImg from '../assets/microlab2.jpg';
 
 
@@ -211,15 +211,17 @@ return (
             </div>
             <div className="col-lg-4 col-sm-6 mt-4">
                 <div className="card">
-                    <img src={watchImg} className="card-img-top" alt="..."/>
-                    <div className="card-body">
+                    <img src={uj1} className="card-img-top" alt="..."/>
+                    <div className="card-body" style={{marginTop: '40px'}}>
                         <img src={typescriptLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <img src={htmlLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <img src={cssLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <h5 className="card-title fw-bold" style={{marginTop: '40px'}}>TypeScript StopWatch</h5>
-                        <p className="card-text">Tool</p>
+                        <img src={reactLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={reduxLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <h5 className="card-title fw-bold" style={{marginTop: '40px'}}>Universo Tickets</h5>
+                        <p className="card-text">Desktop App</p>
                         <p className="card-text">Frontend Developer</p>
-                        <p className="card-text fw-bold" style={{color: '#408BD6'}}>Personal Project</p>
+                        <p className="card-text fw-bold" style={{color: '#53b14a'}}>Full-time Contract</p>
                         <Link to='/project/11' className="btn btn-outline-dark">
                         More information
                         </Link> 

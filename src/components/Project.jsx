@@ -122,6 +122,31 @@ import ml5 from '../assets/microlab5.jpg'
 import ml6 from '../assets/microlab6.jpg'
 import ml7 from '../assets/microlab7.jpg'
 import ml8 from '../assets/microlab8.jpg'
+import uj1 from '../assets/UJ1.jpg'
+import uj2 from '../assets/UJ2.png'
+import uj3 from '../assets/UJ3.jpg'
+import uj4 from '../assets/UJ4.png'
+import uj5 from '../assets/UJ5.png'
+import uj6 from '../assets/UJ6.png'
+import uj7 from '../assets/UJ7.png'
+import uj8 from '../assets/UJ8.png'
+import uj9 from '../assets/UJ9.png'
+import uj10 from '../assets/UJ10.jpg'
+import uj11 from '../assets/UJ11.jpg'
+import uj12 from '../assets/UJ12.jpg'
+import uj13 from '../assets/UJ13.jpg'
+import uj14 from '../assets/UJ14.png'
+import uj15 from '../assets/UJ15.jpg'
+import uj16 from '../assets/UJ16.jpg'
+import uj17 from '../assets/UJ17.jpg'
+import uj18 from '../assets/UJ18.jpg'
+import uj19 from '../assets/UJ19.png'
+import uj20 from '../assets/UJ20.png'
+import uj21 from '../assets/UJ21.png'
+import uj22 from '../assets/UJ22.png'
+import uj23 from '../assets/UJ23.png'
+import uj24 from '../assets/UJ24.jpg'
+import uj25 from '../assets/UJ25.jpg'
 
 
 export default function Project(){
@@ -151,6 +176,8 @@ export default function Project(){
     'ks1': ks1,'ks2': ks2,'ks3': ks3,'ks4': ks4,'ks5': ks5,'ks6': ks6,'ks7': ks7,'ks8': ks8,'ks9': ks9,'ks10': ks10,
     'tw1': tw1,'tw2': tw2,
     'ts1': ts1,
+    'uj1': uj1,'uj2': uj2,'uj3': uj3,'uj4': uj4,'uj5': uj5,'uj6': uj6,'uj7': uj7,'uj8': uj8,'uj9': uj9,'uj10': uj10,'uj11': uj11,'uj12': uj12,
+    'uj13': uj13,'uj14': uj14,'uj15': uj15,'uj16': uj16,'uj17': uj17,'uj18': uj18,'uj19': uj19,'uj20': uj20,'uj21': uj21,'uj22': uj22,'uj23': uj23,'uj24': uj24,'uj25': uj25,
     'ml1': ml1,'ml3': ml3,'ml4': ml4,'ml5': ml5,'ml6': ml6,'ml7': ml7,'ml8': ml8,
   };
 

@@ -202,20 +202,20 @@
   {
     "id" : 11,
     "type": 2,
-    "name" : "TypeScript StopWatch",
-    "company" : " - Personal Project",
+    "name" : "Universo Tickets Desktop App",
+    "company" : " - Odaclick/Exomindset",
     "role" : "Frontend Developer",
-    "date" : "Published in 2023",
+    "date" : "From Jun.2025 to Dec.2025",
     "links":{
-      "demo": "https://stopwatchts.netlify.app/",
-      "company": false,
-      "store": false,
-      "code": "https://github.com/tomasfv/Typescript-Stopwatch"
+      "demo": false,
+      "company": "https://exomindset.co/es/",
+      "store": "https://universotickets.com/",
+      "code": false
     },
     "intro" : "",
-    "description": "Personal frontend project built with TypeScript, HTML, and CSS—a simple yet functional stopwatch featuring start, stop, and reset controls.",
+    "description": "Hired by Odaclick and Exomindset (Córdoba, Argentina) in a full-time remote position, I developed a Desktop App for physical tickets selling. Some of the tasks acomplished in this role were the implementation of UI designs in the app, development of features, components, and screens for direct ticket sales, including the login system, admin panel, search bars, cards, tickets, filters, tables, sales, delivery, and return screens, among others; Use of technologies such as Electron JS, TypeScript, React JS, Material UI, Redux, HTML, and CSS.",
     "videos": "",
-    "images": ["ts1"] 
+    "images": ["uj1", "uj2", "uj3", "uj4", "uj5", "uj6", "uj7", "uj8", "uj9", "uj10", "uj11", "uj12", "uj13", "uj14", "uj15", "uj16", "uj17", "uj18", "uj19", "uj20", "uj21", "uj22", "uj23", "uj24", "uj25"] 
   },
   {
     "id" : 12,
