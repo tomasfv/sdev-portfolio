@@ -213,7 +213,7 @@
       "code": false
     },
     "intro" : "",
-    "description": "Hired by Odaclick and Exomindset (Córdoba, Argentina) in a full-time remote position, I developed a Desktop App for physical tickets selling. Some of the tasks acomplished in this role were the implementation of UI designs in the app, development of features, components, and screens for direct ticket sales, including the login system, admin panel, search bars, cards, tickets, filters, tables, sales, delivery, and return screens, among others; Use of technologies such as Electron JS, TypeScript, React JS, Material UI, Redux, HTML, and CSS.",
+    "description": "Hired by Odaclick and Exomindset (Córdoba, Argentina) in a full-time remote position, I developed a desktop application for physical ticket sales used by box office agents. This application was part of a connected system of tools, which also included a backoffice platform, an online ticket store, and a PDA app for ticket scanning and validation. Some of the tasks accomplished in this role included the implementation of UI designs, development of features, components, and screens for direct ticket sales — such as the login system, admin panel, search bars, cards, ticket selection, filters, tables, sales screens, delivery and return screens, and the cash register closing screen, among others. I worked with technologies such as Electron JS, TypeScript, React JS, Material UI, Redux, HTML, and CSS.",
     "videos": "",
     "images": ["uj1", "uj2", "uj3", "uj4", "uj5", "uj6", "uj7", "uj8", "uj9", "uj10", "uj11", "uj12", "uj13", "uj14", "uj15", "uj16", "uj17", "uj18", "uj19", "uj20", "uj21", "uj22", "uj23", "uj24", "uj25"] 
   },
