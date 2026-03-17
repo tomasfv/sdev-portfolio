@@ -25,19 +25,20 @@ import microlabImg from '../assets/microlab2.jpg';
 
 export default function LandingPage(){
 
-var unityLogo = 'https://i.redd.it/tu3gt6ysfxq71.png';
-var cSharpLogo = 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_C_sharp.svg/1820px-Logo_C_sharp.svg.png';
-var javascriptLogo = 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/640px-JavaScript-logo.png';
-var typescriptLogo = 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png';
-var reactLogo = 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png';
-var reduxLogo = 'https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png';
-var nodeLogo = 'https://logo.svgcdn.com/logos/nodejs-icon.png';
-var postgreLogo = 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png';
-var sequelizeLogo = 'https://cdn.icon-icons.com/icons2/2415/PNG/512/sequelize_original_logo_icon_146348.png';
-var htmlLogo = 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png';
-var cssLogo = 'https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg';
-var bootstrapLogo = 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png';
-var expressLogo = 'https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/359/full/expressjslogo.png';
+var unityLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg';
+var cSharpLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg';
+var javascriptLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg';
+var typescriptLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg';
+var reactLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg';
+var reduxLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg';
+var nodeLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg';
+var postgreLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg';
+var sequelizeLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg';
+var htmlLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg';
+var cssLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg';
+var bootstrapLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg';
+var expressLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg';
+var electronLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg';
 
 
 
@@ -133,6 +134,7 @@ return (
                         <img src={cssLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <img src={reactLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <img src={reduxLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={electronLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
                         <h5 className="card-title fw-bold" style={{marginTop: '40px'}}>Universo Tickets</h5>
                         <p className="card-text">Desktop App</p>
                         <p className="card-text">Frontend Developer</p>
@@ -362,7 +364,11 @@ return (
                 </div>
                 <div className="carousel-item">
                     <h5>Redux</h5>
-                    <img src={reduxLogo} alt="..." style={{height:'200px', width:'210px'}}/>
+                    <img src={reduxLogo} alt="..." style={{height:'200px', width:'200px'}}/>
+                </div>
+                <div className="carousel-item">
+                    <h5>Electron</h5>
+                    <img src={electronLogo} alt="..." style={{height:'200px', width:'200px'}}/>
                 </div>
                 <div className="carousel-item">
                     <h5>Javascript</h5>
@@ -382,11 +388,11 @@ return (
                 </div>
                 <div className="carousel-item">
                     <h5>Bootstrap</h5>
-                    <img src={bootstrapLogo} alt="..." style={{height:'160px', width:'200px'}}/>
+                    <img src={bootstrapLogo} alt="..." style={{height:'200px', width:'200px'}}/>
                 </div>
                 <div className="carousel-item">
                     <h5>Node.js</h5>
-                    <img src={nodeLogo} alt="..." style={{height:'200px', width:'180px'}}/>
+                    <img src={nodeLogo} alt="..." style={{height:'200px', width:'200px'}}/>
                 </div>
                 <div className="carousel-item">
                     <h5>Express.js</h5>
@@ -406,7 +412,7 @@ return (
                 </div>
                 <div className="carousel-item">
                     <h5>C#</h5>
-                    <img src={cSharpLogo} alt="..." style={{height:'200px', width:'180px'}}/>
+                    <img src={cSharpLogo} alt="..." style={{height:'200px', width:'200px'}}/>
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
