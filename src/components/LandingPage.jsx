@@ -9,10 +9,10 @@ import { faLinkedin, faGithub, faWhatsapp } from '@fortawesome/free-brands-svg-i
 import avatar from '../assets/avatar.svg';
 import taitikoImg from '../assets/ttk2.webp';
 import apoceusImg from '../assets/apoceus3.jpg';
-import zombieImg from '../assets/zombie1.jpg';
 import riftZoneImg from '../assets/RiftZone2.jpg';
-import doozyImg from '../assets/doozy1.jfif';
-import survivalImg from '../assets/Survival5.jpg';
+// import zombieImg from '../assets/zombie1.jpg';
+// import doozyImg from '../assets/doozy1.jfif';
+// import survivalImg from '../assets/Survival5.jpg';
 import getbackImg from '../assets/getback.jfif';
 import farmaciaImg from '../assets/farmacia4.jpg';
 import sportsImg from '../assets/KustomsSports.jpg';
@@ -39,6 +39,8 @@ var cssLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-orig
 var bootstrapLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg';
 var expressLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg';
 var electronLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg';
+var materialUiLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg';
+var tailwindLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg';
 
 var smallLogo = {height:'30px', width:'30px', marginRight: '4px'};
 var bigLogo = {height:'200px', width:'200px'};
@@ -54,7 +56,7 @@ return (
         <div className="row align-items-center">
             <div className="col-sm-6">
                 <h1 className="display-5 fw-bold">Tomas Fernandez Valdes</h1>
-                <h3>Software Developer</h3>
+                <h3>Frontend Software Engineer</h3>
                 <a href='#projects'>
                     <button className="btn btn-outline-dark btn-lg mt-3">
                         Projects
@@ -77,7 +79,7 @@ return (
                     <i className=""><FontAwesomeIcon icon={faLaptopCode}/></i>
                     <div className="card-body">
                         <h5 className="card-title fw-bold">Frontend Development</h5>
-                        <p className="card-text">Javascript, HTML, CSS, React, Redux, and Bootstrap.</p>
+                        <p className="card-text">React, TypeScript, JavaScript, HTML, CSS, React Query, Redux, Electron, Material UI, Tailwind, Bootstrap.</p>
                     </div>
                 </div>
             </div>
@@ -85,8 +87,8 @@ return (
                 <div className="card">
                     <i className=""><FontAwesomeIcon icon={faGear}/></i>
                     <div className="card-body">
-                        <h5 className="card-title fw-bold">Backend Development</h5>
-                        <p className="card-text">Node.Js, Express.Js, PostgreSQL, Sequelize, and TypeScript.</p>
+                        <h5 className="card-title fw-bold">Backend, APIs & Deployment</h5>
+                        <p className="card-text">Node.js, Express.js, PostgreSQL, REST APIs, Sequelize, Netlify, Railway, Cloud Deployment.</p>
                     </div>
                 </div>
             </div>
@@ -94,8 +96,8 @@ return (
                 <div className="card">
                     <i className=""><FontAwesomeIcon icon={faGamepad}/></i>
                     <div className="card-body">
-                        <h5 className="card-title fw-bold">Video Game Development</h5>
-                        <p className="card-text">Unity 3D, C#, AI Navigation, ML-Agents, Netcode and UnityWebRequests.</p>
+                        <h5 className="card-title fw-bold">Game Development (Additional Background)</h5>
+                        <p className="card-text">Unity3D, C#, AI Navigation, ML-Agents, Netcode, UnityWebRequest.</p>
                     </div>
                 </div>
             </div>
@@ -107,16 +109,12 @@ return (
     <div className="container">
         <h2 className="display-5 fw-bold mb-4">About Me</h2>
         <p>
-            My name is Tomás Fernández Valdés. I am a Software Developer with C1-Advanced English level 
-            and experience in Web and Games Development, using technologies such as Javascript, 
-            React, Node.Js, PostgreSQL, Unity3D, and C# among other fascinating technologies for software development. 
-            I also have experience working with agile methodologies such as Scrum.
+            My name is Tomás Fernández Valdés, a Frontend Software Engineer with C1-Advanced English level and experience developing scalable web and desktop applications using React, TypeScript, JavaScript, Node.js, and PostgreSQL.
+            Experienced in user interface development, REST API integration, and building maintainable frontend architectures with strong focus on performance and usability. I have worked on production applications, Electron-based desktop systems, and SaaS platforms within international agile teams.
         </p>
-        <p> My strongest motivation is to be part of innovative projects that leave a pleasant user experience, 
-            and above all, to continue contributing and learning more about this great technology industry. 
-            I describe myself as passionate about technology, proactive, with a great learning capacity, 
-            and with strong teamwork skills.
-            Thank you for taking the time to review my profile.
+        <p> 
+            I also have a background in game development using Unity and C#, which helped me develop strong problem-solving skills and a solid understanding of software architecture.
+            Passionate about technology and continuous learning, I enjoy working on innovative projects that deliver high-quality user experiences.
         </p>
     </div>
 </section>
@@ -127,17 +125,18 @@ return (
         <div className="row">
         
         <div className="row mt-4">
-        <h1 className="fw-bold mt-4">Web Development</h1>
+        <h1 className="fw-bold mt-4">Frontend & Web Applications</h1>
             <div className="col-lg-4 col-sm-6 mt-4">
-                <div className="card">
+                <div className="card" style={{maxHeight:'507px', minHeight: '506px'}}>
                     <img src={uj1} className="card-img-top" alt="..."/>
-                    <div className="card-body" style={{marginTop: '40px'}}>
+                    <div className="card-body">
                         <img src={typescriptLogo} alt="..." style={smallLogo}/>
                         <img src={htmlLogo} alt="..." style={smallLogo}/>
                         <img src={cssLogo} alt="..." style={smallLogo}/>
                         <img src={reactLogo} alt="..." style={smallLogo}/>
-                        <img src={reduxLogo} alt="..." style={smallLogo}/>
+                        <img src={materialUiLogo} alt="..." style={smallLogo}/>
                         <img src={electronLogo} alt="..." style={smallLogo}/>
+                        <img src={reduxLogo} alt="..." style={smallLogo}/>
                         <h5 className="card-title fw-bold" style={{marginTop: '40px'}}>Universo Tickets</h5>
                         <p className="card-text">Desktop App</p>
                         <p className="card-text">Frontend Developer</p>
@@ -149,7 +148,7 @@ return (
                 </div>
             </div>
             <div className="col-lg-4 col-sm-6 mt-4">
-                <div className="card">
+                <div className="card" style={{maxHeight:'507px', minHeight: '506px'}}>
                     <img src={getbackImg} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <img src={javascriptLogo} alt="..." style={smallLogo}/>
@@ -173,14 +172,14 @@ return (
                 </div>
             </div>
             <div className="col-lg-4 col-sm-6 mt-4">
-                <div className="card">
+                <div className="card" style={{maxHeight:'507px', minHeight: '506px'}}>
                     <img src={farmaciaImg} className="card-img-top" alt="..." style={{height:'165px'}}/>
                     <div className="card-body">
                         <img src={javascriptLogo} alt="..." style={smallLogo}/>
                         <img src={htmlLogo} alt="..." style={smallLogo}/>
                         <img src={cssLogo} alt="..." style={smallLogo}/>
-                        <img src={bootstrapLogo} alt="..." style={smallLogo}/>
                         <img src={reactLogo} alt="..." style={smallLogo}/>
+                        <img src={bootstrapLogo} alt="..." style={smallLogo}/>
                         <img src={reduxLogo} alt="..." style={smallLogo}/>
                         <img src={nodeLogo} alt="..." style={smallLogo}/>
                         <img src={expressLogo} alt="..." style={smallLogo}/>
@@ -197,7 +196,7 @@ return (
                 </div>
             </div>
             <div className="col-lg-4 col-sm-6 mt-4">
-                <div className="card">
+                <div className="card" style={{maxHeight:'507px', minHeight: '506px'}}>
                     <img src={microlabImg} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <img src={javascriptLogo} alt="..." style={smallLogo}/>
@@ -215,7 +214,27 @@ return (
                 </div>
             </div>
             <div className="col-lg-4 col-sm-6 mt-4">
-                <div className="card">
+                <div className="card" style={{maxHeight:'507px', minHeight: '506px'}}>
+                    <img src={sportsImg} className="card-img-top" alt="..."/>
+                    <div className="card-body">
+                        <img src={javascriptLogo} alt="..." style={smallLogo}/>
+                        <img src={htmlLogo} alt="..." style={smallLogo}/>
+                        <img src={cssLogo} alt="..." style={smallLogo}/>
+                        <img src={reactLogo} alt="..." style={smallLogo}/>
+                        <img src={tailwindLogo} alt="..." style={smallLogo}/>
+                        <img src={reduxLogo} alt="..." style={smallLogo}/>
+                        <h5 className="card-title fw-bold" style={{marginTop: '40px'}}>Kustoms Sports</h5>
+                        <p className="card-text">e-commerce</p>
+                        <p className="card-text">Frontend Developer</p>
+                        <p className="card-text fw-bold" style={{color: '#F79D4F'}}>Academic Team Project</p>
+                        <Link to='/project/9' className="btn btn-outline-dark">
+                        More information
+                        </Link> 
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-4 col-sm-6 mt-4" style={{marginBottom: '30px'}}>
+                <div className="card" style={{maxHeight:'507px', minHeight: '506px'}}>
                     <img src={travelImg} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <img src={javascriptLogo} alt="..." style={smallLogo}/>
@@ -233,27 +252,8 @@ return (
                     </div>
                 </div>
             </div>
-            <div className="col-lg-4 col-sm-6 mt-4">
-                <div className="card">
-                    <img src={sportsImg} className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <img src={javascriptLogo} alt="..." style={smallLogo}/>
-                        <img src={htmlLogo} alt="..." style={smallLogo}/>
-                        <img src={cssLogo} alt="..." style={smallLogo}/>
-                        <img src={reactLogo} alt="..." style={smallLogo}/>
-                        <img src={reduxLogo} alt="..." style={smallLogo}/>
-                        <h5 className="card-title fw-bold" style={{marginTop: '40px'}}>Kustoms Sports</h5>
-                        <p className="card-text">e-commerce</p>
-                        <p className="card-text">Frontend Developer</p>
-                        <p className="card-text fw-bold" style={{color: '#F79D4F'}}>Academic Team Project</p>
-                        <Link to='/project/9' className="btn btn-outline-dark">
-                        More information
-                        </Link> 
-                    </div>
-                </div>
-            </div>
 
-            <h1 className="fw-bold my-4">Video Games</h1>
+            <h1 className="fw-bold my-4">Game Development Experience</h1>
             <div className="col-lg-4 col-sm-6 mt-4">
                 <div className="card">
                     <img src={riftZoneImg} className="card-img-top" alt="..."/>
@@ -302,55 +302,6 @@ return (
                     </div>
                 </div>
             </div>
-            <div className="col-lg-4 col-sm-6 mt-4">
-                <div className="card">
-                    <img src={zombieImg} className="card-img-top" alt="..." style={{height:'132px'}}/>
-                    <div className="card-body">
-                        <img src={unityLogo} alt="..." style={smallLogo}/>
-                        <img src={cSharpLogo} alt="..." style={smallLogo}/>
-                        <h5 className="card-title fw-bold">Zombie Shooter</h5>
-                        <p className="card-text">Top down shoot em up</p>
-                        <p className="card-text">Game Developer/Designer</p>
-                        <p className="card-text fw-bold" style={{color: '#408BD6'}}>Personal Project</p>
-                        <Link to='/project/3' className="btn btn-outline-dark">
-                        More information
-                        </Link>
-                    </div>
-                </div>
-            </div>
-            <div className="col-lg-4 col-sm-6 mt-4">
-                <div className="card">
-                    <img src={survivalImg} className="card-img-top" alt="..." style={{height:'135px'}}/>
-                    <div className="card-body">
-                        <img src={unityLogo} alt="..." style={smallLogo}/>
-                        <img src={cSharpLogo} alt="..." style={smallLogo}/>
-                        <h5 className="card-title fw-bold">Survival Nightmare</h5>
-                        <p className="card-text">Action Third Person Shooter</p>
-                        <p className="card-text">Game Developer</p>
-                        <p className="card-text fw-bold" style={{color: '#408BD6'}}>Personal Project</p>
-                        <Link to='/project/4' className="btn btn-outline-dark">
-                        More information
-                        </Link>
-                    </div>
-                </div>
-            </div>
-            <div className="col-lg-4 col-sm-6 mt-4">
-                <div className="card">
-                    <img src={doozyImg} className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <img src={unityLogo} alt="..." style={smallLogo}/>
-                        <img src={cSharpLogo} alt="..." style={smallLogo}/>
-                        <h5 className="card-title fw-bold">Doozys World</h5>
-                        <p className="card-text">Adventure Game</p>
-                        <p className="card-text">Game Developer</p>
-                        <p className="card-text fw-bold" style={{color: '#408BD6'}}>Personal Project</p>
-                        <Link to='/project/5' className="btn btn-outline-dark">
-                        More information
-                        </Link>                       
-                    </div>
-                </div>
-            </div>
-            
         </div>
     </div>
     </div>
@@ -388,6 +339,14 @@ return (
                 <div className="carousel-item">
                     <h5>CSS</h5>
                     <img src={cssLogo} alt="..." style={bigLogo}/>
+                </div>
+                <div className="carousel-item">
+                    <h5>Material UI</h5>
+                    <img src={materialUiLogo} alt="..." style={bigLogo}/>
+                </div>
+                <div className="carousel-item">
+                    <h5>Tailwind CSS</h5>
+                    <img src={tailwindLogo} alt="..." style={bigLogo}/>
                 </div>
                 <div className="carousel-item">
                     <h5>Bootstrap</h5>
