@@ -121,8 +121,8 @@
       "store": "https://boostedreality.games/products/rift-zone-contact",
       "code": false
     },
-    "intro" : "Tabletop battles like you have never seen before. Rift Zone: Contact captures the struggle between the Scry'Ox collective and the UEDF as they battle for control of the far off world of Proxima Centauri B.",
-    "description": "Hired by Odaclick Game Studio (Córdoba - Argentina) in full-time hybrid work mode, I carried out general programming and video game tasks related to development and implementation of core game systems, including login for Android and iOS, NFC security, localization, Audio system, game modes, HTTP communication with a web server and REST API, cloud hosting services, gameplay mechanics, user interface, and QA/testing, among others. To develop these tasks I used technologies such as Unity, C#, UnityWebRequest, Unity Cloud Services, Authentication, Unity Localization, and complemented development with tools like GitHub, Postman, and Scrum.",
+    "intro" : "",
+    "description": "Game programmer on a professional Unity project, working on core systems, UI, and backend communication. Implemented authentication, REST API integration, localization, and gameplay features for a mobile AR game application. Stack: Unity, C#, REST API, Cloud Services.",
     "videos": "https://www.youtube.com/embed/3whSbV0Bbuc?si=l5pP_CxNAHBmbqhL",
     "images": ["rzc1"] 
   },
@@ -159,7 +159,7 @@
       "code": false
     },
     "intro" : "",
-    "description": "Hired by Farmacia Alto Palermo (Córdoba, Argentina) in a freelance position, I developed a full-stack web application consisting of an admin panel that enables the creation, storage, and editing of customers and healthcare plans. The platform also includes features for accumulating and redeeming points based on customer purchases, as well as a secure user login system. In this role, I handled the complete development and maintenance of the software using JavaScript, React, Redux, Node.js, PostgreSQL, Sequelize, HTML, CSS, Express, GitHub, and Reactstrap, among other technologies. Please feel free to visit the demo version of this web app and explore its functionalities.",
+    "description": "Freelance full-stack web application developed for a pharmacy to manage customers, healthcare plans, and transactional points. Built admin dashboards, authentication flows, CRUD operations, and REST API integrations connecting React frontend with a Node.js backend. Handled the full development lifecycle, including database design, backend creation and cloud deployment. Stack: React, JavaScript, Reactstrap, Node.js, PostgreSQL.",
     "videos": "",
     "images": ["fap1", "fap2", "fap3", "fap4"] 
   },
@@ -177,7 +177,7 @@
       "code": "https://github.com/tomasfv/kustoms-sports"
     },
     "intro" : "",
-    "description": "Team Project for the Full Stack Web Development Botcamp at soyHenry academy. Creation of fictitious e-commerce with the following Tech Objectives: Deploy the app, User Authentication System, Payment Gateway and complete purchase process, Combined Filters, Implementation of Cloudinary for managing images, Notifications to users by e-mail, Logical Deletion of products and bans, Data Persistence, Reviews and Scoring System, Administrator Dashboard. We implement the use of React, Redux and Tailwind technologies for the Frontend; Node, Express for the Backend and PostgreSQL with Sequelize for the Database. In addition to libraries such as Stripe, Auth0, Sweetalert, Cloudinary, Nodemailer, among others. ",
+    "description": "Team project consisting of an e-commerce web application with authentication, filters, shopping cart, and admin dashboard. Developed frontend components and integrated REST APIs, working with global state management and UI logic. Stack: React, Redux, Tailwind, Node.js, PostgreSQL. ",
     "videos": "https://www.youtube.com/embed/bM7t9NczBkY?si=G68xHHTmT17uf10D",
     "images": ["ks1", "ks2", "ks3", "ks4", "ks5", "ks6", "ks7", "ks8", "ks9", "ks10"] 
   },
@@ -195,7 +195,7 @@
       "code": "https://github.com/tomasfv/TravelWebsite"
     },
     "intro" : "",
-    "description": "Personal frontend project featuring a travel agency landing page with a classic structure tailored for this type of business. Developed using React, JavaScript, HTML, and CSS, it showcases a clean and engaging design, highlighting essential components such as a navigation bar, destination cards, a video hero section, and additional information in the footer.",
+    "description": "Personal frontend project consisting of a travel website landing page. Built UI layout and components using React, focusing on structure and basic component composition. Stack: React, JavaScript, CSS.",
     "videos": "",
     "images": ["tw1", "tw2"] 
   },
@@ -231,7 +231,7 @@
       "code": "https://github.com/tomasfv/microlab"
     },
     "intro" : "",
-    "description": "This project is a curated collection of small interactive frontend components, originally developed using HTML, CSS, and JavaScript, and later transformed into React components for seamless integration. Designed as a personal frontend showcase, it highlights micro-interactions and UI elements, demonstrating their functionality in an interactive and engaging manner.",
+    "description": "Personal frontend showcase focused on small reusable UI components and micro-interactions. Originally built with HTML, CSS, and JavaScript, later refactored into React components to demonstrate component architecture and state handling. Stack: React, JavaScript, CSS.",
     "videos": "",
     "images": ["ml1", "ml2", "ml3", "ml4", "ml5", "ml6", "ml7", "ml8"] 
   }
