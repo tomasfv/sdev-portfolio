@@ -40,6 +40,9 @@ var bootstrapLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstra
 var expressLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg';
 var electronLogo = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg';
 
+var smallLogo = {height:'30px', width:'30px', marginRight: '4px'};
+var bigLogo = {height:'200px', width:'200px'};
+
 
 
 return (
@@ -129,12 +132,12 @@ return (
                 <div className="card">
                     <img src={uj1} className="card-img-top" alt="..."/>
                     <div className="card-body" style={{marginTop: '40px'}}>
-                        <img src={typescriptLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={htmlLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={cssLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={reactLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={reduxLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={electronLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={typescriptLogo} alt="..." style={smallLogo}/>
+                        <img src={htmlLogo} alt="..." style={smallLogo}/>
+                        <img src={cssLogo} alt="..." style={smallLogo}/>
+                        <img src={reactLogo} alt="..." style={smallLogo}/>
+                        <img src={reduxLogo} alt="..." style={smallLogo}/>
+                        <img src={electronLogo} alt="..." style={smallLogo}/>
                         <h5 className="card-title fw-bold" style={{marginTop: '40px'}}>Universo Tickets</h5>
                         <p className="card-text">Desktop App</p>
                         <p className="card-text">Frontend Developer</p>
@@ -149,16 +152,16 @@ return (
                 <div className="card">
                     <img src={getbackImg} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <img src={javascriptLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={typescriptLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={htmlLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={cssLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={reactLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={reduxLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={nodeLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={expressLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={postgreLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={sequelizeLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={javascriptLogo} alt="..." style={smallLogo}/>
+                        <img src={typescriptLogo} alt="..." style={smallLogo}/>
+                        <img src={htmlLogo} alt="..." style={smallLogo}/>
+                        <img src={cssLogo} alt="..." style={smallLogo}/>
+                        <img src={reactLogo} alt="..." style={smallLogo}/>
+                        <img src={reduxLogo} alt="..." style={smallLogo}/>
+                        <img src={nodeLogo} alt="..." style={smallLogo}/>
+                        <img src={expressLogo} alt="..." style={smallLogo}/>
+                        <img src={postgreLogo} alt="..." style={smallLogo}/>
+                        <img src={sequelizeLogo} alt="..." style={smallLogo}/>
                         <h5 className="card-title fw-bold">Getback</h5>
                         <p className="card-text">Logistics Software</p>
                         <p className="card-text">Full Stack Web Developer</p>
@@ -173,16 +176,16 @@ return (
                 <div className="card">
                     <img src={farmaciaImg} className="card-img-top" alt="..." style={{height:'165px'}}/>
                     <div className="card-body">
-                        <img src={javascriptLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={htmlLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={cssLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={bootstrapLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={reactLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={reduxLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={nodeLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={expressLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={postgreLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={sequelizeLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={javascriptLogo} alt="..." style={smallLogo}/>
+                        <img src={htmlLogo} alt="..." style={smallLogo}/>
+                        <img src={cssLogo} alt="..." style={smallLogo}/>
+                        <img src={bootstrapLogo} alt="..." style={smallLogo}/>
+                        <img src={reactLogo} alt="..." style={smallLogo}/>
+                        <img src={reduxLogo} alt="..." style={smallLogo}/>
+                        <img src={nodeLogo} alt="..." style={smallLogo}/>
+                        <img src={expressLogo} alt="..." style={smallLogo}/>
+                        <img src={postgreLogo} alt="..." style={smallLogo}/>
+                        <img src={sequelizeLogo} alt="..." style={smallLogo}/>
                         <h5 className="card-title fw-bold">Farmacia Alto Palermo</h5>
                         <p className="card-text">Pharmacy Admin App</p>
                         <p className="card-text">Full Stack Web Developer</p>
@@ -197,10 +200,10 @@ return (
                 <div className="card">
                     <img src={microlabImg} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <img src={javascriptLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={htmlLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={cssLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={reactLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={javascriptLogo} alt="..." style={smallLogo}/>
+                        <img src={htmlLogo} alt="..." style={smallLogo}/>
+                        <img src={cssLogo} alt="..." style={smallLogo}/>
+                        <img src={reactLogo} alt="..." style={smallLogo}/>
                         <h5 className="card-title fw-bold" style={{marginTop: '40px'}}>Microlab</h5>
                         <p className="card-text">Frontend showcase app</p>
                         <p className="card-text">Frontend Developer</p>
@@ -215,11 +218,11 @@ return (
                 <div className="card">
                     <img src={travelImg} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <img src={javascriptLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={htmlLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={cssLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={reactLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={reduxLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={javascriptLogo} alt="..." style={smallLogo}/>
+                        <img src={htmlLogo} alt="..." style={smallLogo}/>
+                        <img src={cssLogo} alt="..." style={smallLogo}/>
+                        <img src={reactLogo} alt="..." style={smallLogo}/>
+                        <img src={reduxLogo} alt="..." style={smallLogo}/>
                         <h5 className="card-title fw-bold" style={{marginTop: '40px'}}>Travel Website</h5>
                         <p className="card-text">Landing page</p>
                         <p className="card-text">Frontend Developer</p>
@@ -234,11 +237,11 @@ return (
                 <div className="card">
                     <img src={sportsImg} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <img src={javascriptLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={htmlLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={cssLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={reactLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={reduxLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={javascriptLogo} alt="..." style={smallLogo}/>
+                        <img src={htmlLogo} alt="..." style={smallLogo}/>
+                        <img src={cssLogo} alt="..." style={smallLogo}/>
+                        <img src={reactLogo} alt="..." style={smallLogo}/>
+                        <img src={reduxLogo} alt="..." style={smallLogo}/>
                         <h5 className="card-title fw-bold" style={{marginTop: '40px'}}>Kustoms Sports</h5>
                         <p className="card-text">e-commerce</p>
                         <p className="card-text">Frontend Developer</p>
@@ -255,8 +258,8 @@ return (
                 <div className="card">
                     <img src={riftZoneImg} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
+                        <img src={unityLogo} alt="..." style={smallLogo}/>
+                        <img src={cSharpLogo} alt="..." style={smallLogo}/>
                         <h5 className="card-title fw-bold">Rift Zone: Contact</h5>
                         <p className="card-text">Miniature Wargame App</p>
                         <p className="card-text">Game Programmer</p>
@@ -271,8 +274,8 @@ return (
                 <div className="card">
                     <img src={taitikoImg} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
+                        <img src={unityLogo} alt="..." style={smallLogo}/>
+                        <img src={cSharpLogo} alt="..." style={smallLogo}/>
                         <h5 className="card-title fw-bold">Taitiko - SuperBytes</h5>
                         <p className="card-text">Online Multiplayer Party Game</p>
                         <p className="card-text">Game Programmer</p>
@@ -287,8 +290,8 @@ return (
                 <div className="card">
                     <img src={apoceusImg} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
+                        <img src={unityLogo} alt="..." style={smallLogo}/>
+                        <img src={cSharpLogo} alt="..." style={smallLogo}/>
                         <h5 className="card-title fw-bold">Apoceus - Landell Games</h5>
                         <p className="card-text">Online Multiplayer RTS</p>
                         <p className="card-text">Game Programmer</p>
@@ -303,8 +306,8 @@ return (
                 <div className="card">
                     <img src={zombieImg} className="card-img-top" alt="..." style={{height:'132px'}}/>
                     <div className="card-body">
-                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
+                        <img src={unityLogo} alt="..." style={smallLogo}/>
+                        <img src={cSharpLogo} alt="..." style={smallLogo}/>
                         <h5 className="card-title fw-bold">Zombie Shooter</h5>
                         <p className="card-text">Top down shoot em up</p>
                         <p className="card-text">Game Developer/Designer</p>
@@ -319,8 +322,8 @@ return (
                 <div className="card">
                     <img src={survivalImg} className="card-img-top" alt="..." style={{height:'135px'}}/>
                     <div className="card-body">
-                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
+                        <img src={unityLogo} alt="..." style={smallLogo}/>
+                        <img src={cSharpLogo} alt="..." style={smallLogo}/>
                         <h5 className="card-title fw-bold">Survival Nightmare</h5>
                         <p className="card-text">Action Third Person Shooter</p>
                         <p className="card-text">Game Developer</p>
@@ -335,8 +338,8 @@ return (
                 <div className="card">
                     <img src={doozyImg} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <img src={unityLogo} alt="..." style={{height:'30px', width:'30px', marginRight: '4px'}}/>
-                        <img src={cSharpLogo} alt="..." style={{height:'30px', width:'30px'}}/>
+                        <img src={unityLogo} alt="..." style={smallLogo}/>
+                        <img src={cSharpLogo} alt="..." style={smallLogo}/>
                         <h5 className="card-title fw-bold">Doozys World</h5>
                         <p className="card-text">Adventure Game</p>
                         <p className="card-text">Game Developer</p>
@@ -360,59 +363,59 @@ return (
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <h5>React</h5>
-                    <img src={reactLogo} alt="..." style={{height:'200px', width:'200px'}}/>
+                    <img src={reactLogo} alt="..." style={bigLogo}/>
                 </div>
                 <div className="carousel-item">
                     <h5>Redux</h5>
-                    <img src={reduxLogo} alt="..." style={{height:'200px', width:'200px'}}/>
+                    <img src={reduxLogo} alt="..." style={bigLogo}/>
                 </div>
                 <div className="carousel-item">
                     <h5>Electron</h5>
-                    <img src={electronLogo} alt="..." style={{height:'200px', width:'200px'}}/>
+                    <img src={electronLogo} alt="..." style={bigLogo}/>
                 </div>
                 <div className="carousel-item">
                     <h5>Javascript</h5>
-                    <img src={javascriptLogo} alt="..." style={{height:'200px', width:'200px', borderRadius: '25px'}}/>
+                    <img src={javascriptLogo} alt="..." style={bigLogo}/>
                 </div>
                 <div className="carousel-item">
                     <h5>TypeScript</h5>
-                    <img src={typescriptLogo} alt="..." style={{height:'200px', width:'200px', borderRadius: '25px'}}/>
+                    <img src={typescriptLogo} alt="..." style={bigLogo}/>
                 </div>
                 <div className="carousel-item">
                     <h5>HTML</h5>
-                    <img src={htmlLogo} alt="..." style={{height:'200px', width:'200px'}}/>
+                    <img src={htmlLogo} alt="..." style={bigLogo}/>
                 </div>
                 <div className="carousel-item">
                     <h5>CSS</h5>
-                    <img src={cssLogo} alt="..." style={{height:'200px', width:'200px'}}/>
+                    <img src={cssLogo} alt="..." style={bigLogo}/>
                 </div>
                 <div className="carousel-item">
                     <h5>Bootstrap</h5>
-                    <img src={bootstrapLogo} alt="..." style={{height:'200px', width:'200px'}}/>
+                    <img src={bootstrapLogo} alt="..." style={bigLogo}/>
                 </div>
                 <div className="carousel-item">
                     <h5>Node.js</h5>
-                    <img src={nodeLogo} alt="..." style={{height:'200px', width:'200px'}}/>
+                    <img src={nodeLogo} alt="..." style={bigLogo}/>
                 </div>
                 <div className="carousel-item">
                     <h5>Express.js</h5>
-                    <img src={expressLogo} alt="..." style={{height:'200px', width:'200px'}}/>
+                    <img src={expressLogo} alt="..." style={bigLogo}/>
                 </div>
                 <div className="carousel-item">
                     <h5>PostgreSQL</h5>
-                    <img src={postgreLogo} alt="..." style={{height:'200px', width:'200px'}}/>
+                    <img src={postgreLogo} alt="..." style={bigLogo}/>
                 </div>
                 <div className="carousel-item">
                     <h5>Sequelize</h5>
-                    <img src={sequelizeLogo} alt="..." style={{height:'200px', width:'200px'}}/>
+                    <img src={sequelizeLogo} alt="..." style={bigLogo}/>
                 </div>
                 <div className="carousel-item">
                     <h5>Unity3D</h5>
-                    <img src={unityLogo} alt="..." style={{height:'200px', width:'200px'}}/>
+                    <img src={unityLogo} alt="..." style={bigLogo}/>
                 </div>
                 <div className="carousel-item">
                     <h5>C#</h5>
-                    <img src={cSharpLogo} alt="..." style={{height:'200px', width:'200px'}}/>
+                    <img src={cSharpLogo} alt="..." style={bigLogo}/>
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
