@@ -31,8 +31,8 @@
       "store": "https://elixir.games/browse/taitiko",
       "code": false
     },
-    "intro" : "Welcome to Taitiko, a new era of gaming where fun and games come to life. Play, troll, and compete against other players with our mischievous and wild characters. Do you have what it takes to be the fastest? Hone your skills, earn points, and collect the awesome new Taitikos to show off to other players!",
-    "description" : "Hired by the company Superbytes (Barcelona - Spain) in full-time remote work mode, I carried out general programming and video game development tasks related to the creation and implementation of NPC's and state machines (FSM) for Artificial Intelligence behaviors, Machine Learning, HTTP communication with web server and REST API, Networking and online multiplayer systems, cloud hosting services, Gameplay, User Interface, bugs fixing, creation of scenes, game modes, mechanics and prototypes, Implementation of prefabs and asset loading systems, creation of notification and version controller systems, QA and Testing, among others. To develop these tasks I used technologies such as Unity, C#, AI Navigation, Machine Learning Agents, Netcode for GameObjects, Unity Web Request, Unity Cloud Services, Addressables, ProBuilder, Cinemachine, Raycasting and Boxcasting, etc. complemented with development and management tools such as Blender, Postman, Sourcetree, Jira, Bitbucket, GitLab, Scrum, among others.",
+    "intro" : "",
+    "description" : "Game programmer on an online multiplayer Unity project developed in a remote international team. Worked on gameplay systems, UI, state machines, networking, and REST API communication with backend services. Stack: Unity, C#, Netcode, REST API, Cloud Services.",
     "videos": "https://www.youtube.com/embed/qRfM_FgDWQ0?si=zf9544Cqdd7haSDA",
     "images": ["tk1", "tk2", "tk3", "tk4", "tk5", "tk6", "tk7", "tk8", "tk9", "tk10", "tk11", "tk12", "tk13"] 
   },
@@ -49,8 +49,8 @@
       "store": "https://store.steampowered.com/app/1841690/Apoceus_Winter_Wars/",
       "code": false
     },
-    "intro" : "A real-time strategy game that features big maps for large battles, offering depth and strategy. Come in and take the role of different generals, each with their own tactics and large armies. As a player, you're not just leading vast armies, you're in command of war machines and huge monsters.",
-    "description" : "Hired by Landell Games studio (Linköping - Sweden) on a remote part-time basis, I performed general video game programming tasks related to bug fixing, performance and optimization, gameplay, artificial intelligence, UI, prefabs implementation, documentation, QA and testing, among others. To carry out these tasks I used technologies such as Unity, C#, AI Navigation, TextMesh Pro, Cinemachine, Unity Terrain Tools, and ProBuilder, complemented with management and development tools such as Plastic SCM, Photon, Fmod, Linear, Figma, and Scrum methodology.",
+    "intro" : "",
+    "description" : "Game programmer on a real-time strategy project built with Unity, collaborating in a remote team. Implemented gameplay features, UI systems, AI behaviors, and performance improvements. Stack: Unity, C#.",
     "videos": "https://www.youtube.com/embed/rFADxjYHDF0?si=6eLovQgeZH3f0ad-",
     "images": ["ap1", "ap2", "ap3", "ap4", "ap5", "ap6", "ap7", "ap8", "ap9", "ap10", "ap11", "ap12", "ap13"] 
   },
