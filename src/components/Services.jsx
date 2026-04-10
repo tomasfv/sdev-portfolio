@@ -12,7 +12,7 @@ export default function Services() {
               <i className=""><FontAwesomeIcon icon={faLaptopCode} /></i>
               <div className="card-body">
                 <h5 className="card-title fw-bold">Frontend Development</h5>
-                <p className="card-text">React, TypeScript, JavaScript, HTML, CSS, React Query, Redux, Electron, Material UI, Tailwind, Bootstrap.</p>
+                <p className="card-text">React, TypeScript, JavaScript, Next.js, HTML, CSS, React Query, Redux, Electron, Tailwind, Material UI, Bootstrap.</p>
               </div>
             </div>
           </div>
