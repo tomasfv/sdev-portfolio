@@ -3,7 +3,7 @@ import avatar from '../assets/avatar.svg';
 import taitikoImg from '../assets/ttk2.webp';
 import apoceusImg from '../assets/apoceus3.jpg';
 import riftZoneImg from '../assets/RiftZone2.jpg';
-import getbackImg from '../assets/getback1.png';
+import getbackImg from '../assets/Getback1.png';
 import farmaciaImg from '../assets/farmacia4.jpg';
 import sportsImg from '../assets/KustomsSports1.jpg';
 import travelImg from '../assets/travel.jpg';
