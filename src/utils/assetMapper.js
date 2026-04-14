@@ -9,6 +9,8 @@ import sportsImg from '../assets/KustomsSports1.jpg';
 import travelImg from '../assets/travel.jpg';
 import uj1 from '../assets/UJ1.jpg';
 import microlabImg from '../assets/microlab2.jpg';
+import hb1 from '../assets/hb1.jpg';
+
 
 // Detailed project images (from Project.jsx refactoring later)
 // For now, these are the main ones used in LandingPage
@@ -18,6 +20,7 @@ export const projectMainImages = {
   'farmaciaImg': farmaciaImg,
   'microlabImg': microlabImg,
   'sportsImg': sportsImg,
+  'hb1': hb1,
   'travelImg': travelImg,
   'riftZoneImg': riftZoneImg,
   'taitikoImg': taitikoImg,
@@ -27,11 +30,11 @@ export const projectMainImages = {
   7: getbackImg,
   8: farmaciaImg,
   12: microlabImg,
-  9: sportsImg,
   10: travelImg,
   6: riftZoneImg,
   1: taitikoImg,
-  2: apoceusImg
+  2: apoceusImg,
+  9: hb1
 };
 
 export const logos = {
@@ -52,6 +55,7 @@ export const logos = {
   electron: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg',
   materialui: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg',
   tailwind: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg',
+  zustand: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/zustand/zustand-original.svg'
 };
 
 export { avatar };

@@ -37,6 +37,7 @@ export function getAssetUrl(name) {
     'ks4': 'KustomsSports4.jpg', 'ks5': 'KustomsSports5.jpg', 'ks6': 'KustomsSports6.jpg',
     'ks7': 'KustomsSports7.jpg', 'ks8': 'KustomsSports8.jpg', 'ks9': 'KustomsSports9.jpg',
     'ks10': 'KustomsSports.jpg',
+    'hb1': 'hb1.jpg', 'hb2': 'hb2.jpg', 'hb3': 'hb3.jpg', 'hb4': 'hb4.jpg',
     'tw1': 'travel.jpg', 'tw2': 'travel2.jpg',
     'ts1': 'TSStopWatch.jpg',
     'uj1': 'UJ1.jpg', 'uj2': 'UJ2.png', 'uj3': 'UJ3.jpg', 'uj4': 'UJ4.png', 'uj5': 'UJ5.png',
@@ -50,6 +51,6 @@ export function getAssetUrl(name) {
 
   const fileName = mapping[name] || name;
   const path = `../assets/${fileName}`;
-  
+
   return allAssets[path]?.default || null;
 }

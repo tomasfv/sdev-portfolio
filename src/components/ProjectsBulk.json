@@ -161,7 +161,7 @@
       "demo": "https://demofarmacia.netlify.app/",
       "company": "https://www.instagram.com/farmacia.altopalermo",
       "store": false,
-      "code": false
+      "code": "https://github.com/tomasfv/DemoFarmacia-Frontend"
     },
     "intro": "",
     "description": "Freelance full-stack web application developed for a pharmacy to manage customers, healthcare plans, and transactional points. Built admin dashboards, authentication flows, CRUD operations, and REST API integrations connecting React frontend with a Node.js backend. Handled the full development lifecycle, including database design, backend creation and cloud deployment. Stack: React, JavaScript, Reactstrap, Node.js, PostgreSQL.",
@@ -186,6 +186,39 @@
       "fap2",
       "fap3",
       "fap4"
+    ]
+  },
+  {
+    "id": 9,
+    "type": 2,
+    "name": "Hardline Bikes",
+    "company": " - Personal Project",
+    "role": "Frontend Developer",
+    "date": "2026",
+    "links": {
+      "demo": "https://nextjs-ecommerce-one-gamma.vercel.app/",
+      "company": false,
+      "store": false,
+      "code": "https://github.com/tomasfv/nextjs-ecommerce"
+    },
+    "intro": "",
+    "description": "Frontend-focused e-commerce application built with Next.js and TypeScript, featuring a modern App Router architecture with Server and Client Components. Implemented dynamic product listing with filtering and sorting capabilities, individual product detail pages, and a complete checkout flow with Stripe integration. Managed global state using Zustand and designed a responsive, performant UI with Tailwind CSS. The application emphasizes scalability, clean component architecture, and efficient data handling across the user journey. Designed as a frontend-focused project to simulate real-world e-commerce workflows and user interactions.",
+    "category": "frontend",
+    "stack": [
+      "typescript",
+      "nextjs",
+      "react",
+      "tailwind",
+      "zustand"
+    ],
+    "contract": "Personal Project",
+    "contractColor": "#408BD6",
+    "videos": "",
+    "images": [
+      "hb1",
+      "hb2",
+      "hb3",
+      "hb4"
     ]
   },
   {
@@ -222,46 +255,6 @@
       "ml6",
       "ml7",
       "ml8"
-    ]
-  },
-  {
-    "id": 9,
-    "type": 1,
-    "name": "Kustoms Sports",
-    "company": " - Academic Team Project",
-    "role": "Frontend Developer",
-    "date": "from Sep. 2022 to Oct. 2022",
-    "links": {
-      "demo": false,
-      "company": false,
-      "store": false,
-      "code": "https://github.com/tomasfv/kustoms-sports"
-    },
-    "intro": "",
-    "description": "Team project consisting of an e-commerce web application with authentication, filters, shopping cart, and admin dashboard. Developed frontend components and integrated REST APIs, working with global state management and UI logic. Stack: React, Redux, Tailwind, Node.js, PostgreSQL. ",
-    "category": "frontend",
-    "stack": [
-      "javascript",
-      "html",
-      "css",
-      "react",
-      "tailwind",
-      "redux"
-    ],
-    "contract": "Academic Team Project",
-    "contractColor": "#F79D4F",
-    "videos": "https://www.youtube.com/embed/bM7t9NczBkY?si=G68xHHTmT17uf10D",
-    "images": [
-      "ks1",
-      "ks2",
-      "ks3",
-      "ks4",
-      "ks5",
-      "ks6",
-      "ks7",
-      "ks8",
-      "ks9",
-      "ks10"
     ]
   },
   {
