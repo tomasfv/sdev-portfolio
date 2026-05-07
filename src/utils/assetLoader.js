@@ -5,6 +5,12 @@ const allAssets = import.meta.glob('../assets/*.{png,jpg,jpeg,webp,jfif,svg,PNG,
  * @param {string} name - The key or relative filename (e.g. 'tk1', 'ttk1.jpeg')
  */
 export function getAssetUrl(name) {
+  if (!name) return null;
+
+  if (name.startsWith('http')) {
+    return name;
+  }
+
   // 1. Try exact match in the mapping
   const mapping = {
     'tk1': 'ttk1.jpeg', 'tk2': 'ttk2.webp', 'tk3': 'ttk3.webp', 'tk4': 'ttk4.png', 'tk5': 'ttk5.webp',

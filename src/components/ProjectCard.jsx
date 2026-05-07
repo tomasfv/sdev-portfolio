@@ -4,7 +4,7 @@ import { logos } from '../utils/assetMapper';
 export default function ProjectCard({ id, image, name, type, role, contract, contractColor, stack, category }) {
   return (
     <div className="col-lg-4 col-sm-6 mt-4">
-      <div className={`card ${category === "game" ? 'game-project-card-container' : 'project-card-container' }`}>
+      <div className={`card ${category === "game" ? 'game-project-card-container' : 'project-card-container'}`}>
         <img src={image} className={`card-img-top ${id === 8 ? 'project-card-img-small' : ''}`} alt={name} />
         <div className="card-body card-body-flex">
           <div className="tech-icons-container">

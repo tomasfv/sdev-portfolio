@@ -1,9 +1,19 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import './Carousel.css';
 
 // eslint-disable-next-line react/prop-types
 export default function Carousel({ images }) {
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    if (images && images.length > 0) {
+      // Preload all images
+      images.forEach((src) => {
+        const img = new Image();
+        img.src = src;
+      });
+    }
+  }, [images]);
 
   const nextSlide = () => {
     // eslint-disable-next-line react/prop-types
