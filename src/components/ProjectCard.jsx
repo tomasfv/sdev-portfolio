@@ -1,9 +1,12 @@
 import { Link } from 'react-router-dom';
 import { logos } from '../utils/assetMapper';
+import useReveal from '../hooks/useReveal';
 
 export default function ProjectCard({ id, image, name, type, role, contract, contractColor, stack, category }) {
+  const [cardRef, isVisible] = useReveal(0.1);
+
   return (
-    <div className="col-lg-4 col-sm-6 mt-4">
+    <div className={`col-lg-4 col-sm-6 mt-4 reveal ${isVisible ? 'active' : ''}`} ref={cardRef}>
       <div className={`card ${category === "game" ? 'game-project-card-container' : 'project-card-container'}`}>
         <img src={image} className={`card-img-top ${id === 8 ? 'project-card-img-small' : ''}`} alt={name} />
         <div className="card-body card-body-flex">

@@ -245,3 +245,15 @@ section.contact .social-media a {
   padding: 0 0.5rem;
   font-size: 1.3rem;
 }
+
+/* REVEAL ANIMATIONS */
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
