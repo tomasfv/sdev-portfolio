@@ -19,7 +19,7 @@ export default function LandingPage() {
       <Skills />
       <Contact />
       <footer className="text-center p-3 bg-body-tertiary">
-        <div>© 2025. All Rights Reserved.</div>
+        <div>© 2025. All Rights Reserved.Created with React and Bootstrap.</div>
       </footer>
     </>
   );

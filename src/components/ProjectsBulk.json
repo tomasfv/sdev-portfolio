@@ -108,46 +108,48 @@
     "contractColor": "#53b14a",
     "videos": "",
     "images": [
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/q_auto/f_auto/v1778165025/Getback1_cku6gs.png",
-      "gb2",
-      "gb3",
-      "gb4",
-      "gb5",
-      "gb6",
-      "gb7",
-      "gb8",
-      "gb9",
-      "gb10",
-      "gb11",
-      "gb12",
-      "gb13",
-      "gb14",
-      "gb15",
-      "gb16",
-      "gb17",
-      "gb18",
-      "gb19",
-      "gb20",
-      "gb21",
-      "gb22",
-      "gb23",
-      "gb24",
-      "gb25",
-      "gb26",
-      "gb27",
-      "gb28",
-      "gb29",
-      "gb30",
-      "gb31",
-      "gb32",
-      "gb33",
-      "gb34",
-      "gb35",
-      "gb36",
-      "gb37",
-      "gb38",
-      "gb39",
-      "gb40"
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165025/Getback1_cku6gs.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165026/Getback2_nkgclr.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165027/Getback3_zivlhj.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165028/Getback4_ftzd2z.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165029/Getback5_jhudkb.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165030/Getback6_vavavv.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165031/Getback7_ks2qp4.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165032/Getback8_hncp5b.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165032/Getback9_p1e9vd.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165034/Getback10_o12zo2.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165034/Getback11_lbb0ee.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165035/Getback12_pks55d.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165036/Getback13_ea5o8e.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165037/Getback14_b9njjw.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165038/Getback15_bw0b7t.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165039/Getback16_vmkdio.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165040/Getback17_jp0aiy.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165041/Getback18_mytlym.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165042/Getback19_wivk80.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165043/Getback20_xvfui9.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165044/Getback21_urnet3.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165045/Getback22_ivdmjc.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165045/Getback22_ivdmjc.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165046/Getback24_p82yss.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165047/Getback25_a4ds28.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165048/Getback26_hzyoic.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165050/Getback27_u37eyn.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165050/Getback28_uqmmv4.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165051/Getback29_l3f01a.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165054/Getback30_x9wl2i.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165054/Getback31_yozpyr.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165054/Getback32_hi9bzh.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165055/Getback33_xxbuld.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165056/Getback34_fjjgwn.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165057/Getback35_iniqzh.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165058/Getback36_is634f.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165059/Getback37_knzk4t.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165060/Getback38_yozf5n.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165061/Getback39_po5io7.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165062/Getback40_e1dcai.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165063/Getback41_iuzxvd.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165063/Getback42_bfhitf.png"
     ]
   },
   {
@@ -182,10 +184,11 @@
     "contractColor": "#53b14a",
     "videos": "",
     "images": [
-      "fap1",
-      "fap2",
-      "fap3",
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/q_auto/f_auto/v1778165023/farmacia4_now82r.jpg"
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165020/farmacia1_lajkfs.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165021/farmacia2_hcelqk.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165021/farmacia2_t4hqwi.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165023/farmacia4_now82r.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165023/farmacia3_kgulgg.jpg"
     ]
   },
   {
@@ -215,10 +218,10 @@
     "contractColor": "#408BD6",
     "videos": "",
     "images": [
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/q_auto/f_auto/v1778165065/hb1_b04gyn.jpg",
-      "hb2",
-      "hb3",
-      "hb4"
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165065/hb1_b04gyn.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165066/hb2_oocspr.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165066/hb3_j34dkt.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165067/hb4_bqh0zc.jpg"
     ]
   },
   {
@@ -247,14 +250,14 @@
     "contractColor": "#408BD6",
     "videos": "",
     "images": [
-      "ml1",
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/q_auto/f_auto/v1778165078/microlab2_tela21.jpg",
-      "ml3",
-      "ml4",
-      "ml5",
-      "ml6",
-      "ml7",
-      "ml8"
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165077/microlab_fwv6v6.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165078/microlab2_tela21.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165079/microlab3_jbwdkn.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165080/microlab4_tzvhp3.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165082/microlab5_nbwjp9.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165082/microlab6_mctfwe.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165083/microlab7_w9qxja.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165084/microlab8_egcqlb.jpg"
     ]
   },
   {
@@ -284,8 +287,8 @@
     "contractColor": "#408BD6",
     "videos": "",
     "images": [
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/q_auto/f_auto/v1778165088/travel_x4atp5.jpg",
-      "tw2"
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165088/travel_x4atp5.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165089/travel2_uauiuh.jpg"
     ]
   },
   {
@@ -312,7 +315,7 @@
     "contractColor": "#53b14a",
     "videos": "https://www.youtube.com/embed/3whSbV0Bbuc?si=l5pP_CxNAHBmbqhL",
     "images": [
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/q_auto/f_auto/v1778165086/RiftZone2_g6gwxa.jpg"
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165086/RiftZone2_g6gwxa.jpg"
     ]
   },
   {
@@ -339,19 +342,20 @@
     "contractColor": "#53b14a",
     "videos": "https://www.youtube.com/embed/qRfM_FgDWQ0?si=zf9544Cqdd7haSDA",
     "images": [
-      "tk1",
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/q_auto/f_auto/v1778165091/ttk2_ptaimf.webp",
-      "tk3",
-      "tk4",
-      "tk5",
-      "tk6",
-      "tk7",
-      "tk8",
-      "tk9",
-      "tk10",
-      "tk11",
-      "tk12",
-      "tk13"
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165087/taitiko_n6xg24.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165091/ttk2_ptaimf.webp",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165090/ttk1_zli25d.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165092/ttk3_skw1sd.webp",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165093/ttk4_xltagz.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165094/ttk5_mr3lev.webp",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165095/ttk6_kkaxmw.webp",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165096/ttk7_tgjhm4.webp",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165097/ttk8_dd2ot0.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165098/ttk9_ouvjrc.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778164983/ttk10_ygfifr.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778164984/ttk11_rtw0xs.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778164984/ttk12_zrkgfd.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778164984/ttk13_jvlvrc.jpg"
     ]
   },
   {
@@ -378,108 +382,18 @@
     "contractColor": "#53b14a",
     "videos": "https://www.youtube.com/embed/rFADxjYHDF0?si=6eLovQgeZH3f0ad-",
     "images": [
-      "ap1",
-      "ap2",
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/q_auto/f_auto/v1778165010/apoceus3_x5jbhp.jpg",
-      "ap4",
-      "ap5",
-      "ap6",
-      "ap7",
-      "ap8",
-      "ap9",
-      "ap10",
-      "ap11",
-      "ap12",
-      "ap13"
-    ]
-  },
-  {
-    "id": 3,
-    "type": 1,
-    "name": "Zombie Shooter",
-    "company": " - Personal Project",
-    "role": "Game Developer",
-    "date": "Published in 2023",
-    "links": {
-      "demo": "https://tomasfv.itch.io/zombie-shooter",
-      "company": false,
-      "store": false,
-      "code": "https://github.com/tomasfv/Zombie-Shooter-Github"
-    },
-    "intro": "Find the key, open the door, escape, survive . . .  ",
-    "description": "Top-down shoot 'em up focused on finding the way out of a building while the player dodges and shoots the zombies trying to kill him. For this project developed in Unity, I made use of programming techniques such as Object Pooling, implementation of animations, UI, video effects, sound and music, health systems, objects spawning, gameplay, and artificial intelligence among other features. On the other hand, I carried out video game design tasks such as level design, mechanics, gameplay, game rules, progression curve, challenges, difficulty balance, metrics, scoring, etc. The images were generated with Craiyon AI, the music was selected from Pixabay and the graphic assets from OpenGameArt.",
-    "category": "game",
-    "videos": "https://player.vimeo.com/video/1003637798?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "images": [
-      "zs1",
-      "zs2",
-      "zs3",
-      "zs4",
-      "zs5",
-      "zs6",
-      "zs7",
-      "zs8",
-      "zs9",
-      "zs10",
-      "zs11",
-      "zs12"
-    ]
-  },
-  {
-    "id": 4,
-    "type": 1,
-    "name": "Survival Nightmare",
-    "company": " - Personal Project",
-    "role": "Game Developer",
-    "date": "Published in 2023",
-    "links": {
-      "demo": "https://tomasfv.itch.io/survival-shooter",
-      "company": false,
-      "store": false,
-      "code": "https://github.com/tomasfv/Survival-Shooter"
-    },
-    "intro": "",
-    "description": "Action TPS developed in Unity and C# focused on surviving a nightmare in which the player must eliminate all the possessed toys that try to kill him. The Zombie Toys asset package offered by Unity was used to create this game. For programming I made use of resources such as Character Controller, AI Navigation, Raycast, and particles system, as well as UI programming, animations, health system, spawn system, SFX implementation and music. ",
-    "category": "game",
-    "videos": "https://player.vimeo.com/video/1003691294?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "images": [
-      "sn1",
-      "sn2",
-      "sn3",
-      "sn4",
-      "sn5",
-      "sn6",
-      "sn7",
-      "sn8",
-      "sn9"
-    ]
-  },
-  {
-    "id": 5,
-    "type": 1,
-    "name": "Doozy's World",
-    "company": " - Personal Project",
-    "role": "Game Developer",
-    "date": "Published in 2023",
-    "links": {
-      "demo": "https://tomasfv.itch.io/doozys-world",
-      "company": false,
-      "store": false,
-      "code": false
-    },
-    "intro": "",
-    "description": "Third-person adventure video game prototype, in which I carried out programming and development tasks related to Unity Terrain Tools, waypoints, player controller, Animation Trees, Cinemachine, Wind Zones, performance, optimization, UI, and Inventory, among others. The assets were selected from Mixamo and Unity Assets Store.",
-    "category": "game",
-    "videos": "https://player.vimeo.com/video/1003709266?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    "images": [
-      "dw1",
-      "dw2",
-      "dw3",
-      "dw4",
-      "dw5",
-      "dw6",
-      "dw7",
-      "dw8"
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165008/apoceus1_ppohrl.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165010/apoceus2_h2vohv.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165010/apoceus3_x5jbhp.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165011/apoceus4_wvevsf.webp",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165012/apoceus5_piqqcz.png",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165013/apoceus6_yyzogi.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165014/apoceus7_y7jzs7.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165015/apoceus8_dzt2qq.webp",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165017/apoceus9_gszzzz.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165017/apoceus10_ynhmpg.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165019/apoceus11_dgxevz.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165019/apoceus12_qcjg7b.jpg"
     ]
   }
 ]

@@ -8,10 +8,15 @@ export default function Carousel({ images }) {
 
   useEffect(() => {
     if (images && images.length > 0) {
-      // Preload all images
+      // Preload all images (standard and high-res for modal)
       images.forEach((src) => {
+        // Standard version
         const img = new Image();
         img.src = src;
+
+        // High-res version for modal
+        const imgHigh = new Image();
+        imgHigh.src = getHighResUrl(src);
       });
     }
   }, [images]);
