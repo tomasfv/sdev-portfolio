@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
-import Carousel from './Carousel';
+import Carousel from './Carousel/Carousel';
 import projectsData from '../utils/ProjectsBulk.json';
 
 export default function Project() {
