@@ -1,27 +1,22 @@
 import { useState, useEffect } from "react";
 import './Carousel.css';
 
-// eslint-disable-next-line react/prop-types
 export default function Carousel({ images }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     if (images && images.length > 0) {
-      // Preload all images (standard and high-res for modal)
       images.forEach((src) => {
-        // Standard version
         const img = new Image();
         img.src = src;
 
-        // High-res version for modal
         const imgHigh = new Image();
         imgHigh.src = getHighResUrl(src);
       });
     }
   }, [images]);
 
-  // Manejar tecla Escape para cerrar el modal
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (e.key === "Escape") closeModal();
@@ -35,15 +30,13 @@ export default function Carousel({ images }) {
   }, [isModalOpen]);
 
   const nextSlide = (e) => {
-    e.stopPropagation(); // Evitar que se cierre el modal si hacemos clic en la flecha
-    // eslint-disable-next-line react/prop-types
+    e.stopPropagation();
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
 
   const prevSlide = (e) => {
     e.stopPropagation();
     setCurrentIndex((prevIndex) =>
-      // eslint-disable-next-line react/prop-types
       prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
   };
@@ -51,10 +44,8 @@ export default function Carousel({ images }) {
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);
 
-  // Función para obtener imagen de alta resolución para el modal
   const getHighResUrl = (url) => {
     if (!url || typeof url !== 'string') return url;
-    // Si es Cloudinary, aumentamos el ancho de 800 a 1600 para que se vea el doble de grande y nítido
     return url.replace('w_800', 'w_1200');
   };
 
