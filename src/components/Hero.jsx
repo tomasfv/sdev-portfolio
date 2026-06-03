@@ -1,4 +1,4 @@
-import avatar from '../assets/avatar.svg';
+import avatar from "../assets/avatar.svg";
 
 export default function Hero() {
   return (
@@ -7,8 +7,8 @@ export default function Hero() {
         <div className="row align-items-center">
           <div className="col-sm-6">
             <h1 className="display-5 fw-bold">Tomas Fernandez Valdes</h1>
-            <h3>Frontend Software Engineer</h3>
-            <a href='#projects'>
+            <h3>Full Stack Software Engineer</h3>
+            <a href="#projects">
               <button className="btn btn-outline-dark btn-lg mt-3">
                 Projects
               </button>

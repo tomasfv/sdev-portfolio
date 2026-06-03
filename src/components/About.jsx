@@ -4,12 +4,26 @@ export default function About() {
       <div className="container">
         <h2 className="display-5 fw-bold mb-4">About Me</h2>
         <p>
-          My name is Tomás Fernández Valdés, a Frontend Software Engineer with C1-Advanced English level and experience developing scalable web and desktop applications using React, TypeScript, JavaScript, Next.js, Node.js, and PostgreSQL.
-          Experienced in user interface development, REST API integration, and building maintainable frontend architectures with strong focus on performance and usability. I have worked on production applications, Electron-based desktop systems, and SaaS platforms within international agile teams.
+          My name is Tomás Fernández Valdés, a Full Stack Software Engineer with
+          a C1 Advanced English level and professional experience building web
+          and desktop applications using React, TypeScript, Node.js, and
+          PostgreSQL. I have worked on scalable production systems, developing
+          end-to-end features across frontend, backend, and database layers. My
+          experience includes designing responsive user interfaces, building and
+          integrating REST APIs, modeling relational databases, implementing
+          business logic, and collaborating on software architecture decisions
+          with distributed international teams. Throughout my career, I have
+          contributed to SaaS platforms, desktop applications built with
+          Electron, administrative systems, and ticketing solutions, always
+          focusing on maintainability, performance, scalability, and user
+          experience.
         </p>
         <p>
-          I also have a background in game development using Unity and C#, which helped me develop strong problem-solving skills and a solid understanding of software architecture.
-          Passionate about technology and continuous learning, I enjoy working on innovative projects that deliver high-quality user experiences.
+          I also have a background in game development with Unity and C#, which
+          helped me develop strong problem-solving skills, systems thinking, and
+          adaptability across different software environments. I am passionate
+          about technology, continuous learning, and building reliable products
+          that create real value for users and businesses.
         </p>
       </div>
     </section>

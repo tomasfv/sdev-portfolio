@@ -90,7 +90,7 @@
       "code": false
     },
     "intro": "",
-    "description": "Frontend / Full Stack developer on a reverse logistics SaaS platform used by e-commerce businesses to manage returns and exchanges. Developed multi-step transactional forms, admin dashboards, and frontend features integrated with REST APIs and third-party platforms. Participated in debugging production issues using API inspection and cloud logs to ensure system reliability. Stack: React, TypeScript, Redux, Node.js, PostgreSQL, Express",
+    "description": "Full Stack Developer on a reverse logistics SaaS platform serving e-commerce businesses. Contributed to the development of scalable end-to-end features, including customer-facing workflows, administrative tools, REST API integrations, backend services, and database-driven functionality. Worked closely with product and engineering teams to deliver new features, investigate production issues, optimize application behavior, and maintain reliable integrations with third-party systems. Stack: React, TypeScript, Redux, Node.js, Express, Sequelize, PostgreSQL.",
     "category": "frontend",
     "stack": [
       "javascript",
@@ -166,7 +166,7 @@
       "code": "https://github.com/tomasfv/DemoFarmacia-Frontend"
     },
     "intro": "",
-    "description": "Freelance full-stack web application developed for a pharmacy to manage customers, healthcare plans, and transactional points. Built admin dashboards, authentication flows, CRUD operations, and REST API integrations connecting React frontend with a Node.js backend. Handled the full development lifecycle, including database design, backend creation and cloud deployment. Stack: React, JavaScript, Reactstrap, Node.js, PostgreSQL.",
+    "description": "Designed and developed a full-stack web application for a pharmacy to manage customers, healthcare plans, and transactional points. Owned the entire development lifecycle, including requirements analysis, database design, backend development, frontend implementation, API design, authentication and authorization, deployment, and maintenance. Built administrative dashboards, CRUD workflows, and RESTful services connecting a React frontend with a Node.js and PostgreSQL backend, delivering a complete solution tailored to the client's operational needs. Stack: React, JavaScript, Reactstrap, Node.js, Express, Sequelize, PostgreSQL.",
     "category": "frontend",
     "stack": [
       "javascript",
