@@ -192,6 +192,43 @@
     ]
   },
   {
+    "id": 10,
+    "type": 2,
+    "name": "Accounts Payable App",
+    "company": " - Personal Project",
+    "role": "Full Stack Web Developer",
+    "date": "Published in 2026",
+    "links": {
+      "demo": "https://accounts-payable.netlify.app/",
+      "company": false,
+      "store": false,
+      "code": "https://github.com/tomasfv/AccountsPayableClient"
+    },
+    "intro": "",
+    "description": "A full-stack invoice and payment management application inspired by Ramp and Melio. Enables billing teams to create, approve, schedule, and pay vendor invoices with full PDF attachment support, role-based access control, and a clean dark-themed UI. Stack: React, TypeScript, Tailwind CSS, Redux Toolkit, Node.js, Express, Sequelize, PostgreSQL.",
+    "category": "frontend",
+    "stack": [
+      "typescript",
+      "react",
+      "redux",
+      "tailwind",
+      "node",
+      "express",
+      "sequelize",
+      "postgre"
+    ],
+    "contract": "Personal Project",
+    "contractColor": "#408BD6",
+    "videos": "",
+    "images": [
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1780659404/APlogin_njgztj.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1780659404/APBills_n0woiv.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1780659902/APBillDetail_yazz5l.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1780659405/APReports_bjpmzu.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1780659768/APSettings_eqthc8.jpg"
+    ]
+  },
+  {
     "id": 9,
     "type": 2,
     "name": "Hardline Bikes",
@@ -258,37 +295,6 @@
       "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165082/microlab6_mctfwe.jpg",
       "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165083/microlab7_w9qxja.jpg",
       "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165084/microlab8_egcqlb.jpg"
-    ]
-  },
-  {
-    "id": 10,
-    "type": 2,
-    "name": "Travel Website",
-    "company": " - Personal Project",
-    "role": "Frontend Developer",
-    "date": "Published in 2022",
-    "links": {
-      "demo": "https://travel-website-tomasfv.vercel.app/",
-      "company": false,
-      "store": false,
-      "code": "https://github.com/tomasfv/TravelWebsite"
-    },
-    "intro": "",
-    "description": "Personal frontend project consisting of a travel website landing page. Built UI layout and components using React, focusing on structure and basic component composition. Stack: React, JavaScript, CSS.",
-    "category": "frontend",
-    "stack": [
-      "javascript",
-      "html",
-      "css",
-      "react",
-      "redux"
-    ],
-    "contract": "Personal Project",
-    "contractColor": "#408BD6",
-    "videos": "",
-    "images": [
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165088/travel_x4atp5.jpg",
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165089/travel2_uauiuh.jpg"
     ]
   },
   {
