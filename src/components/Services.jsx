@@ -40,7 +40,7 @@ export default function Services() {
           <ServiceCard
             icon={faGear}
             title="Backend, APIs & Deployment"
-            text="Node.js, Express.js, PostgreSQL, REST APIs, Sequelize, Netlify, Railway, Cloud Deployment."
+            text="Node.js, Express.js, PostgreSQL, REST APIs, AI/LLM Integration (Groq), Sequelize, Netlify, Railway, Cloud Deployment."
           />
           <ServiceCard
             icon={faGamepad}

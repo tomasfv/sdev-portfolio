@@ -19,6 +19,7 @@ export default function Skills() {
     { name: 'Sequelize', logo: logos.sequelize },
     { name: 'Unity3D', logo: logos.unity },
     { name: 'C#', logo: logos.csharp },
+    { name: 'AI LLM Integration', logo: logos.groq },
   ];
 
   return (

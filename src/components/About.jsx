@@ -10,13 +10,13 @@ export default function About() {
           PostgreSQL. I have worked on scalable production systems, developing
           end-to-end features across frontend, backend, and database layers. My
           experience includes designing responsive user interfaces, building and
-          integrating REST APIs, modeling relational databases, implementing
-          business logic, and collaborating on software architecture decisions
-          with distributed international teams. Throughout my career, I have
-          contributed to SaaS platforms, desktop applications built with
-          Electron, administrative systems, and ticketing solutions, always
-          focusing on maintainability, performance, scalability, and user
-          experience.
+          integrating REST APIs, integrating LLM APIs (such as Groq), modeling
+          relational databases, implementing business logic, and collaborating on
+          software architecture decisions with distributed international teams.
+          Throughout my career, I have contributed to SaaS platforms, desktop
+          applications built with Electron, administrative systems, and ticketing
+          solutions, always focusing on maintainability, performance, scalability,
+          and user experience.
         </p>
         <p>
           I also have a background in game development with Unity and C#, which
@@ -24,6 +24,11 @@ export default function About() {
           adaptability across different software environments. I am passionate
           about technology, continuous learning, and building reliable products
           that create real value for users and businesses.
+        </p>
+        <p>
+          I am currently expanding my backend and AI skill set through Python
+          and modern API development technologies, with a particular interest in
+          AI integrations, automation, and scalable backend systems.
         </p>
       </div>
     </section>
