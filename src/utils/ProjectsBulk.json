@@ -194,7 +194,7 @@
   {
     "id": 10,
     "type": 2,
-    "name": "Accounts Payable App",
+    "name": "AI-Powered Accounts Payable Platform",
     "company": " - Personal Project",
     "role": "Full Stack Web Developer",
     "date": "Published in 2026",
@@ -205,7 +205,7 @@
       "code": "https://github.com/tomasfv/AccountsPayableClient"
     },
     "intro": "",
-    "description": "A full-stack invoice and payment management application inspired by Ramp and Melio. Enables billing teams to create, approve, schedule, and pay vendor invoices with full PDF attachment support, role-based access control, and a clean dark-themed UI. Stack: React, TypeScript, Tailwind CSS, Redux Toolkit, Node.js, Express, Sequelize, PostgreSQL.",
+    "description": "AI-powered Accounts Payable platform inspired by Ramp and Melio. Features end-to-end invoice workflows, role-based approvals, payment scheduling, PDF management, and an integrated financial AI assistant capable of answering natural-language questions using real-time PostgreSQL data. Built with React, TypeScript, Node.js, Express, Sequelize, PostgreSQL, and Groq LLMs.",
     "category": "frontend",
     "stack": [
       "typescript",
@@ -215,7 +215,8 @@
       "node",
       "express",
       "sequelize",
-      "postgre"
+      "postgre",
+      "groq"
     ],
     "contract": "Personal Project",
     "contractColor": "#408BD6",
@@ -223,6 +224,7 @@
     "images": [
       "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1780659404/APlogin_njgztj.jpg",
       "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1780659404/APBills_n0woiv.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1780948738/APAiassistant_b8ohd3.jpg",
       "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1780659902/APBillDetail_yazz5l.jpg",
       "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1780659405/APReports_bjpmzu.jpg",
       "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1780659768/APSettings_eqthc8.jpg"

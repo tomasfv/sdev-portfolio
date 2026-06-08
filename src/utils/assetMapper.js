@@ -17,6 +17,7 @@ export const logos = {
   electron: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg',
   materialui: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg',
   tailwind: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg',
-  zustand: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/zustand/zustand-original.svg'
+  zustand: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/zustand/zustand-original.svg',
+  groq: 'https://hdrobots.com/wp-content/uploads/2024/03/groq-logo.webp'
 };
 
