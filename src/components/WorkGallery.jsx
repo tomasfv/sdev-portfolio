@@ -12,9 +12,13 @@ export default function WorkGallery() {
   return (
     <section className="projects" id="projects">
       <div className="container">
-        <h2 className="display-5 fw-bold mb-4">My Work</h2>
+        <div className="section-title-container">
+          <h2 className="section-title">My Work</h2>
+        </div>
 
-        <h1 className="fw-bold mt-4">Web & Desktop Applications</h1>
+        <div className="gallery-subheading-container">
+          <h3 className="gallery-subheading">Web & Desktop Applications</h3>
+        </div>
         <div className="row">
           {frontendProjects.map((project) => (
             <ProjectCard
@@ -25,7 +29,9 @@ export default function WorkGallery() {
           ))}
         </div>
 
-        <h1 className="fw-bold my-4">Game Development Experience</h1>
+        <div className="gallery-subheading-container">
+          <h3 className="gallery-subheading">Game Development Experience</h3>
+        </div>
         <div className="row">
           {gameProjects.map((project) => (
             <ProjectCard

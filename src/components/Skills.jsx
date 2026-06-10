@@ -135,7 +135,9 @@ export default function Skills() {
   return (
     <section className="skills-section" id="testimonials">
       <div className="container-fluid px-0">
-        <h2 className="display-5 fw-bold mb-5 text-center">Skills</h2>
+        <div className="section-title-container">
+          <h2 className="section-title">Skills</h2>
+        </div>
         <div
           className={`skills-marquee-container ${isDragging ? "dragging" : ""}`}
           ref={containerRef}

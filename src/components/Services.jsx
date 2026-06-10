@@ -30,7 +30,9 @@ export default function Services() {
   return (
     <section className="services" id="services">
       <div className="container">
-        <h2 className="display-5 fw-bold mb-4">What I Do </h2>
+        <div className="section-title-container">
+          <h2 className="section-title">What I Do</h2>
+        </div>
         <div className="row">
           <ServiceCard
             icon={faLaptopCode}
