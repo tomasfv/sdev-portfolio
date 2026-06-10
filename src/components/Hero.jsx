@@ -2,23 +2,43 @@ import avatar from "../assets/avatar.svg";
 
 export default function Hero() {
   return (
-    <section className="hero" id="hero">
-      <div className="container-lg">
-        <div className="row align-items-center">
-          <div className="col-sm-6">
-            <h1 className="display-5 fw-bold">Tomas Fernandez Valdes</h1>
-            <h3>Full Stack Software Engineer</h3>
-            <a href="#projects">
-              <button className="btn btn-outline-dark btn-lg mt-3">
+    <section className="hero-section" id="hero">
+      <div className="hero-bg-pattern"></div>
+      <div className="container-lg position-relative">
+        <div className="row align-items-center gy-5">
+          <div className="col-lg-6 hero-text-container text-start">
+            <div className="hero-badge mb-3">
+              <span className="hero-badge-dot"></span>
+              <span className="hero-badge-text">Open to new opportunities</span>
+            </div>
+            <h1 className="hero-title fw-extrabold mb-3">
+              Tomas <span className="highlight-text">Fernandez</span> Valdes
+            </h1>
+            <h2 className="hero-subtitle mb-4">
+              Full Stack Software Engineer
+            </h2>
+            <p className="hero-lead mb-4">
+              Building high-performance web applications, scalable backend systems, and interactive experiences. 
+              Focused on crafting clean code and excellent user experiences.
+            </p>
+            <div className="hero-buttons-wrapper">
+              <a href="#projects" className="hero-btn-primary">
                 Projects
-              </button>
-            </a>
+              </a>
+              <a href="#contact" className="hero-btn-secondary">
+                Contact Me
+              </a>
+            </div>
           </div>
-          <div className="col-sm-6 text-center">
-            <img src={avatar} className="img-fluid" alt="avatar" />
+          <div className="col-lg-6 text-center">
+            <div className="hero-avatar-wrapper">
+              <div className="hero-avatar-backdrop"></div>
+              <img src={avatar} className="hero-avatar-img img-fluid" alt="Tomas avatar" />
+            </div>
           </div>
         </div>
       </div>
     </section>
   );
 }
+
