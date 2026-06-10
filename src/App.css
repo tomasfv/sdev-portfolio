@@ -5,7 +5,6 @@ body {
   font-style: normal;
 }
 
-
 :root {
   --first-color: #53b14a;
 }
@@ -291,7 +290,6 @@ section .card:hover {
   }
 }
 
-
 /* SERVICES */
 
 section.services i {
@@ -446,7 +444,6 @@ section.services i {
   }
 }
 
-
 /* PROJECTS */
 
 section.projects .card {
@@ -502,7 +499,6 @@ section.projects .card img {
   height: 165px;
 }
 
-
 .responsive-video {
   max-width: 800px;
   margin: 0 auto;
@@ -513,13 +509,11 @@ section.projects .card img {
 }
 
 @media (max-width: 768px) {
-
   .responsive-video,
   .responsive-img {
     max-width: 100%;
   }
 }
-
 
 /* TESTIMONIALS */
 
@@ -546,8 +540,6 @@ section.testimonials .carousel-item {
   transition: opacity 0.35s ease-in-out !important;
 }
 
-
-
 .skill-logo {
   height: 200px;
   width: 200px;
@@ -555,9 +547,75 @@ section.testimonials .carousel-item {
 
 /* CONTACT */
 
-section.contact .social-media a {
-  padding: 0 0.5rem;
-  font-size: 1.3rem;
+.contact-card {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 12px;
+  box-shadow: 4px 4px 0px #000000;
+  padding: 2rem 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  transition: all 0.3s ease-in-out;
+  color: #000000;
+}
+
+.contact-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 6px 6px 0px var(--first-color);
+  color: #000000;
+}
+
+.contact-card-icon {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.contact-card-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #666666;
+  font-weight: 700;
+}
+
+.contact-card-value {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #000000;
+  word-break: break-all;
+}
+
+.contact-social-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.2rem;
+  font-size: 1.8rem;
+}
+
+.contact-social-row a {
+  color: #000000;
+  transition:
+    color 0.3s,
+    transform 0.3s;
+}
+
+.contact-social-row a:hover {
+  color: var(--first-color);
+  transform: scale(1.15);
+}
+
+.contact-footer {
+  margin-top: 3.5rem;
+  padding-top: 1.5rem;
+  border-top: 2px dashed #cccccc;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #666666;
 }
 
 /* REVEAL ANIMATIONS */
@@ -591,16 +649,20 @@ section.contact .social-media a {
   scroll-behavior: auto;
 
   /* Fade effect at the edges */
-  mask-image: linear-gradient(to right,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 1) 15%,
-      rgba(0, 0, 0, 1) 85%,
-      rgba(0, 0, 0, 0) 100%);
-  -webkit-mask-image: linear-gradient(to right,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 1) 15%,
-      rgba(0, 0, 0, 1) 85%,
-      rgba(0, 0, 0, 0) 100%);
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 15%,
+    rgba(0, 0, 0, 1) 85%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 15%,
+    rgba(0, 0, 0, 1) 85%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 .skills-marquee-container.dragging {
@@ -626,7 +688,9 @@ section.contact .social-media a {
   padding: 0.9rem 1.6rem;
   box-shadow: 4px 4px 0px #000000;
   white-space: nowrap;
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  transition:
+    transform 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
   cursor: inherit;
   pointer-events: auto;
 }
