@@ -2,9 +2,7 @@
   position: relative;
   width: 100%;
   max-width: 850px;
-  /* Ajusta según tu diseño */
   height: 500px;
-  /* Ajusta según tu diseño */
   margin: auto;
   overflow: hidden;
   display: flex;
@@ -12,9 +10,8 @@
   align-items: center;
   border: 2px solid black;
   border-radius: 10px;
-  box-shadow: 4px 4px black;
+  box-shadow: 6px 6px var(--first-color);
   background-color: rgb(0, 0, 0);
-  /* Fondo para evitar espacios vacíos */
 }
 
 .myCarousel-slide {
@@ -69,7 +66,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
+  z-index: 2000;
   backdrop-filter: blur(5px);
   animation: fadeIn 0.3s ease-out;
 }

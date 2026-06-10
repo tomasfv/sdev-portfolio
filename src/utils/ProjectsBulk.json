@@ -205,7 +205,7 @@
       "code": "https://github.com/tomasfv/AccountsPayableClient"
     },
     "intro": "",
-    "description": "AI-powered Accounts Payable platform inspired by Ramp and Melio. Features end-to-end invoice workflows, role-based approvals, payment scheduling, PDF management, and an integrated financial AI assistant capable of answering natural-language questions using real-time PostgreSQL data. Built with React, TypeScript, Node.js, Express, Sequelize, PostgreSQL, and Groq LLMs.",
+    "description": "AI-powered Accounts Payable platform inspired by Ramp and Melio. Features end-to-end invoice workflows, role-based approvals, payment scheduling, PDF management, automated frontend and backend testing, and an integrated financial AI assistant capable of answering natural-language questions using real-time PostgreSQL data. Built with React, TypeScript, Node.js, Express, Sequelize, PostgreSQL, Vitest, React Testing Library, and Groq LLMs.",
     "category": "frontend",
     "stack": [
       "typescript",

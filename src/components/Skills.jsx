@@ -1,6 +1,15 @@
+import { useRef, useEffect, useState } from "react";
 import { logos } from "../utils/assetMapper";
 
 export default function Skills() {
+  const containerRef = useRef(null);
+  const isDownRef = useRef(false);
+  const startXRef = useRef(0);
+  const scrollLeftRef = useRef(0);
+  const animationFrameId = useRef(null);
+  const [isDragging, setIsDragging] = useState(false);
+  const autoScrollSpeed = 1.2;
+
   const skillsList = [
     { name: "React", logo: logos.react },
     { name: "Redux", logo: logos.redux },
@@ -24,51 +33,143 @@ export default function Skills() {
     { name: "C#", logo: logos.csharp },
   ];
 
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+
+    const animate = () => {
+      if (!isDownRef.current) {
+        container.scrollLeft += autoScrollSpeed;
+
+        const halfWidth = container.scrollWidth / 2;
+        if (container.scrollLeft >= halfWidth) {
+          container.scrollLeft -= halfWidth;
+        }
+      }
+      animationFrameId.current = requestAnimationFrame(animate);
+    };
+
+    animationFrameId.current = requestAnimationFrame(animate);
+
+    return () => {
+      if (animationFrameId.current) {
+        cancelAnimationFrame(animationFrameId.current);
+      }
+    };
+  }, []);
+
+  const handleMouseDown = (e) => {
+    const container = containerRef.current;
+    if (!container) return;
+    isDownRef.current = true;
+    setIsDragging(true);
+    startXRef.current = e.pageX - container.offsetLeft;
+    scrollLeftRef.current = container.scrollLeft;
+  };
+
+  const handleMouseLeave = () => {
+    isDownRef.current = false;
+    setIsDragging(false);
+  };
+
+  const handleMouseUp = () => {
+    isDownRef.current = false;
+    setIsDragging(false);
+  };
+
+  const handleMouseMove = (e) => {
+    if (!isDownRef.current) return;
+    e.preventDefault();
+    const container = containerRef.current;
+    if (!container) return;
+    const x = e.pageX - container.offsetLeft;
+    const walk = (x - startXRef.current) * 1.5; // Ajuste de sensibilidad del arrastre
+    container.scrollLeft = scrollLeftRef.current - walk;
+
+    const halfWidth = container.scrollWidth / 2;
+    if (container.scrollLeft >= halfWidth) {
+      container.scrollLeft -= halfWidth;
+      startXRef.current = x;
+      scrollLeftRef.current = container.scrollLeft;
+    } else if (container.scrollLeft <= 0) {
+      container.scrollLeft += halfWidth;
+      startXRef.current = x;
+      scrollLeftRef.current = container.scrollLeft;
+    }
+  };
+
+  const handleTouchStart = (e) => {
+    const container = containerRef.current;
+    if (!container) return;
+    isDownRef.current = true;
+    setIsDragging(true);
+    startXRef.current = e.touches[0].pageX - container.offsetLeft;
+    scrollLeftRef.current = container.scrollLeft;
+  };
+
+  const handleTouchEnd = () => {
+    isDownRef.current = false;
+    setIsDragging(false);
+  };
+
+  const handleTouchMove = (e) => {
+    if (!isDownRef.current) return;
+    const container = containerRef.current;
+    if (!container) return;
+    const x = e.touches[0].pageX - container.offsetLeft;
+    const walk = (x - startXRef.current) * 1.5;
+    container.scrollLeft = scrollLeftRef.current - walk;
+
+    const halfWidth = container.scrollWidth / 2;
+    if (container.scrollLeft >= halfWidth) {
+      container.scrollLeft -= halfWidth;
+      startXRef.current = x;
+      scrollLeftRef.current = container.scrollLeft;
+    } else if (container.scrollLeft <= 0) {
+      container.scrollLeft += halfWidth;
+      startXRef.current = x;
+      scrollLeftRef.current = container.scrollLeft;
+    }
+  };
+
   return (
-    <section className="testimonials" id="testimonials">
-      <div className="container">
-        <h2 className="display-5 fw-bold mb-4">Skills</h2>
+    <section className="skills-section" id="testimonials">
+      <div className="container-fluid px-0">
+        <h2 className="display-5 fw-bold mb-5 text-center">Skills</h2>
         <div
-          id="carouselExample"
-          className="carousel slide carousel-dark carousel-fade"
+          className={`skills-marquee-container ${isDragging ? "dragging" : ""}`}
+          ref={containerRef}
+          onMouseDown={handleMouseDown}
+          onMouseLeave={handleMouseLeave}
+          onMouseUp={handleMouseUp}
+          onMouseMove={handleMouseMove}
+          onTouchStart={handleTouchStart}
+          onTouchEnd={handleTouchEnd}
+          onTouchMove={handleTouchMove}
         >
-          <div className="carousel-inner">
+          <div className="skills-marquee-track">
             {skillsList.map((skill, index) => (
-              <div
-                className={`carousel-item ${index === 0 ? "active" : ""}`}
-                key={skill.name}
-              >
-                <h5>{skill.name}</h5>
-                <img src={skill.logo} alt={skill.name} className="skill-logo" />
+              <div className="skill-marquee-card" key={`${skill.name}-1-${index}`}>
+                <div className="skill-marquee-logo-wrapper">
+                  <img src={skill.logo} alt={skill.name} className="skill-marquee-logo" />
+                </div>
+                <span className="skill-marquee-name">{skill.name}</span>
+              </div>
+            ))}
+            {/* Duplicado para efecto scroll infinito */}
+            {skillsList.map((skill, index) => (
+              <div className="skill-marquee-card" key={`${skill.name}-2-${index}`}>
+                <div className="skill-marquee-logo-wrapper">
+                  <img src={skill.logo} alt={skill.name} className="skill-marquee-logo" />
+                </div>
+                <span className="skill-marquee-name">{skill.name}</span>
               </div>
             ))}
           </div>
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide="prev"
-          >
-            <span
-              className="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide="next"
-          >
-            <span
-              className="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Next</span>
-          </button>
         </div>
       </div>
     </section>
   );
 }
+
+
