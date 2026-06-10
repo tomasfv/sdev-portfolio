@@ -14,12 +14,11 @@ export default function Hero() {
             <h1 className="hero-title fw-extrabold mb-3">
               Tomas <span className="highlight-text">Fernandez</span> Valdes
             </h1>
-            <h2 className="hero-subtitle mb-4">
-              Full Stack Software Engineer
-            </h2>
+            <h2 className="hero-subtitle mb-4">Full Stack Software Engineer</h2>
             <p className="hero-lead mb-4">
-              Building high-performance web applications, scalable backend systems, and interactive experiences. 
-              Focused on crafting clean code and excellent user experiences.
+              Building high-performance web applications, robust backend
+              services, and interactive experiences. Focused on clean
+              architecture, maintainable code, and long-term scalability.
             </p>
             <div className="hero-buttons-wrapper">
               <a href="#projects" className="hero-btn-primary">
@@ -33,7 +32,11 @@ export default function Hero() {
           <div className="col-lg-6 text-center">
             <div className="hero-avatar-wrapper">
               <div className="hero-avatar-backdrop"></div>
-              <img src={avatar} className="hero-avatar-img img-fluid" alt="Tomas avatar" />
+              <img
+                src={avatar}
+                className="hero-avatar-img img-fluid"
+                alt="Tomas avatar"
+              />
             </div>
           </div>
         </div>
@@ -41,4 +44,3 @@ export default function Hero() {
     </section>
   );
 }
-
