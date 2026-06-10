@@ -216,7 +216,9 @@
       "express",
       "sequelize",
       "postgre",
-      "groq"
+      "groq",
+      "vitest",
+      "reacttesting"
     ],
     "contract": "Personal Project",
     "contractColor": "#408BD6",
