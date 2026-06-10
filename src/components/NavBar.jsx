@@ -1,8 +1,32 @@
+import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function NavBar() {
   const navigate = useNavigate();
+  const [activeSection, setActiveSection] = useState("hero");
+
+  useEffect(() => {
+    const sections = ["hero", "services", "about", "projects", "testimonials", "contact"];
+    const observers = [];
+
+    sections.forEach((id) => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          if (entry.isIntersecting) {
+            setActiveSection(id);
+          }
+        },
+        { threshold: 0.3 },
+      );
+      observer.observe(el);
+      observers.push(observer);
+    });
+
+    return () => observers.forEach((obs) => obs.disconnect());
+  }, []);
 
   const handleNavigation = (path, sectionId) => {
     navigate(path);
@@ -14,11 +38,19 @@ export default function NavBar() {
     }, 100);
   };
 
+  const navLinks = [
+    { label: "Home", section: "hero" },
+    { label: "Services", section: "services" },
+    { label: "About", section: "about" },
+    { label: "Projects", section: "projects" },
+    { label: "Skills", section: "testimonials" },
+  ];
+
   return (
-    <nav className="navbar navbar-expand-lg sticky-top shadow-sm">
+    <nav className="navbar navbar-expand-lg sticky-top">
       <div className="container-lg">
         <Link to="/" className="navbar-brand fw-bold">
-          Tomas Fernandez Valdes
+          <span className="highlight-text">Tomas</span> Fernandez Valdes
         </Link>
         <button
           className="navbar-toggler"
@@ -29,55 +61,23 @@ export default function NavBar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-bar"></span>
+          <span className="navbar-toggler-bar"></span>
+          <span className="navbar-toggler-bar"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto">
-            <li className="nav-item">
-              <span
-                className="nav-link"
-                onClick={() => handleNavigation("/", "hero")}
-                style={{ cursor: "pointer" }}
-              >
-                Home
-              </span>
-            </li>
-            <li className="nav-item">
-              <span
-                className="nav-link"
-                onClick={() => handleNavigation("/", "services")}
-                style={{ cursor: "pointer" }}
-              >
-                Services
-              </span>
-            </li>
-            <li className="nav-item">
-              <span
-                className="nav-link"
-                onClick={() => handleNavigation("/", "about")}
-                style={{ cursor: "pointer" }}
-              >
-                About
-              </span>
-            </li>
-            <li className="nav-item">
-              <span
-                className="nav-link"
-                onClick={() => handleNavigation("/", "projects")}
-                style={{ cursor: "pointer" }}
-              >
-                Projects
-              </span>
-            </li>
-            <li className="nav-item">
-              <span
-                className="nav-link"
-                onClick={() => handleNavigation("/", "testimonials")}
-                style={{ cursor: "pointer" }}
-              >
-                Skills
-              </span>
-            </li>
+            {navLinks.map((link) => (
+              <li className="nav-item" key={link.section}>
+                <span
+                  className={`nav-link${activeSection === link.section ? " active" : ""}`}
+                  onClick={() => handleNavigation("/", link.section)}
+                  style={{ cursor: "pointer" }}
+                >
+                  {link.label}
+                </span>
+              </li>
+            ))}
             <li className="nav-item">
               <span
                 className="nav-link d-lg-none"
@@ -87,30 +87,33 @@ export default function NavBar() {
                 Contact
               </span>
             </li>
-            <li className="nav-item">
+            <li className="nav-item d-lg-none">
               <a
                 href="TomásFernándezValdés_FullStack_ENG2026.pdf"
                 download="TomásFernándezValdés_FullStack_ENG2026.pdf"
-                className="nav-link d-lg-none"
+                className="nav-link"
               >
                 Download CV
               </a>
             </li>
           </ul>
-          <span
-            className="btn btn-outline-dark d-none d-lg-block me-4"
-            onClick={() => handleNavigation("/", "contact")}
-            style={{ cursor: "pointer" }}
-          >
-            Lets Talk
-          </span>
-          <a
-            href="/TomásFernándezValdés_FullStack_ENG2026.pdf"
-            download="TomásFernándezValdés_FullStack_ENG2026.pdf"
-            className="btn btn-outline-dark d-none d-lg-block"
-          >
-            Download CV
-          </a>
+          <div className="d-none d-lg-flex align-items-center gap-3">
+            <span
+              className="hero-btn-primary"
+              onClick={() => handleNavigation("/", "contact")}
+              style={{ cursor: "pointer", fontSize: "0.9rem", padding: "0.5rem 1.2rem" }}
+            >
+              Lets Talk
+            </span>
+            <a
+              href="/TomásFernándezValdés_FullStack_ENG2026.pdf"
+              download="TomásFernándezValdés_FullStack_ENG2026.pdf"
+              className="hero-btn-secondary"
+              style={{ fontSize: "0.9rem", padding: "0.5rem 1.2rem" }}
+            >
+              Download CV
+            </a>
+          </div>
         </div>
       </div>
     </nav>
