@@ -7,7 +7,14 @@ export default function NavBar() {
   const [activeSection, setActiveSection] = useState("hero");
 
   useEffect(() => {
-    const sections = ["hero", "services", "about", "projects", "testimonials", "contact"];
+    const sections = [
+      "hero",
+      "services",
+      "about",
+      "projects",
+      "testimonials",
+      "contact",
+    ];
     const observers = [];
 
     sections.forEach((id) => {
@@ -101,7 +108,11 @@ export default function NavBar() {
             <span
               className="hero-btn-primary"
               onClick={() => handleNavigation("/", "contact")}
-              style={{ cursor: "pointer", fontSize: "0.9rem", padding: "0.5rem 1.2rem" }}
+              style={{
+                cursor: "pointer",
+                fontSize: "0.9rem",
+                padding: "0.5rem 1.2rem",
+              }}
             >
               Lets Talk
             </span>
