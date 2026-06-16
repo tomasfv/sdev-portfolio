@@ -25,7 +25,7 @@
     "type": 2,
     "name": "Universo Tickets Desktop",
     "company": " - Odaclick/Exomindset",
-    "role": "Frontend Developer",
+    "role": "Frontend Software Engineer",
     "date": "From Jun.2025",
     "links": {
       "demo": false,
@@ -38,12 +38,12 @@
     "category": "frontend",
     "stack": [
       "typescript",
-      "html",
-      "css",
       "react",
-      "materialui",
       "electron",
-      "redux"
+      "redux",
+      "materialui",
+      "html",
+      "css"
     ],
     "contract": "Full-time Contract",
     "contractColor": "#53b14a",
@@ -93,12 +93,12 @@
     "description": "Full Stack Developer on a reverse logistics SaaS platform serving e-commerce businesses. Contributed to the development of scalable end-to-end features, including customer-facing workflows, administrative tools, REST API integrations, backend services, and database-driven functionality. Worked closely with product and engineering teams to deliver new features, investigate production issues, optimize application behavior, and maintain reliable integrations with third-party systems. Stack: React, TypeScript, Redux, Node.js, Express, Sequelize, PostgreSQL.",
     "category": "frontend",
     "stack": [
-      "javascript",
       "typescript",
-      "html",
-      "css",
+      "javascript",
       "react",
       "redux",
+      "html",
+      "css",
       "node",
       "express",
       "postgre",
@@ -155,26 +155,26 @@
   {
     "id": 8,
     "type": 2,
-    "name": "Points App",
+    "name": "PharmaCare CRM",
     "company": " - Farmacia Alto Palermo",
-    "role": "Full Stack Web Developer",
-    "date": "Published in 2024",
+    "role": "Full Stack Software Engineer",
+    "date": "From 2024 to Present",
     "links": {
-      "demo": "https://demofarmacia.netlify.app/",
+      "demo": "https://pharmacycrm-client.vercel.app",
       "company": "https://www.instagram.com/farmacia.altopalermo",
       "store": false,
-      "code": "https://github.com/tomasfv/DemoFarmacia-Frontend"
+      "code": "https://github.com/tomasfv/pharmacycrm-client"
     },
     "intro": "",
-    "description": "Designed and developed a full-stack web application for a pharmacy to manage customers, healthcare plans, and transactional points. Owned the entire development lifecycle, including requirements analysis, database design, backend development, frontend implementation, API design, authentication and authorization, deployment, and maintenance. Built administrative dashboards, CRUD workflows, and RESTful services connecting a React frontend with a Node.js and PostgreSQL backend, delivering a complete solution tailored to the client's operational needs. Stack: React, JavaScript, Reactstrap, Node.js, Express, Sequelize, PostgreSQL.",
+    "description": "Ongoing full-stack pharmacy CRM platform developed in collaboration with a real pharmacy operation since 2024. Designed to support chronic patient follow-up, prescription renewal management, and operational workflows through administrative dashboards, prescription tracking, activity timelines, notification systems, drag-and-drop follow-up boards, and KPI reporting tools. Responsible for the complete software lifecycle including requirements analysis, database modeling, REST API architecture, authentication, frontend implementation, deployment, testing, and continuous product iteration based on real operational feedback. Built with React 19, TypeScript, Redux Toolkit, Tailwind CSS, Node.js, Express, Sequelize, PostgreSQL, and JWT. Deployed using Vercel and Railway.",
     "category": "frontend",
     "stack": [
-      "javascript",
+      "typescript",
+      "react",
+      "redux",
+      "tailwind",
       "html",
       "css",
-      "react",
-      "bootstrap",
-      "redux",
       "node",
       "express",
       "postgre",
@@ -184,9 +184,20 @@
     "contractColor": "#53b14a",
     "videos": "",
     "images": [
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165023/farmacia4_now82r.jpg",
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165021/farmacia2_t4hqwi.jpg",
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165020/farmacia1_lajkfs.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604636/Pharma1_worbeg.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604636/Pharma2_mftbin.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604636/Pharma3_kf7mnz.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604636/Pharma4_kma8jb.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604636/Pharma5_v4fqzk.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604637/Pharma6_pz10ax.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604636/Pharma7_tvm1kd.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604637/Pharma8_rj27xr.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604637/Pharma9_iksusy.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604637/Pharma10_swgjwp.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604637/Pharma11_bc53er.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604638/Pharma12_jcluwb.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604637/Pharma13_pkgfov.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604638/Pharma14_z5zrii.jpg",
       "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165021/farmacia2_hcelqk.jpg",
       "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165023/farmacia3_kgulgg.jpg"
     ]
@@ -196,7 +207,7 @@
     "type": 2,
     "name": "AI-Powered Accounts Payable Platform",
     "company": " - Personal Project",
-    "role": "Full Stack Web Developer",
+    "role": "Full Stack Software Engineer",
     "date": "Published in 2026",
     "links": {
       "demo": "https://accounts-payable.netlify.app/",
@@ -237,7 +248,7 @@
     "type": 2,
     "name": "Hardline Bikes",
     "company": " - Personal Project",
-    "role": "Frontend Developer",
+    "role": "Frontend Software Engineer",
     "date": "2026",
     "links": {
       "demo": "https://nextjs-ecommerce-one-gamma.vercel.app/",
@@ -283,9 +294,9 @@
     "category": "frontend",
     "stack": [
       "javascript",
+      "react",
       "html",
-      "css",
-      "react"
+      "css"
     ],
     "contract": "Personal Project",
     "contractColor": "#408BD6",
