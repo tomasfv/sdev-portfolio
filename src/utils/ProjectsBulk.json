@@ -21,6 +21,56 @@
     ]
   },
   {
+    "id": 8,
+    "type": 2,
+    "name": "PharmaCare CRM",
+    "company": " - Farmacia Alto Palermo",
+    "role": "Full Stack Software Engineer",
+    "date": "From 2024 to Present",
+    "links": {
+      "demo": "https://pharmacycrm-client.vercel.app",
+      "company": "https://www.instagram.com/farmacia.altopalermo",
+      "store": false,
+      "code": "https://github.com/tomasfv/pharmacycrm-client"
+    },
+    "intro": "",
+    "description": "Ongoing full-stack pharmacy CRM platform developed in collaboration with a real pharmacy operation since 2024. Designed to support chronic patient follow-up, prescription renewal management, and operational workflows through administrative dashboards, prescription tracking, activity timelines, notification systems, drag-and-drop follow-up boards, and KPI reporting tools. Responsible for the complete software lifecycle including requirements analysis, database modeling, REST API architecture, authentication, frontend implementation, deployment, testing, and continuous product iteration based on real operational feedback. Built with React 19, TypeScript, Redux Toolkit, Tailwind CSS, Node.js, Express, Sequelize, PostgreSQL, and JWT. Deployed using Vercel and Railway.",
+    "category": "frontend",
+    "stack": [
+      "typescript",
+      "react",
+      "redux",
+      "tailwind",
+      "html",
+      "css",
+      "node",
+      "express",
+      "postgre",
+      "sequelize"
+    ],
+    "contract": "Freelance Contract",
+    "contractColor": "#53b14a",
+    "videos": "",
+    "images": [
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604638/Pharma12_jcluwb.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604636/Pharma1_worbeg.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604636/Pharma2_mftbin.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604636/Pharma3_kf7mnz.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604636/Pharma4_kma8jb.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604636/Pharma5_v4fqzk.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604637/Pharma6_pz10ax.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604636/Pharma7_tvm1kd.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604637/Pharma8_rj27xr.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604637/Pharma9_iksusy.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604637/Pharma10_swgjwp.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604637/Pharma11_bc53er.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604637/Pharma13_pkgfov.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604638/Pharma14_z5zrii.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165021/farmacia2_hcelqk.jpg",
+      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165023/farmacia3_kgulgg.jpg"
+    ]
+  },
+  {
     "id": 11,
     "type": 2,
     "name": "Universo Tickets Desktop",
@@ -150,56 +200,6 @@
       "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165062/Getback40_e1dcai.png",
       "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165063/Getback41_iuzxvd.png",
       "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165063/Getback42_bfhitf.png"
-    ]
-  },
-  {
-    "id": 8,
-    "type": 2,
-    "name": "PharmaCare CRM",
-    "company": " - Farmacia Alto Palermo",
-    "role": "Full Stack Software Engineer",
-    "date": "From 2024 to Present",
-    "links": {
-      "demo": "https://pharmacycrm-client.vercel.app",
-      "company": "https://www.instagram.com/farmacia.altopalermo",
-      "store": false,
-      "code": "https://github.com/tomasfv/pharmacycrm-client"
-    },
-    "intro": "",
-    "description": "Ongoing full-stack pharmacy CRM platform developed in collaboration with a real pharmacy operation since 2024. Designed to support chronic patient follow-up, prescription renewal management, and operational workflows through administrative dashboards, prescription tracking, activity timelines, notification systems, drag-and-drop follow-up boards, and KPI reporting tools. Responsible for the complete software lifecycle including requirements analysis, database modeling, REST API architecture, authentication, frontend implementation, deployment, testing, and continuous product iteration based on real operational feedback. Built with React 19, TypeScript, Redux Toolkit, Tailwind CSS, Node.js, Express, Sequelize, PostgreSQL, and JWT. Deployed using Vercel and Railway.",
-    "category": "frontend",
-    "stack": [
-      "typescript",
-      "react",
-      "redux",
-      "tailwind",
-      "html",
-      "css",
-      "node",
-      "express",
-      "postgre",
-      "sequelize"
-    ],
-    "contract": "Freelance Contract",
-    "contractColor": "#53b14a",
-    "videos": "",
-    "images": [
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604638/Pharma12_jcluwb.jpg",
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604636/Pharma1_worbeg.jpg",
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604636/Pharma2_mftbin.jpg",
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604636/Pharma3_kf7mnz.jpg",
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604636/Pharma4_kma8jb.jpg",
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604636/Pharma5_v4fqzk.jpg",
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604637/Pharma6_pz10ax.jpg",
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604636/Pharma7_tvm1kd.jpg",
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604637/Pharma8_rj27xr.jpg",
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604637/Pharma9_iksusy.jpg",
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604637/Pharma10_swgjwp.jpg",
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604637/Pharma11_bc53er.jpg",
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604637/Pharma13_pkgfov.jpg",
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1781604638/Pharma14_z5zrii.jpg",
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165021/farmacia2_hcelqk.jpg",
-      "https://res.cloudinary.com/df5r0tkg2/image/upload/w_800,q_auto,f_auto/v1778165023/farmacia3_kgulgg.jpg"
     ]
   },
   {
