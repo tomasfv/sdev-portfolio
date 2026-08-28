@@ -46,7 +46,11 @@
       "node",
       "express",
       "postgre",
-      "sequelize"
+      "sequelize",
+      "jest",
+      "reacttesting",
+      "vercel",
+      "docker"
     ],
     "contract": "Freelance Contract",
     "contractColor": "#53b14a",
@@ -93,7 +97,11 @@
       "redux",
       "materialui",
       "html",
-      "css"
+      "css",
+      "docker",
+      "vitest",
+      "reacttesting",
+      "nextjs"
     ],
     "contract": "Full-time Contract",
     "contractColor": "#53b14a",
@@ -152,7 +160,10 @@
       "node",
       "express",
       "postgre",
-      "sequelize"
+      "sequelize",
+      "aws",
+      "woocommerce",
+      "wordpress"
     ],
     "contract": "Full-time Contract",
     "contractColor": "#53b14a",

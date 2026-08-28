@@ -14,8 +14,8 @@ export default function Skills() {
     { name: "React", logo: logos.react },
     { name: "Redux", logo: logos.redux },
     { name: "Electron", logo: logos.electron },
-    { name: "Javascript", logo: logos.javascript },
     { name: "TypeScript", logo: logos.typescript },
+    { name: "Javascript", logo: logos.javascript },
     { name: "Next.js", logo: logos.nextjs },
     { name: "HTML", logo: logos.html },
     { name: "CSS", logo: logos.css },
@@ -26,9 +26,15 @@ export default function Skills() {
     { name: "Express.js", logo: logos.express },
     { name: "PostgreSQL", logo: logos.postgre },
     { name: "Sequelize", logo: logos.sequelize },
+    { name: "Docker", logo: logos.docker },
     { name: "AI LLM Integration", logo: logos.groq },
+    { name: "Jest", logo: logos.jest },
     { name: "Vitest", logo: logos.vitest },
     { name: "React Testing Library", logo: logos.reacttesting },
+    { name: "Git", logo: logos.git },
+    { name: "GitHub", logo: logos.github },
+    { name: "Amazon Web Services", logo: logos.aws },
+    { name: "Vercel", logo: logos.vercel },
     { name: "Unity3D", logo: logos.unity },
     { name: "C#", logo: logos.csharp },
   ];
@@ -151,18 +157,32 @@ export default function Skills() {
         >
           <div className="skills-marquee-track">
             {skillsList.map((skill, index) => (
-              <div className="skill-marquee-card" key={`${skill.name}-1-${index}`}>
+              <div
+                className="skill-marquee-card"
+                key={`${skill.name}-1-${index}`}
+              >
                 <div className="skill-marquee-logo-wrapper">
-                  <img src={skill.logo} alt={skill.name} className="skill-marquee-logo" />
+                  <img
+                    src={skill.logo}
+                    alt={skill.name}
+                    className="skill-marquee-logo"
+                  />
                 </div>
                 <span className="skill-marquee-name">{skill.name}</span>
               </div>
             ))}
             {/* Duplicado para efecto scroll infinito */}
             {skillsList.map((skill, index) => (
-              <div className="skill-marquee-card" key={`${skill.name}-2-${index}`}>
+              <div
+                className="skill-marquee-card"
+                key={`${skill.name}-2-${index}`}
+              >
                 <div className="skill-marquee-logo-wrapper">
-                  <img src={skill.logo} alt={skill.name} className="skill-marquee-logo" />
+                  <img
+                    src={skill.logo}
+                    alt={skill.name}
+                    className="skill-marquee-logo"
+                  />
                 </div>
                 <span className="skill-marquee-name">{skill.name}</span>
               </div>
@@ -173,5 +193,3 @@ export default function Skills() {
     </section>
   );
 }
-
-

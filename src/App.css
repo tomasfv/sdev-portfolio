@@ -227,7 +227,9 @@ section .card:hover {
   align-items: center;
   gap: 0.3rem;
   font-weight: 800;
-  transition: transform 0.3s, color 0.3s;
+  transition:
+    transform 0.3s,
+    color 0.3s;
 }
 
 .navbar .navbar-brand:hover {
@@ -236,7 +238,9 @@ section .card:hover {
 }
 
 .navbar .navbar-brand .highlight-text {
-  transition: box-shadow 0.3s, transform 0.3s;
+  transition:
+    box-shadow 0.3s,
+    transform 0.3s;
 }
 
 .navbar .navbar-brand:hover .highlight-text {
@@ -651,7 +655,6 @@ section.projects .card img {
 .tech-icon {
   height: 30px;
   width: 30px;
-  margin-right: 4px;
 }
 
 .project-card-container {
@@ -676,6 +679,9 @@ section.projects .card img {
 
 .tech-icons-container {
   min-height: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.1px;
   /* Space for at least one row */
   margin-bottom: 8px;
 }

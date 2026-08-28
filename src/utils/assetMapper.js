@@ -20,6 +20,18 @@ export const logos = {
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg",
   html: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
   css: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg",
+  git: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+  woocommerce:
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/woocommerce/woocommerce-original.svg",
+  wordpress:
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg",
+  github:
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+  vercel:
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
+  railway:
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/railway/railway-original.svg",
+  aws: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
   bootstrap:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
   express:
@@ -32,8 +44,11 @@ export const logos = {
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
   zustand:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/zustand/zustand-original.svg",
+  docker:
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
   vitest:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitest/vitest-original.svg",
+  jest: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
   reacttesting: "https://testing-library.com/img/octopus-128x128.png",
   groq: "https://hdrobots.com/wp-content/uploads/2024/03/groq-logo.webp",
 };
