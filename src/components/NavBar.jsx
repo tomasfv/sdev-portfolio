@@ -96,8 +96,8 @@ export default function NavBar() {
             </li>
             <li className="nav-item d-lg-none">
               <a
-                href="TomásFernándezValdés_FullStack_ENG2026.pdf"
-                download="TomásFernándezValdés_FullStack_ENG2026.pdf"
+                href="TomásFernándezValdés_FullStack_ENG2026_c.pdf"
+                download="TomásFernándezValdés_FullStack_ENG2026_c.pdf"
                 className="nav-link"
               >
                 Download CV
@@ -117,8 +117,8 @@ export default function NavBar() {
               Lets Talk
             </span>
             <a
-              href="/TomásFernándezValdés_FullStack_ENG2026.pdf"
-              download="TomásFernándezValdés_FullStack_ENG2026.pdf"
+              href="/TomásFernándezValdés_FullStack_ENG2026_c.pdf"
+              download="TomásFernándezValdés_FullStack_ENG2026_c.pdf"
               className="hero-btn-secondary"
               style={{ fontSize: "0.9rem", padding: "0.5rem 1.2rem" }}
             >
