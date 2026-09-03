@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function NavBar() {
   const navigate = useNavigate();
   const [activeSection, setActiveSection] = useState("hero");
+  const cv = "TomásFernándezValdés_FullStack_2026_c.pdf";
 
   useEffect(() => {
     const sections = [
@@ -95,11 +96,7 @@ export default function NavBar() {
               </span>
             </li>
             <li className="nav-item d-lg-none">
-              <a
-                href="TomásFernándezValdés_FullStack_ENG2026_c.pdf"
-                download="TomásFernándezValdés_FullStack_ENG2026_c.pdf"
-                className="nav-link"
-              >
+              <a href={cv} download={cv} className="nav-link">
                 Download CV
               </a>
             </li>
@@ -117,8 +114,8 @@ export default function NavBar() {
               Lets Talk
             </span>
             <a
-              href="/TomásFernándezValdés_FullStack_ENG2026_c.pdf"
-              download="TomásFernándezValdés_FullStack_ENG2026_c.pdf"
+              href={cv}
+              download={cv}
               className="hero-btn-secondary"
               style={{ fontSize: "0.9rem", padding: "0.5rem 1.2rem" }}
             >
